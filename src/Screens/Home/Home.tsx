@@ -2,6 +2,7 @@ import * as React from "react";
 import { Nav } from "../../components/Nav/Nav";
 import Header from "./components/Header/Header";
 import AboutMe from "./components/AboutMe/AboutMe";
+import ContactMe from "./components/ContactMe/ContactMe";
 
 export interface IHomeProps {}
 
@@ -12,6 +13,7 @@ export default class Home extends React.Component<IHomeProps> {
         <Nav />
         <Header />
         <AboutMe />
+        <ContactMe />
         <div>Hello world!!</div>
       </React.Fragment>
     );
