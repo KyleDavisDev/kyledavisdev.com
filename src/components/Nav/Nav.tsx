@@ -49,6 +49,7 @@ const StyledNav = styled(Nav)`
       padding: 10px;
       text-decoration: none;
       text-transform: uppercase;
+      font-family: Montserrat, Helvetica, Arial, sans-serif;
     }
 
     > ul {
