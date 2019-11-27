@@ -16,10 +16,17 @@ const Home = Loadable({
   loading: () => <div>Loading...</div>
 });
 
+// Single-project highlight
+const Project = Loadable({
+  loader: () => import("./Project/Project"),
+  loading: () => <div>Loading...</div>
+});
+
 // Components themselves will handle who should be able to visit.
 const Screens = (
   <StyledDiv>
     <Route exact path="/" component={Home} />
+    <Route path="/details/" component={Project} />
   </StyledDiv>
 );
 
