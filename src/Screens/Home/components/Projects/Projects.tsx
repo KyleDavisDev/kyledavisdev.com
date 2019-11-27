@@ -17,7 +17,11 @@ const Projects: React.FunctionComponent<IProjectsProps> = props => {
             project =>
               project.isActive && (
                 <div>
-                  <Link key={project.name} className="card" to={project.url}>
+                  <Link
+                    key={project.name}
+                    className="card"
+                    to={`details/${project.url}`}
+                  >
                     <img
                       src={project.img}
                       title={project.name}
