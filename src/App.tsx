@@ -50,6 +50,11 @@ const GlobalStyle = createGlobalStyle`
   body {
     background-color: #ebebeb
   }
+
+  .bold {
+    font-weight: 700;
+    font-family: DroidSansBold,Helvetica,Arial,sans-serif;
+  }
 `;
 
 export class App extends React.Component<{}, {}> {
