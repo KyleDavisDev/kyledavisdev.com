@@ -66,7 +66,7 @@ const enum scale {
   scaleH6 = "1rem",
   exToSm = "560px",
   smToMd = "768px",
-  mdToLg = "1024px"
+  mdToLg = "900px"
 }
 
 export const theme = {
