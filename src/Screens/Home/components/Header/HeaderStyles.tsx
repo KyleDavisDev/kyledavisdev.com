@@ -24,6 +24,26 @@ export const StyledImage = styled.img`
 
 export const StyledTextContainer = styled.div`
   padding: 5px 15px;
+
+  ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    li {
+      padding: 5px 10px;
+
+      a {
+        text-decoration: none;
+
+        &:hover,
+        &:focus {
+          background-color: transparent;
+        }
+      }
+    }
+  }
 `;
 
 export const StyledName = styled.h1`
