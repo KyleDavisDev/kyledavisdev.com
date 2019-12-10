@@ -1,9 +1,9 @@
 import * as React from "react";
 import { Nav } from "../../components/Nav/Nav";
-import Header from "./components/Header/Header";
-import AboutMe from "./components/AboutMe/AboutMe";
-import ContactMe from "./components/ContactMe/ContactMe";
-import Projects from "./components/Projects/Projects";
+import Header from "../../components/Header/Header";
+import AboutMe from "../../components/AboutMe/AboutMe";
+import ContactMe from "../../components/ContactMe/ContactMe";
+import Projects from "../../components/Projects/Projects";
 
 export interface IHomeProps {}
 
