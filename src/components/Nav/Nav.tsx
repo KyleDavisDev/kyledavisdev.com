@@ -17,11 +17,6 @@ class Nav extends React.PureComponent<INavProps> {
 
           <ul>
             <li>
-              <NavLink activeClassName="active" to="/projects">
-                <h3>Projects</h3>
-              </NavLink>
-            </li>
-            <li>
               <a target="_blank" href="/images/Davis_Kyle_2019.pdf">
                 <h3>Resume</h3>
               </a>
