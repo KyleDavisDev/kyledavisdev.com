@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import profilePic from "../../../../images/profile/profile-pic.jpg";
+import profilePic from "../../images/profile/profile-pic.jpg";
 import { FaEnvelope } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -11,7 +11,7 @@ import {
   StyledName,
   StyledAttribute
 } from "./HeaderStyles";
-import Bar from "../../../../components/Bar/Bar";
+import Bar from "../Bar/Bar";
 
 export interface IHeaderProps {}
 

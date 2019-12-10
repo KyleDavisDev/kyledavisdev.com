@@ -1,6 +1,6 @@
 import * as React from "react";
 import { StyledContainer, StyledProjectsContainer } from "./ProjectsStyles";
-import SectionTitle from "../../../../components/SectionTitle/SectionTitle";
+import SectionTitle from "../SectionTitle/SectionTitle";
 import { Link } from "react-router-dom";
 
 import ProjectList from "./components/Data/Data";
