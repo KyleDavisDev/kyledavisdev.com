@@ -26,7 +26,7 @@ const Project = Loadable({
 const Screens = (
   <StyledDiv>
     <Route exact path="/" component={Home} />
-    <Route path="/details/" component={Project} />
+    <Route path="/project/" component={Project} />
   </StyledDiv>
 );
 
