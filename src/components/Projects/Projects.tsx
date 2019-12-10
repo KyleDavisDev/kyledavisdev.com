@@ -3,7 +3,7 @@ import { StyledContainer, StyledProjectsContainer } from "./ProjectsStyles";
 import SectionTitle from "../SectionTitle/SectionTitle";
 import { Link } from "react-router-dom";
 
-import ProjectList from "./components/Data/Data";
+import ProjectList from "../../Data/Data";
 
 interface IProjectsProps {}
 
@@ -20,7 +20,7 @@ const Projects: React.FunctionComponent<IProjectsProps> = props => {
                   <Link
                     key={project.name}
                     className="card"
-                    to={`details/${project.url}`}
+                    to={`project/${project.url}`}
                   >
                     <img
                       src={project.img}
