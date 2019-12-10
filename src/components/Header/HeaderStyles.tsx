@@ -1,11 +1,30 @@
 import styled from "../../theme/styled-components";
 
+export const StyledContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+
+  // tablets
+  @media (min-width: ${props => props.theme.exToSm}) {
+    flex-direction: row;
+    margin: 0;
+  }
+`;
+
 export const StyledImageContainer = styled.a`
   text-decoration: none;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+
   &:hover,
   &:focus {
     background-color: transparent;
+  }
+
+  // tablets
+  @media (min-width: ${props => props.theme.exToSm}) {
+    display: inline-block;
   }
 `;
 
