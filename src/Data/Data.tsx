@@ -31,7 +31,18 @@ import ReactJSLogo from "../images/icons/ReactJS-Logo.png";
 import SassLogo from "../images/icons/Sass-Logo.png";
 import WordPressLogo from "../images/icons/Wordpress-Logo.png";
 
-const ProjectList = [
+export interface IProjectItem {
+  url: string;
+  documentTitleName: string;
+  name: string;
+  description: string;
+  tools: Array<{ name: string; img: any }>;
+  img: any;
+  external: { linkPath: string; name: string };
+  isActive: boolean;
+}
+
+const ProjectList: IProjectItem[] = [
   {
     url: "texas_oak_wilt",
     documentTitleName: "Texas Oak Wilt",
