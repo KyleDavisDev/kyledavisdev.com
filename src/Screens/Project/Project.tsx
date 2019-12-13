@@ -2,8 +2,11 @@ import * as React from "react";
 import { Nav } from "../../components/Nav/Nav";
 import Bar from "../../components/Bar/Bar";
 import { StyledProjectInfoContainer } from "./ProjectStyles";
+import ProjectList from "../../Data/Data";
 
-interface IProjectProps {}
+interface IProjectProps {
+  match: { params: { id: string } };
+}
 
 interface IProjectState {
   pageTitle: string;
@@ -13,8 +16,10 @@ class Project extends React.Component<IProjectProps, IProjectState> {
   constructor(props: IProjectProps) {
     super(props);
 
+    const { id } = this.props.match.params;
+
     this.state = {
-      pageTitle: "Texas a&M"
+      pageTitle: id
     };
   }
 
