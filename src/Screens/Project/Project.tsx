@@ -3,23 +3,41 @@ import { Nav } from "../../components/Nav/Nav";
 import Bar from "../../components/Bar/Bar";
 import { StyledProjectInfoContainer } from "./ProjectStyles";
 import ProjectList from "../../Data/Data";
+import { IProjectItem } from "../../Data/Data";
 
 interface IProjectProps {
   match: { params: { id: string } };
+  history: { push: (location: string) => void };
 }
 
 interface IProjectState {
-  pageTitle: string;
+  project?: IProjectItem;
 }
 
 class Project extends React.Component<IProjectProps, IProjectState> {
+  public static getDerivedStateFromProps(
+    props: IProjectProps,
+    state: IProjectState
+  ) {
+    // Make sure we actually have a project
+    if (!state.project) {
+      props.history.push("/");
+      return {};
+    }
+
+    return state;
+  }
+
   constructor(props: IProjectProps) {
     super(props);
 
-    const { id } = this.props.match.params;
+    // grab url id
+    const { id } = props.match.params;
+    // Find project of interest
+    const project = ProjectList.find(proj => proj.url === id);
 
     this.state = {
-      pageTitle: id
+      project
     };
   }
 
