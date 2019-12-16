@@ -42,6 +42,16 @@ class Project extends React.Component<IProjectProps, IProjectState> {
   }
 
   public render() {
+    const { project } = this.state;
+    // Make sure we actually have a project
+    if (!project) {
+      // this.props.history.push("/");
+      return <p>Could not find project...</p>;
+    }
+    // grab name, img, tools, description, assign leftovers
+    const { name, img, tools, description } = project;
+    // destructure leftovers
+    const { linkPath, name: externalName } = project.external;
     return (
       <React.Fragment>
         <Nav />
@@ -51,7 +61,43 @@ class Project extends React.Component<IProjectProps, IProjectState> {
             View ->
           </a>
         </Bar>
-        <StyledProjectInfoContainer>content heer</StyledProjectInfoContainer>
+        <StyledProjectInfoContainer>
+          {/* Image */}
+          <React.Fragment>
+            <div>
+              <a
+                href={linkPath}
+                target="_blank"
+                title={externalName}
+                className="image-link"
+              >
+                <img src={img} title={name} />
+              </a>
+            </div>
+            <div>
+              <div>
+                <h2>Description</h2>
+                <p>{description}</p>
+              </div>
+              <div>
+                <h2>Tools</h2>
+                <p>
+                  {tools.map(tool => {
+                    return (
+                      <img
+                        key={tool.name}
+                        src={tool.img}
+                        className="technology-image"
+                        title={tool.name}
+                        alt={tool.name}
+                      />
+                    );
+                  })}
+                </p>
+              </div>
+            </div>
+          </React.Fragment>
+        </StyledProjectInfoContainer>
       </React.Fragment>
     );
   }
