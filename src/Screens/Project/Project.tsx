@@ -55,7 +55,7 @@ class Project extends React.Component<IProjectProps, IProjectState> {
       return <p>Could not find project...</p>;
     }
     // grab name, img, tools, description, assign leftovers
-    const { name, img, tools, description } = project;
+    const { name, img, tools, description, purpose } = project;
     // destructure leftovers
     const { linkPath, name: externalName } = project.external;
     return (
@@ -86,8 +86,14 @@ class Project extends React.Component<IProjectProps, IProjectState> {
             <StyledContentContainer>
               <div>
                 <h2>Description</h2>
-                <p>{description}</p>
+                <p dangerouslySetInnerHTML={{ __html: description }}></p>
               </div>
+              {purpose && (
+                <div>
+                  <h2>Purpose</h2>
+                  <p dangerouslySetInnerHTML={{ __html: purpose }}></p>
+                </div>
+              )}
               <div>
                 <h2>Tools</h2>
                 <p>
