@@ -35,6 +35,7 @@ export interface IProjectItem {
   url: string;
   documentTitleName: string;
   name: string;
+  purpose?: string;
   description: string;
   tools: Array<{ name: string; img: any }>;
   img: any;
@@ -47,6 +48,7 @@ const ProjectList: IProjectItem[] = [
     url: "texas_oak_wilt",
     documentTitleName: "Texas Oak Wilt",
     name: "Texas Oak Wilt",
+    purpose: "text jere",
     description:
       "Texas Oak Wilt is a non-profit organization under the Texas Forest Service whose primary goal is to inform homeowners about the devastating effects of Oak Wilt and to provide assistance where they can. This project was a complete overhaul of the previous decade-old website and required custom programming at every level of the application. The site uses Wordpress, custom widgets, custom css, custom forms, custom images, and a custom logo. I was able to increase the average users count by 40%, the average session duration by 95%, while also having the highest SEO score of it's category (oak wilt). I also reduced server costs by 94%, and page loading speed by 89%. This was a really great project and I hope the residents of Texas utilize some of the awesome features built in.",
     tools: [
@@ -277,7 +279,8 @@ const ProjectList: IProjectItem[] = [
     external: {
       linkPath: "https://github.com/KyleDavisDev/utsa-icons",
       name: "GitHub of Web Icons"
-    }
+    },
+    isActive: false
   },
   {
     url: "Word_Counting_App",
