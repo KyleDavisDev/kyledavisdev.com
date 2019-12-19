@@ -54,11 +54,13 @@ export const StyledTextContainer = styled.div`
       padding: 5px 10px;
 
       a {
+        font-family: DroidSans;
         text-decoration: none;
 
         &:hover,
         &:focus {
           background-color: transparent;
+          text-decoration: underline;
         }
       }
     }

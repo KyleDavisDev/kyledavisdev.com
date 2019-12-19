@@ -55,5 +55,6 @@ export const StyledLink = styled.a`
   &:hover,
   &:focus {
     background-color: transparent;
+    text-decoration: underline;
   }
 `;
