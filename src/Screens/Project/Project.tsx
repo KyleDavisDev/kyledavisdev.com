@@ -1,7 +1,13 @@
 import * as React from "react";
 import { Nav } from "../../components/Nav/Nav";
 import Bar from "../../components/Bar/Bar";
-import { StyledProjectInfoContainer } from "./ProjectStyles";
+import {
+  StyledProjectInfoContainer,
+  StyledImageContainer,
+  StyledContentContainer,
+  StyledName,
+  StyledLink
+} from "./ProjectStyles";
 import ProjectList from "../../Data/Data";
 import { IProjectItem } from "../../Data/Data";
 
@@ -56,15 +62,18 @@ class Project extends React.Component<IProjectProps, IProjectState> {
       <React.Fragment>
         <Nav />
         <Bar>
-          <h5>{this.state.pageTitle}</h5>
-          <a href="#" target="_blank" rel="nofollow">
-            View ->
-          </a>
+          <div>
+            <StyledName>{name}</StyledName>
+            <StyledLink href="/">&larr; Back</StyledLink>
+          </div>
+          <StyledLink href="#" target="_blank" rel="nofollow">
+            View &rarr;
+          </StyledLink>
         </Bar>
         <StyledProjectInfoContainer>
           {/* Image */}
           <React.Fragment>
-            <div>
+            <StyledImageContainer>
               <a
                 href={linkPath}
                 target="_blank"
@@ -73,8 +82,8 @@ class Project extends React.Component<IProjectProps, IProjectState> {
               >
                 <img src={img} title={name} />
               </a>
-            </div>
-            <div>
+            </StyledImageContainer>
+            <StyledContentContainer>
               <div>
                 <h2>Description</h2>
                 <p>{description}</p>
@@ -95,7 +104,7 @@ class Project extends React.Component<IProjectProps, IProjectState> {
                   })}
                 </p>
               </div>
-            </div>
+            </StyledContentContainer>
           </React.Fragment>
         </StyledProjectInfoContainer>
       </React.Fragment>
