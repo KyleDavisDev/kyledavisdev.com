@@ -66,7 +66,7 @@ class Project extends React.Component<IProjectProps, IProjectState> {
             <StyledName>{name}</StyledName>
             <StyledLink href="/">&larr; Back</StyledLink>
           </div>
-          <StyledLink href="#" target="_blank" rel="nofollow">
+          <StyledLink href={linkPath} target="_blank" rel="nofollow">
             View &rarr;
           </StyledLink>
         </Bar>
