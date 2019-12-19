@@ -13,13 +13,47 @@ export const StyledProjectInfoContainer = styled.div`
   }
 `;
 
-export const StyledImageContainer = styled.div`
-  width: 100%;
-  padding: 0 15px;
-  box-sizing: border-box;
+export const StyledName = styled.h2`
+  color: #3a4145;
+`;
 
-  // tablets
+export const StyledImageContainer = styled.div`
+  margin-right: 0px;
+  box-sizing: border-box;
   @media (min-width: ${props => props.theme.exToSm}) {
-    width: 33%;
+    margin-right: 10px;
+  }
+
+  img {
+    height: 250px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    &:hover,
+    &:focus {
+      opacity: 0.6;
+    }
+  }
+`;
+
+export const StyledContentContainer = styled.div`
+  margin: 0px;
+  box-sizing: border-box;
+  @media (min-width: ${props => props.theme.exToSm}) {
+    margin-left: 10px;
+  }
+
+  img {
+    height: 50px;
+    margin: 0 5px;
+  }
+`;
+
+export const StyledLink = styled.a`
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    background-color: transparent;
   }
 `;
