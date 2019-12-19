@@ -48,6 +48,12 @@ export const StyledContentContainer = styled.div`
     height: 50px;
     margin: 0 5px;
   }
+
+  p {
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+    line-height: 1.8;
+  }
 `;
 
 export const StyledLink = styled.a`
