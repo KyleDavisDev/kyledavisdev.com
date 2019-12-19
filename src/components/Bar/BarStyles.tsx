@@ -9,7 +9,9 @@ export const BackgroundContainer = styled.div`
 export const ContentContainer = styled.div`
   display: flex;
   flex-direction: row;
-  align-items: flex-top;
+  align-items: center;
+  justify-content: space-between;
   max-width: 900px;
   margin: 0 auto;
+  font-family: DroidSansBold, Helvetica, Arial, sans-serif;
 `;
