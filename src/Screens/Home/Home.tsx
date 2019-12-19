@@ -16,7 +16,6 @@ export default class Home extends React.Component<IHomeProps> {
         <AboutMe />
         {/* <ContactMe /> */}
         <Projects />
-        <div>Hello world!!</div>
       </React.Fragment>
     );
   }
