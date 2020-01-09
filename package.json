@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --define process.env.API_ENV='\"dev\"'"
+    "dev": "webpack-dev-server --define process.env.API_ENV='\"dev\"'",
+    "prod": "webpack -p --config webpack.prod.js"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,10 @@
     "styled-components": "^4.4.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "app-manifest-webpack-plugin": "^1.2.0",
+    "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^5.0.2",
