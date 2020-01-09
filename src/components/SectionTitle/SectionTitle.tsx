@@ -7,7 +7,7 @@ interface ISectionTitleProps {
 }
 
 const StyledH2 = styled.h2`
-  color: #3a4145;
+  color: ${props => props.theme.black};
   font-weight: 700;
   font-family: DroidSansBold, Helvetica, Arial, sans-serif;
   margin-bottom: 0.5em;

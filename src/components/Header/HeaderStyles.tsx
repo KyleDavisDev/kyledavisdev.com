@@ -68,7 +68,7 @@ export const StyledTextContainer = styled.div`
 `;
 
 export const StyledName = styled.h1`
-  color: #3a4145;
+  color: ${props => props.theme.black};
   font-size: 3em;
   font-family: DroidSansBold, Helvetica, Arial, sans-serif;
 `;
