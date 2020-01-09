@@ -85,7 +85,11 @@ const ProjectList: IProjectItem[] = [
     documentTitleName: "Sons of Vidya",
     name: "Sons of Vidya",
     description:
-      "The 'Sons of Vidya' is a very small channel on YouTube that I have been watching for years now. In most of their videos, you will find The Sons commentating over themselves playing video games and I find their quirky sense of humor entertaining. After noticing that their website was put together in 2011 (and looked like it!) I decided to offer up my skills and contribute back to the channel. I designed a garage-like style website with an awesome vintage logo, several custom badges each with a common Sons' catchphrase, and a 'Feature Video' section that automatically pulls the most-recent Sons video. The front end consists of React and SCSS, while the backend includes Node and Nginx reverse proxying. Additionally, the site has an autorefreshing SSL certificate through Let's Encrypt and has an overall score of \"A+\" from SSL Labs for security.",
+      "The site features a garage-like theme with an awesome vintage logo, several custom badges each with a common Sons' catchphrase, and a 'Feature Video' section that automatically pulls the most-recent Sons video. The front end consists of React and SCSS, while the backend includes Node and Nginx reverse proxying. Additionally, the site has an autorefreshing SSL certificate through Let's Encrypt and has an overall score of \"A+\" from SSL Labs for security.",
+    purpose:
+      "The 'Sons of Vidya' is a very small channel on YouTube that I have been watching for years now. In most of their videos, you will find The Sons commentating over themselves playing video games and I find their quirky sense of humor entertaining. After noticing that their previouse website was put together in 2011 (and looked like it!) I decided to offer up my skills and contribute back to the channel.",
+    results:
+      "Using Google Analytics, we can are able to see that the site gets about 30 hits a month which, they have told me, was way more than they were expecting. The Sons continue to sporatically mention the website in their video and continue to show excitement about it.",
     tools: [
       {
         name: "NodeJS Server Language",
