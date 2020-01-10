@@ -8,7 +8,7 @@ app.use(express.static("KyleBonar_2015/"));
 
 //Send Resume
 app.get("/resume", function(req, res) {
-  res.sendFile(`${process.cwd()}/dist/images/Davis_Kyle_2019.pdf`);
+  res.sendFile(`${process.cwd()}/src/images/profile/Davis_Kyle_2019.pdf`);
 });
 
 //Send specific JavaScript game
