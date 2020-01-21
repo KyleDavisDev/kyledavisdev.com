@@ -17,7 +17,7 @@ class Nav extends React.PureComponent<INavProps> {
 
           <ul>
             <li>
-              <a target="_blank" href="/images/Davis_Kyle_2019.pdf">
+              <a target="_blank" href="/resume">
                 <h3>Resume</h3>
               </a>
             </li>
