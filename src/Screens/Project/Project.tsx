@@ -84,16 +84,16 @@ class Project extends React.Component<IProjectProps, IProjectState> {
               </a>
             </StyledImageContainer>
             <StyledContentContainer>
-              <div>
-                <h2>Description</h2>
-                <p dangerouslySetInnerHTML={{ __html: description }}></p>
-              </div>
               {purpose && (
                 <div>
                   <h2>Purpose</h2>
                   <p dangerouslySetInnerHTML={{ __html: purpose }}></p>
                 </div>
               )}
+              <div>
+                <h2>Description</h2>
+                <p dangerouslySetInnerHTML={{ __html: description }}></p>
+              </div>
               {results && (
                 <div>
                   <h2>Results</h2>
