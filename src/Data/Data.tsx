@@ -10,6 +10,7 @@ import SonsofVidya from "../images/screenshots/SonsofVidya-SS-min.png";
 import TamuAstronomySS from "../images/screenshots/Tamu-Astronomy-SS-min.png";
 import TamuPhysicsSS from "../images/screenshots/Tamu-Physics-SS-min.png";
 import TexasOakWiltSS from "../images/screenshots/Texas-Oak-Wilt-SS-min.png";
+import SFYTSS from "../images/screenshots/SFYT-SS-min.png";
 import WordCounterSS from "../images/screenshots/WordCounter-SS-min.png";
 
 import AdobeIllustratorLogo from "../images/icons/Adobe-Illustrator-CC-Logo.png";
@@ -21,13 +22,13 @@ import GitHubLogo from "../images/icons/GitHub-Logo.png";
 import HTML5Logo from "../images/icons/HTML5-Logo.png";
 import JSLogo from "../images/icons/JS-Logo.png";
 import JQueryLogo from "../images/icons/JQuery-Logo.png";
-import LinkedInLogo from "../images/icons/LinkedIn-Logo.png";
 import LinuxLogo from "../images/icons/Linux-Logo.png";
 import MySQLLogo from "../images/icons/MySQL-Logo.png";
 import NginxLogo from "../images/icons/Nginx-Logo.png";
 import NodeJSLogo from "../images/icons/NodeJS-Logo.png";
 import PHPLogo from "../images/icons/PHP-Logo.png";
 import ReactJSLogo from "../images/icons/ReactJS-Logo.png";
+import ReduxLogo from "../images/icons/Redux-Logo.png";
 import SassLogo from "../images/icons/Sass-Logo.png";
 import WordPressLogo from "../images/icons/Wordpress-Logo.png";
 
@@ -76,6 +77,44 @@ const ProjectList: IProjectItem[] = [
     img: TexasOakWiltSS,
     external: {
       linkPath: "https://texasoakwilt.org",
+      name: "Texas Oak Wilt Website"
+    },
+    isActive: true
+  },
+  {
+    url: "sfyt",
+    documentTitleName: "Sauce For Your Thoughts",
+    name: "Sauce For Your Thoughts",
+    purpose:
+      "I love trying new foods. I love new flavors. I cannot resist buying a new bottle of hot sauce when I see it. The problem, however, is sometime I forget what a hot sauce tastes like and will end up buying the same bottle multiple times. This application serves as a catalog for all of the different sauces and flavors and helps me look back on the bottles I really enjoyed and the ones I did not.",
+    description:
+      "Sauce For Your Thoughts (SFYT) was first thought of in early 2017 and was created using the modern JavaScript tech stack like TypesScript, ReactJS, Redux, Node, and ExpressJS. One of the biggest challenges was, like many side projects, actually finishing it. SFYT was redesigned, rearchitectured, rewritten, put on hold, and picked up again several different times until it was finally published in late 2019. ",
+    results: "The catalog of sauces is growing ",
+    tools: [
+      { name: "React", img: ReactJSLogo },
+      { name: "Redux", img: ReduxLogo },
+      {
+        name: "NodeJS Server Language",
+        img: NodeJSLogo
+      },
+      {
+        name: "ExpressJS Routing",
+        img: ExpressLogo
+      },
+      {
+        name: "MySQL database",
+        img: MySQLLogo
+      },
+      { name: "HTML5", img: HTML5Logo },
+      { name: "CSS3", img: CSS3Logo },
+      {
+        name: "Linux Server Language",
+        img: LinuxLogo
+      }
+    ],
+    img: SFYTSS,
+    external: {
+      linkPath: "https://sauceforyourthoughts.com",
       name: "Texas Oak Wilt Website"
     },
     isActive: true
