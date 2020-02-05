@@ -11,9 +11,11 @@ import TamuAstronomySS from "../images/screenshots/Tamu-Astronomy-SS-min.png";
 import TamuPhysicsSS from "../images/screenshots/Tamu-Physics-SS-min.png";
 import TexasOakWiltSS from "../images/screenshots/Texas-Oak-Wilt-SS-min.png";
 import SFYTSS from "../images/screenshots/SFYT-SS-min.png";
+import SickFitsSS from "../images/screenshots/SickFits-SS.png";
 import WordCounterSS from "../images/screenshots/WordCounter-SS-min.png";
 
 import AdobeIllustratorLogo from "../images/icons/Adobe-Illustrator-CC-Logo.png";
+import ApolloClientLogo from "../images/icons/ApolloClient-Logo.png";
 import BootstrapLogo from "../images/icons/Bootstrap-Logo.png";
 import CSS3Logo from "../images/icons/CSS3-Logo.png";
 import ExpressLogo from "../images/icons/ExpressJS-Logo.png";
@@ -27,10 +29,14 @@ import MySQLLogo from "../images/icons/MySQL-Logo.png";
 import NginxLogo from "../images/icons/Nginx-Logo.png";
 import NodeJSLogo from "../images/icons/NodeJS-Logo.png";
 import PHPLogo from "../images/icons/PHP-Logo.png";
+import PrismaLogo from "../images/icons/Prisma-Logo.png";
 import ReactJSLogo from "../images/icons/ReactJS-Logo.png";
 import ReduxLogo from "../images/icons/Redux-Logo.png";
 import SassLogo from "../images/icons/Sass-Logo.png";
+import StyledComponentsLogo from "../images/icons/StyledComponents-Logo.png";
+import TSLogo from "../images/icons/TS-Logo.png";
 import WordPressLogo from "../images/icons/Wordpress-Logo.png";
+import YogaLogo from "../images/icons/Yoga-Logo.png";
 
 export interface IProjectItem {
   url: string;
@@ -82,6 +88,38 @@ const ProjectList: IProjectItem[] = [
     isActive: true
   },
   {
+    url: "sickfits",
+    documentTitleName: "Sick Fits",
+    name: "Sick Fits",
+    purpose:
+      "I love trying new foods. I love new flavors. I cannot resist buying a new bottle of hot sauce when I see it. The problem, however, is sometime I forget what a hot sauce tastes like and will end up buying the same bottle multiple times. This application serves as a catalog for all of the different sauces and flavors and helps me look back on the bottles I really enjoyed and the ones I did not.",
+    description:
+      "Sauce For Your Thoughts (SFYT) was first thought of in early 2017 and was created using the modern JavaScript tech stack like TypesScript, ReactJS, Redux, Node, and ExpressJS. One of the biggest challenges was, like many side projects, actually finishing it. SFYT was redesigned, rearchitectured, rewritten, put on hold, and picked up again several different times until it was finally published in late 2019. ",
+    results: "The catalog of sauces is growing ",
+    tools: [
+      { name: "React", img: ReactJSLogo },
+      { name: "TypeScript", img: TSLogo },
+      { name: "Apollo Client", img: ApolloClientLogo },
+      { name: "Styled Components styling", img: StyledComponentsLogo },
+      {
+        name: "NodeJS Server Language",
+        img: NodeJSLogo
+      },
+      { name: "GraphQL Yoga", img: YogaLogo },
+      { name: "Prisma", img: PrismaLogo },
+      {
+        name: "Linux Server Language",
+        img: LinuxLogo
+      }
+    ],
+    img: SickFitsSS,
+    external: {
+      linkPath: "https://sick-fits.now.sh/",
+      name: "Sick Fits website"
+    },
+    isActive: true
+  },
+  {
     url: "sfyt",
     documentTitleName: "Sauce For Your Thoughts",
     name: "Sauce For Your Thoughts",
@@ -92,7 +130,10 @@ const ProjectList: IProjectItem[] = [
     results: "The catalog of sauces is growing ",
     tools: [
       { name: "React", img: ReactJSLogo },
+      { name: "TypeScript", img: TSLogo },
       { name: "Redux", img: ReduxLogo },
+      { name: "HTML5", img: HTML5Logo },
+      { name: "Styled Components styling", img: StyledComponentsLogo },
       {
         name: "NodeJS Server Language",
         img: NodeJSLogo
@@ -105,8 +146,6 @@ const ProjectList: IProjectItem[] = [
         name: "MySQL database",
         img: MySQLLogo
       },
-      { name: "HTML5", img: HTML5Logo },
-      { name: "CSS3", img: CSS3Logo },
       {
         name: "Linux Server Language",
         img: LinuxLogo
