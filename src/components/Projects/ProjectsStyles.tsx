@@ -44,6 +44,7 @@ export const StyledProjectsContainer = styled.div`
         }
 
         img {
+          width: 300px;
           max-width: 100%;
           margin-bottom: 5px;
         }
