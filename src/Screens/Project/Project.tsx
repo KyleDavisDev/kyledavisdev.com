@@ -71,53 +71,50 @@ class Project extends React.Component<IProjectProps, IProjectState> {
           </StyledLink>
         </Bar>
         <StyledProjectInfoContainer>
-          {/* Image */}
-          <React.Fragment>
-            <StyledImageContainer>
-              <a
-                href={linkPath}
-                target="_blank"
-                title={externalName}
-                className="image-link"
-              >
-                <img src={img} title={name} />
-              </a>
-            </StyledImageContainer>
-            <StyledContentContainer>
-              {purpose && (
-                <div>
-                  <h2>Purpose</h2>
-                  <p dangerouslySetInnerHTML={{ __html: purpose }}></p>
-                </div>
-              )}
+          <StyledImageContainer>
+            <a
+              href={linkPath}
+              target="_blank"
+              title={externalName}
+              className="image-link"
+            >
+              <img src={img} title={name} />
+            </a>
+          </StyledImageContainer>
+          <StyledContentContainer>
+            {purpose && (
               <div>
-                <h2>Description</h2>
-                <p dangerouslySetInnerHTML={{ __html: description }}></p>
+                <h2>Purpose</h2>
+                <p dangerouslySetInnerHTML={{ __html: purpose }}></p>
               </div>
-              {results && (
-                <div>
-                  <h2>Results</h2>
-                  <p dangerouslySetInnerHTML={{ __html: results }}></p>
-                </div>
-              )}
+            )}
+            <div>
+              <h2>Description</h2>
+              <p dangerouslySetInnerHTML={{ __html: description }}></p>
+            </div>
+            {results && (
               <div>
-                <h2>Tools</h2>
-                <p>
-                  {tools.map(tool => {
-                    return (
-                      <img
-                        key={tool.name}
-                        src={tool.img}
-                        className="technology-image"
-                        title={tool.name}
-                        alt={tool.name}
-                      />
-                    );
-                  })}
-                </p>
+                <h2>Results</h2>
+                <p dangerouslySetInnerHTML={{ __html: results }}></p>
               </div>
-            </StyledContentContainer>
-          </React.Fragment>
+            )}
+            <div>
+              <h2>Tools</h2>
+              <p>
+                {tools.map(tool => {
+                  return (
+                    <img
+                      key={tool.name}
+                      src={tool.img}
+                      className="technology-image"
+                      title={tool.name}
+                      alt={tool.name}
+                    />
+                  );
+                })}
+              </p>
+            </div>
+          </StyledContentContainer>
         </StyledProjectInfoContainer>
       </React.Fragment>
     );
