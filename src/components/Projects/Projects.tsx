@@ -13,25 +13,25 @@ const Projects: React.FunctionComponent<IProjectsProps> = props => {
       <StyledProjectsContainer>
         <SectionTitle>Projects</SectionTitle>
         <div>
-          {ProjectList.map(
-            project =>
-              project.isActive && (
-                <div>
-                  <Link
-                    key={project.name}
-                    className="card"
-                    to={`project/${project.url}`}
-                  >
-                    <img
-                      src={project.img}
-                      title={project.name}
-                      alt={project.name}
-                    />
-                    {project.name}
-                  </Link>
-                </div>
-              )
-          )}
+          {ProjectList.map(project => {
+            if (!project.isActive) return;
+            return (
+              <div key={project.url}>
+                <Link
+                  key={project.name}
+                  className="card"
+                  to={`project/${project.url}`}
+                >
+                  <img
+                    src={project.img}
+                    title={project.name}
+                    alt={project.name}
+                  />
+                  {project.name}
+                </Link>
+              </div>
+            );
+          })}
         </div>
       </StyledProjectsContainer>
     </StyledContainer>
