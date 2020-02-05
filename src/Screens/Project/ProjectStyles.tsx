@@ -3,12 +3,17 @@ import styled from "../../theme/styled-components";
 export const StyledProjectInfoContainer = styled.div`
   padding: 2em;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 0 auto;
   max-width: 900px;
 
   // tablets
   @media (min-width: ${props => props.theme.exToSm}) {
+    flex-direction: column;
+  }
+
+  // desktop
+  @media (min-width: ${props => props.theme.mdToLg}) {
     flex-direction: row;
   }
 `;
@@ -20,8 +25,16 @@ export const StyledName = styled.h2`
 export const StyledImageContainer = styled.div`
   margin-right: 0px;
   box-sizing: border-box;
+  margin-bottom: 15px;
+
+  //tablets
   @media (min-width: ${props => props.theme.exToSm}) {
-    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+
+  // desktop
+  @media (min-width: ${props => props.theme.mdToLg}) {
+    margin-bottom: 0px;
   }
 
   img {
