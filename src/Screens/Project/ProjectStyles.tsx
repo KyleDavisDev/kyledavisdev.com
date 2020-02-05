@@ -23,18 +23,20 @@ export const StyledName = styled.h2`
 `;
 
 export const StyledImageContainer = styled.div`
-  margin-right: 0px;
   box-sizing: border-box;
+  margin-right: 0px;
   margin-bottom: 15px;
 
   //tablets
   @media (min-width: ${props => props.theme.exToSm}) {
     margin-bottom: 15px;
+    margin-right: 0px;
   }
 
   // desktop
   @media (min-width: ${props => props.theme.mdToLg}) {
     margin-bottom: 0px;
+    margin-right: 15px;
   }
 
   img {
