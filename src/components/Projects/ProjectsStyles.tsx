@@ -14,6 +14,7 @@ export const StyledProjectsContainer = styled.div`
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 0 -15px;
 
     > div {
       padding: 5px 10px 15px;
@@ -44,7 +45,7 @@ export const StyledProjectsContainer = styled.div`
         }
 
         img {
-          width: 300px;
+          width: 100%;
           max-width: 100%;
           margin-bottom: 5px;
         }
