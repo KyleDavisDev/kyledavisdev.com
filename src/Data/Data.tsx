@@ -1,3 +1,4 @@
+import AdvancedReactCert from "../images/screenshots/AdvancedReactCert.png";
 import CustomWebIcons from "../images/screenshots/Custom-Icons-SS-min.png";
 import DoublePendulumSS from "../images/screenshots/DoublePendulum-SS-min.png";
 import FeatureSpotlight from "../images/screenshots/FeatureSpotlight-SS-min.png";
@@ -11,7 +12,7 @@ import TamuAstronomySS from "../images/screenshots/Tamu-Astronomy-SS-min.png";
 import TamuPhysicsSS from "../images/screenshots/Tamu-Physics-SS-min.png";
 import TexasOakWiltSS from "../images/screenshots/Texas-Oak-Wilt-SS-min.png";
 import SFYTSS from "../images/screenshots/SFYT-SS-min.png";
-import SickFitsSS from "../images/screenshots/SickFits-SS.png";
+import SickFitsSS from "../images/screenshots/SickFits-SS-min.png";
 import WordCounterSS from "../images/screenshots/WordCounter-SS-min.png";
 
 import AdobeIllustratorLogo from "../images/icons/Adobe-Illustrator-CC-Logo.png";
@@ -92,10 +93,10 @@ const ProjectList: IProjectItem[] = [
     documentTitleName: "Sick Fits",
     name: "Sick Fits",
     purpose:
-      "I love trying new foods. I love new flavors. I cannot resist buying a new bottle of hot sauce when I see it. The problem, however, is sometime I forget what a hot sauce tastes like and will end up buying the same bottle multiple times. This application serves as a catalog for all of the different sauces and flavors and helps me look back on the bottles I really enjoyed and the ones I did not.",
+      "The purpose of this project was primarily for self-education. The <a href='https://advancedreact.com/' target='_blank' rel='noopener nofollow'>course</a> walks you through the process of creating an online store using technologies like <a href='https://reactjs.org/' target='_blank' rel='noopener nofollow'>React</a>, <a href='https://graphql.org/' target='_blank' rel='noopeneer nofollow'>GraphQL</a>, and <a href='https://jestjs.io/' target='_blank' rel='noopener nofollow'>Jest</a>. Additionally, I used <a href='https://www.typescriptlang.org/' target='_blank' rel='noopener nofollow'>TypeScript</a> on the front-end which was not a requirement of the course.",
     description:
-      "Sauce For Your Thoughts (SFYT) was first thought of in early 2017 and was created using the modern JavaScript tech stack like TypesScript, ReactJS, Redux, Node, and ExpressJS. One of the biggest challenges was, like many side projects, actually finishing it. SFYT was redesigned, rearchitectured, rewritten, put on hold, and picked up again several different times until it was finally published in late 2019. ",
-    results: "The catalog of sauces is growing ",
+      "The end-product is an online store where users can purchase/sell products. The application's database is created using five main relational models: <strong> Users, Items, Orders, CartItems, and OrderItems</strong> and is queried using GraphQL. Some of fun server goodies include JWT authentication, user-specific permissions, sending emails, uploading images, and charging credit cards. ",
+    results: `After <a href='${AdvancedReactCert}' target='_blank'>completing this course</a>, I am absolutely better at writting React/JavaScript tests. This will certainly be something I carry with me going forward as writting tests is a crucial part to any enterprise application. `,
     tools: [
       { name: "React", img: ReactJSLogo },
       { name: "TypeScript", img: TSLogo },
