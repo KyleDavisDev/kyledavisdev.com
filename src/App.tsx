@@ -56,7 +56,7 @@ const GlobalStyle = createGlobalStyle`
     background-color: #ebebeb
   }
 
-  .bold {
+  strong, .bold {
     font-weight: 700;
     font-family: DroidSansBold,Helvetica,Arial,sans-serif;
   }
