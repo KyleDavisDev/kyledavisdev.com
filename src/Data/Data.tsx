@@ -58,11 +58,11 @@ const ProjectList: IProjectItem[] = [
     documentTitleName: "Texas Oak Wilt",
     name: "Texas Oak Wilt",
     purpose:
-      "The Texas Oak Wilt team wanted to revitalize their relationship with Texas homeowners by providing easily accessible information that is actually relevant to them.",
+      "Texas Oak Wilt is a public education campaign within the Texas A&M Forest Service whose primary goal is to inform homeowners and landowners about the devastating effects of Oak Wilt on their trees and to provide assistance where/when they can. The Texas Oak Wilt team wanted to revitalize their relationship with Texas citizens by providing easily accessible and relevant information.",
     description:
-      "Texas Oak Wilt is a non-profit organization under the Texas Forest Service whose primary goal is to inform homeowners about the devastating effects of Oak Wilt and to provide assistance where they can. The site uses Wordpress, custom widgets, custom css, custom forms, custom images, and a custom logo. This was a really great project and I hope the residents of Texas utilize some of the awesome features built in.",
+      "This site was built using Wordpress which allows for regular administrators to make content updates independently. Website users are able to directly contact their regional forester with questions and concerns through the use of custom forms as well as find local Oak Wilt events near them, which is powered by a custom widget. Additionally, the landing-page design is completely new and features a self-captured image. Lastly, the flow of the website was restructed to help give users a more streamlined flow of helpful information.",
     results:
-      "The average users count increased by 40%, and the average session duration increased by 95%. The website also has the highest SEO score of it's search term (oak wilt). The server costs were cut by 94%, and page loading speed increased by 89%. ",
+      "The average users count increased by 40%, and the average session duration increased by 95%. The website also has the highest SEO score of it's search term (oak wilt). The server costs were cut by 94%, and page loading speed increased by 89%. This project was really special because it has real-world impact by helping Texans preserve their natural resources.",
     tools: [
       {
         name: "PHP 7.3 Server Language",
@@ -93,10 +93,10 @@ const ProjectList: IProjectItem[] = [
     documentTitleName: "Sick Fits",
     name: "Sick Fits",
     purpose:
-      "The purpose of this project was primarily for self-education. The <a href='https://advancedreact.com/' target='_blank' rel='noopener nofollow'>course</a> walks you through the process of creating an online store using technologies like <a href='https://reactjs.org/' target='_blank' rel='noopener nofollow'>React</a>, <a href='https://graphql.org/' target='_blank' rel='noopeneer nofollow'>GraphQL</a>, and <a href='https://jestjs.io/' target='_blank' rel='noopener nofollow'>Jest</a>. Additionally, I used <a href='https://www.typescriptlang.org/' target='_blank' rel='noopener nofollow'>TypeScript</a> on the front-end which was not a requirement of the course.",
+      "The purpose of this project was primarily self-education. The <a href='https://advancedreact.com/' target='_blank' rel='noopener nofollow'>course</a> walks you through the process of creating an online store using technologies like <a href='https://reactjs.org/' target='_blank' rel='noopener nofollow'>React</a>, <a href='https://graphql.org/' target='_blank' rel='noopeneer nofollow'>GraphQL</a>, and <a href='https://jestjs.io/' target='_blank' rel='noopener nofollow'>Jest</a>. Additionally, I used <a href='https://www.typescriptlang.org/' target='_blank' rel='noopener nofollow'>TypeScript</a> on the front-end which was not included in the course.",
     description:
-      "The end-product is an online store where users can purchase/sell products. The application's database is created using five main relational models: <strong> Users, Items, Orders, CartItems, and OrderItems</strong> and is queried using GraphQL. Some of fun server goodies include JWT authentication, user-specific permissions, sending emails, uploading images, and charging credit cards. ",
-    results: `After <a href='${AdvancedReactCert}' target='_blank'>completing this course</a>, I am absolutely better at writting React/JavaScript tests. This will certainly be something I carry with me going forward as writting tests is a crucial part to any enterprise application. `,
+      "The end-product is an online store where users can purchase/sell products. The application's database is created using five main relational models: <strong> Users, Items, Orders, CartItems, and OrderItems</strong> and is queried using GraphQL. Some of the fun server-side goodies include JWT authentication, user-specific permissions, sending emails, uploading images, and charging credit cards. ",
+    results: `After <a href='${AdvancedReactCert}' target='_blank'>completing this course</a>, I am absolutely better at writting React/JavaScript tests. This will certainly be something I carry with me going forward as writting tests are a crucial part to any enterprise application. `,
     tools: [
       { name: "React", img: ReactJSLogo },
       { name: "TypeScript", img: TSLogo },
