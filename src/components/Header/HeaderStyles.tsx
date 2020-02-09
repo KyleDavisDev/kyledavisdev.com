@@ -77,8 +77,8 @@ export const StyledAttribute = styled.h2`
   color: gray;
   font-size: 1.5em;
   font-weight: 400;
-
-  > span {
+  font-family: DroidSans, Helvetica, Arial, sans-serif;
+  > strong {
     font-family: DroidSansBold, Helvetica, Arial, sans-serif;
     font-weight: 700;
   }
