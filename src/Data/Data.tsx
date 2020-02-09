@@ -177,7 +177,7 @@ const ProjectList: IProjectItem[] = [
     purpose:
       "The 'Sons of Vidya' is a very small channel on YouTube that I have been watching for years now. In most of their videos, you will find The Sons commentating over themselves playing video games and I find their quirky sense of humor entertaining. After noticing that their previouse website was put together in 2011 (and looked like it!) I decided to offer up my skills and contribute back to the channel.",
     results:
-      "Using Google Analytics, we can are able to see that the site gets about 30 hits a month which, they have told me, was way more than they were expecting. The Sons continue to sporatically mention the website in their video and continue to show excitement about it.",
+      "Using Google Analytics, we can are able to see that the site gets about 30 hits a month which, they have told me, was way more than they were expecting. The Sons continue to sporatically mention the website in their video and continue to show excitement about it. Code can be found <a href='https://github.com/KyleDavisDev/sons-of-vidya' target='_blank' rel='noopener nofollow'>here</a>.",
     tools: [
       {
         name: "NodeJS Server Language",
@@ -197,7 +197,11 @@ const ProjectList: IProjectItem[] = [
         name: "Linux Server Language",
         img: LinuxLogo
       },
-      { name: "Nginx Web Server", img: NginxLogo }
+      { name: "Nginx Web Server", img: NginxLogo },
+      {
+        name: "GitHub",
+        img: GitHubLogo
+      }
     ],
     img: SonsofVidya,
     external: {
