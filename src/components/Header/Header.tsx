@@ -27,11 +27,11 @@ export default class Header extends React.PureComponent<IHeaderProps> {
           <StyledTextContainer>
             <StyledName>Kyle Davis</StyledName>
             <StyledAttribute>
-              <span>Full Stack Developer</span>
+              <strong>Full Stack Developer</strong>
             </StyledAttribute>
-            <StyledAttribute>
-              Practicing <span>Coffee Drinker</span>
-            </StyledAttribute>
+            {/* <StyledAttribute>
+              Practicing <strong>Coffee Drinker</strong>
+            </StyledAttribute> */}
             <ul>
               <li>
                 <a href="mailto:kyledavisdev@gmail.com">
