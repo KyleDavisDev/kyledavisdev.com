@@ -12,7 +12,7 @@ const AboutMe: React.FunctionComponent<IAboutMeProps> = props => {
         <p>Hello world! Welcome to my portfolio website.</p>
 
         <p>
-          I am a <span className="bold">Full Stack Developer</span> that enjoys
+          I am a <span className="bold">Full-Stack Developer</span> that enjoys
           working with JavaScript as much as possible. You will, however, often
           find me learning new languages as well!
         </p>
