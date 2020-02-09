@@ -27,7 +27,7 @@ export default class Header extends React.PureComponent<IHeaderProps> {
           <StyledTextContainer>
             <StyledName>Kyle Davis</StyledName>
             <StyledAttribute>
-              <strong>Full Stack Developer</strong>
+              <strong>Full-Stack Developer</strong>
             </StyledAttribute>
             {/* <StyledAttribute>
               Practicing <strong>Coffee Drinker</strong>
