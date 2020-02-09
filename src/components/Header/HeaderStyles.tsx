@@ -41,6 +41,11 @@ export const StyledImage = styled.img`
   &:focus {
     border: 1px solid rgba(0, 0, 0, 0.5);
   }
+
+  // tablets
+  @media (min-width: ${props => props.theme.exToSm}) {
+    height: auto;
+  }
 `;
 
 export const StyledTextContainer = styled.div`
