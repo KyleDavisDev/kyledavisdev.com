@@ -30,6 +30,8 @@ export const StyledImageContainer = styled.a`
 
 export const StyledImage = styled.img`
   max-width: 100px;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.125);
   padding: 7px;
