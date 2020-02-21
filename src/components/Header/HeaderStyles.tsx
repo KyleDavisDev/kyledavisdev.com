@@ -30,6 +30,8 @@ export const StyledImageContainer = styled.a`
 
 export const StyledImage = styled.img`
   max-width: 100px;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.125);
   padding: 7px;
@@ -38,6 +40,11 @@ export const StyledImage = styled.img`
   &:hover,
   &:focus {
     border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+
+  // tablets
+  @media (min-width: ${props => props.theme.exToSm}) {
+    height: auto;
   }
 `;
 
@@ -51,7 +58,7 @@ export const StyledTextContainer = styled.div`
     list-style-type: none;
 
     li {
-      padding: 5px 10px;
+      padding: 5px 10px 0 0;
 
       a {
         font-family: DroidSans;
@@ -77,8 +84,8 @@ export const StyledAttribute = styled.h2`
   color: gray;
   font-size: 1.5em;
   font-weight: 400;
-
-  > span {
+  font-family: DroidSans, Helvetica, Arial, sans-serif;
+  > strong {
     font-family: DroidSansBold, Helvetica, Arial, sans-serif;
     font-weight: 700;
   }

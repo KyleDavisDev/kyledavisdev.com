@@ -58,11 +58,11 @@ const ProjectList: IProjectItem[] = [
     documentTitleName: "Texas Oak Wilt",
     name: "Texas Oak Wilt",
     purpose:
-      "The Texas Oak Wilt team wanted to revitalize their relationship with Texas homeowners by providing easily accessible information that is actually relevant to them.",
+      "Texas Oak Wilt is a public education campaign within the Texas A&M Forest Service whose primary goal is to inform homeowners and landowners about the devastating effects of Oak Wilt on their trees and to provide assistance where/when they can. The Texas Oak Wilt team wanted to revitalize their relationship with Texas citizens by providing easily accessible and relevant information.",
     description:
-      "Texas Oak Wilt is a non-profit organization under the Texas Forest Service whose primary goal is to inform homeowners about the devastating effects of Oak Wilt and to provide assistance where they can. The site uses Wordpress, custom widgets, custom css, custom forms, custom images, and a custom logo. This was a really great project and I hope the residents of Texas utilize some of the awesome features built in.",
+      "This site was built using Wordpress which allows for regular administrators to make content updates independently. Website users are able to directly contact their regional forester with questions and concerns through the use of custom forms as well as find local Oak Wilt events near them, which is powered by a custom widget. Additionally, the landing-page design is completely new and features a self-captured image. Lastly, the flow of the website was restructed to help give users a more streamlined flow of helpful information.",
     results:
-      "The average users count increased by 40%, and the average session duration increased by 95%. The website also has the highest SEO score of it's search term (oak wilt). The server costs were cut by 94%, and page loading speed increased by 89%. ",
+      "The average users count increased by 40%, and the average session duration increased by 95%. The website also has the highest SEO score of it's search term (oak wilt). The server costs were cut by 94%, and page loading speed increased by 89%. This project was really special because it has real-world impact by helping Texans preserve their natural resources.",
     tools: [
       {
         name: "PHP 7.3 Server Language",
@@ -93,10 +93,10 @@ const ProjectList: IProjectItem[] = [
     documentTitleName: "Sick Fits",
     name: "Sick Fits",
     purpose:
-      "The purpose of this project was primarily for self-education. The <a href='https://advancedreact.com/' target='_blank' rel='noopener nofollow'>course</a> walks you through the process of creating an online store using technologies like <a href='https://reactjs.org/' target='_blank' rel='noopener nofollow'>React</a>, <a href='https://graphql.org/' target='_blank' rel='noopeneer nofollow'>GraphQL</a>, and <a href='https://jestjs.io/' target='_blank' rel='noopener nofollow'>Jest</a>. Additionally, I used <a href='https://www.typescriptlang.org/' target='_blank' rel='noopener nofollow'>TypeScript</a> on the front-end which was not a requirement of the course.",
+      "The purpose of this project was primarily self-education. The <a href='https://advancedreact.com/' target='_blank' rel='noopener nofollow'>course</a> walks you through the process of creating an online store using technologies like <a href='https://reactjs.org/' target='_blank' rel='noopener nofollow'>React</a>, <a href='https://graphql.org/' target='_blank' rel='noopeneer nofollow'>GraphQL</a>, and <a href='https://jestjs.io/' target='_blank' rel='noopener nofollow'>Jest</a>. Additionally, I used <a href='https://www.typescriptlang.org/' target='_blank' rel='noopener nofollow'>TypeScript</a> on the front-end which was not included in the course.",
     description:
-      "The end-product is an online store where users can purchase/sell products. The application's database is created using five main relational models: <strong> Users, Items, Orders, CartItems, and OrderItems</strong> and is queried using GraphQL. Some of fun server goodies include JWT authentication, user-specific permissions, sending emails, uploading images, and charging credit cards. ",
-    results: `After <a href='${AdvancedReactCert}' target='_blank'>completing this course</a>, I am absolutely better at writting React/JavaScript tests. This will certainly be something I carry with me going forward as writting tests is a crucial part to any enterprise application. `,
+      "The end-product is an online store where users can purchase/sell products. The application's database is created using five main relational models: <strong> Users, Items, Orders, CartItems, and OrderItems</strong> and is queried using GraphQL. Some of the fun server-side goodies include JWT authentication, user-specific permissions, sending emails, uploading images, and charging credit cards. ",
+    results: `After <a href='${AdvancedReactCert}' target='_blank'>completing this course</a>, I am absolutely better at writting React/JavaScript tests. This will certainly be something I carry with me going forward as writting tests are a crucial part to any enterprise application. `,
     tools: [
       { name: "React", img: ReactJSLogo },
       { name: "TypeScript", img: TSLogo },
@@ -111,6 +111,10 @@ const ProjectList: IProjectItem[] = [
       {
         name: "Linux Server Language",
         img: LinuxLogo
+      },
+      {
+        name: "GitHub",
+        img: GitHubLogo
       }
     ],
     img: SickFitsSS,
@@ -127,8 +131,9 @@ const ProjectList: IProjectItem[] = [
     purpose:
       "I love trying new foods. I love new flavors. I cannot resist buying a new bottle of hot sauce when I see it. The problem, however, is sometime I forget what a hot sauce tastes like and will end up buying the same bottle multiple times. This application serves as a catalog for all of the different sauces and flavors and helps me look back on the bottles I really enjoyed and the ones I did not.",
     description:
-      "Sauce For Your Thoughts (SFYT) was first thought of in early 2017 and was created using the modern JavaScript tech stack like TypesScript, ReactJS, Redux, Node, and ExpressJS. One of the biggest challenges was, like many side projects, actually finishing it. SFYT was redesigned, rearchitectured, rewritten, put on hold, and picked up again several different times until it was finally published in late 2019. ",
-    results: "The catalog of sauces is growing ",
+      "Sauce For Your Thoughts (SFYT) was first thought of in early 2017 and was created using the modern JavaScript tech stack like <a href='https://www.typescriptlang.org/' target='_blank' rel='noopener nofollow'>TypesScript</a>, <a href='https://reactjs.org/' target='_blank' rel='noopener nofollow'>ReactJS</a>, <a href='https://redux.js.org/' target='_blank' rel='noopener nofollow'>Redux</a>, <a href='https://nodejs.org/en/' target='_blank' rel='noopener nofollow'>Node</a>, and <a href='https://expressjs.com/' target='_blank' rel='noopener nofollow'>ExpressJS</a>. One of the biggest challenges was, like many side projects, actually finishing it. SFYT was redesigned, rearchitectured, rewritten, put on hold, and picked up again several different times until it was finally published in late 2019. ",
+    results:
+      "While application is technically open and live to the public, there has not been any official advertising or mentioning yet so it is hard to really gauge any results. I know, personally, this application has been a huge learning asset as far as <a href='https://reactjs.org/' target='_blank' rel='noopener nofollow'>React</a>, <a href='https://redux.js.org/' target='_blank' rel='noopener nofollow'>Redux</a> and <a href='https://www.typescriptlang.org/' target='_blank' rel='noopener nofollow'>TypeScript</a> are concerned. The front-end code can be found <a href='https://github.com/KyleDavisDev/sauce-for-your-thoughts-front' target='_blank' rel='noopener nofollow'>here</a> and the back-end code <a href='https://github.com/KyleDavisDev/sauce-for-your-thoughts-api' target='_blank' rel='noopener nofollow'>here</a>.",
     tools: [
       { name: "React", img: ReactJSLogo },
       { name: "TypeScript", img: TSLogo },
@@ -150,6 +155,10 @@ const ProjectList: IProjectItem[] = [
       {
         name: "Linux Server Language",
         img: LinuxLogo
+      },
+      {
+        name: "GitHub",
+        img: GitHubLogo
       }
     ],
     img: SFYTSS,
@@ -168,7 +177,7 @@ const ProjectList: IProjectItem[] = [
     purpose:
       "The 'Sons of Vidya' is a very small channel on YouTube that I have been watching for years now. In most of their videos, you will find The Sons commentating over themselves playing video games and I find their quirky sense of humor entertaining. After noticing that their previouse website was put together in 2011 (and looked like it!) I decided to offer up my skills and contribute back to the channel.",
     results:
-      "Using Google Analytics, we can are able to see that the site gets about 30 hits a month which, they have told me, was way more than they were expecting. The Sons continue to sporatically mention the website in their video and continue to show excitement about it.",
+      "Using Google Analytics, we can are able to see that the site gets about 30 hits a month which, they have told me, was way more than they were expecting. The Sons continue to sporatically mention the website in their video and continue to show excitement about it. Code can be found <a href='https://github.com/KyleDavisDev/sons-of-vidya' target='_blank' rel='noopener nofollow'>here</a>.",
     tools: [
       {
         name: "NodeJS Server Language",
@@ -188,7 +197,11 @@ const ProjectList: IProjectItem[] = [
         name: "Linux Server Language",
         img: LinuxLogo
       },
-      { name: "Nginx Web Server", img: NginxLogo }
+      { name: "Nginx Web Server", img: NginxLogo },
+      {
+        name: "GitHub",
+        img: GitHubLogo
+      }
     ],
     img: SonsofVidya,
     external: {
