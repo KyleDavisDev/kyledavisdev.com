@@ -1,5 +1,5 @@
 import * as React from "react";
-import SectionTitle from "../../../../components/SectionTitle/SectionTitle";
+import SectionTitle from "../SectionTitle/SectionTitle";
 import { StyledContainer, StyledTextContainer } from "./ContactMeStyles";
 
 import { FaEnvelope } from "react-icons/fa";
