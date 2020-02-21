@@ -6,27 +6,25 @@ export interface INavProps {
   className?: string;
 }
 
-class Nav extends React.PureComponent<INavProps> {
-  public render() {
-    return (
-      <nav className={this.props.className}>
-        <div>
-          <NavLink exact activeClassName="active" to="/">
-            <h3>Kyle Davis</h3>
-          </NavLink>
+const Nav: React.FunctionComponent<INavProps> = props => {
+  return (
+    <nav className={props.className}>
+      <div>
+        <NavLink exact activeClassName="active" to="/">
+          <h3>Kyle Davis</h3>
+        </NavLink>
 
-          <ul>
-            <li>
-              <a target="_blank" href="/resume">
-                <h3>Resume</h3>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    );
-  }
-}
+        <ul>
+          <li>
+            <a target="_blank" href="/resume">
+              <h3>Resume</h3>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
+};
 
 const StyledNav = styled(Nav)`
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
