@@ -4,7 +4,7 @@ import { StyledContainer, StyledTextContainer } from "./AboutMeStyles";
 
 interface IAboutMeProps {}
 
-const AboutMe: React.FunctionComponent<IAboutMeProps> = props => {
+const AboutMe: React.FunctionComponent<IAboutMeProps> = (props) => {
   return (
     <StyledContainer>
       <StyledTextContainer>
@@ -13,20 +13,20 @@ const AboutMe: React.FunctionComponent<IAboutMeProps> = props => {
 
         <p>
           I am a <span className="bold">Full-Stack Developer</span> that enjoys
-          working with JavaScript as much as possible. You will, however, often
-          find me learning new languages as well!
+          working with JavaScript and C# as much as possible. Often, however,
+          you will find me learning new languages and technologies as well!
         </p>
 
         <p>
           I primarily focus on the front-end, where I make pixel-perfect,
           minimalistic designs, but I also enjoy working with databases and
-          server logic. In my projects page, for example, you can find several
-          applications where I wrote the entire stack!
+          server logic. In my projects section, for example, you can find
+          several applications where I wrote the entire stack!
         </p>
 
         <p>
           The majority of the updates to this site will be focused on the
-          projects page. Stay tuned!
+          projects section. Stay tuned!
         </p>
 
         <p>-Kyle Davis</p>
