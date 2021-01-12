@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import styled from "../../theme/styled-components";
 
 export const StyledContainer = styled.div`
@@ -28,7 +29,7 @@ export const StyledImageContainer = styled.a`
   }
 `;
 
-export const StyledImage = styled.img`
+export const StyledImage = styled(Image)`
   max-width: 100px;
   width: 100%;
   height: 100%;

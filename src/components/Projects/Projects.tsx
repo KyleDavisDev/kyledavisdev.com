@@ -1,4 +1,5 @@
 import * as React from "react";
+import Image from 'next/image'
 import { StyledContainer, StyledProjectsContainer } from "./ProjectsStyles";
 import SectionTitle from "../SectionTitle/SectionTitle";
 import { Link } from "react-router-dom";
@@ -22,10 +23,11 @@ const Projects: React.FunctionComponent<IProjectsProps> = props => {
                   className="card"
                   to={`project/${project.url}`}
                 >
-                  <img
+                  <Image
                     src={project.img}
                     title={project.name}
                     alt={project.name}
+                    width="64" height="64"
                   />
                   {project.name}
                 </Link>

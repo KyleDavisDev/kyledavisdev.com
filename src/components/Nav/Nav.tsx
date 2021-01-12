@@ -1,22 +1,22 @@
 import * as React from "react";
-import { NavLink } from "react-router-dom";
+import Link from "next/link";
 import styled from "styled-components";
 
 export interface INavProps {
   className?: string;
 }
 
-const Nav: React.FunctionComponent<INavProps> = props => {
+const Nav: React.FunctionComponent<INavProps> = (props) => {
   return (
     <nav className={props.className}>
       <div>
-        <NavLink exact activeClassName="active" to="/">
+        <Link href={"/"}>
           <h3>Kyle Davis</h3>
-        </NavLink>
+        </Link>
 
         <ul>
           <li>
-            <a target="_blank" href="/resume">
+            <a target="_blank" href="#">
               <h3>Resume</h3>
             </a>
           </li>

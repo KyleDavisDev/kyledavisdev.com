@@ -41,7 +41,7 @@ export interface ThemeInterface {
   black: string;
 }
 
-const enum colors {
+ enum colors {
   white = "#fff",
   grey = "#676767",
   lightGrey = "#CCCCCC",
@@ -53,7 +53,7 @@ const enum colors {
   black = "#333333"
 }
 
-const enum scale {
+enum scale {
   defaultFontSize = "16px",
   maxPageWidth = "75rem",
   footerMaxWidth = "300px",
