@@ -1,5 +1,5 @@
 import * as React from "react";
-import Image from "next/image";
+
 import { FaEnvelope } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -9,7 +9,7 @@ import {
   StyledImage,
   StyledTextContainer,
   StyledName,
-  StyledAttribute,
+  StyledAttribute
 } from "./HeaderStyles";
 import Bar from "../Bar/Bar";
 
