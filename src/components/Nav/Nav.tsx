@@ -1,6 +1,11 @@
 import * as React from "react";
-import Link from "next/link";
-import styled from "styled-components";
+
+import {
+  StyledNav,
+  StyledContainer,
+  StyledName,
+  StyledMenu,
+} from "./NavStyles";
 
 export interface INavProps {
   className?: string;
@@ -8,54 +13,20 @@ export interface INavProps {
 
 const Nav: React.FunctionComponent<INavProps> = (props) => {
   return (
-    <nav className={props.className}>
-      <div>
-        <Link href={"/"}>
-          <h3>Kyle Davis</h3>
-        </Link>
+    <StyledNav>
+      <StyledContainer>
+        <StyledName>Kyle Davis</StyledName>
 
-        <ul>
+        <StyledMenu>
           <li>
             <a target="_blank" href="#">
               <h3>Resume</h3>
             </a>
           </li>
-        </ul>
-      </div>
-    </nav>
+        </StyledMenu>
+      </StyledContainer>
+    </StyledNav>
   );
 };
 
-const StyledNav = styled(Nav)`
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-
-  > div {
-    display: flex;
-    flex-direction: row;
-    flex: 1;
-    max-width: 1200px;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: space-between;
-
-    a {
-      padding: 10px;
-      text-decoration: none;
-      text-transform: uppercase;
-      font-family: Montserrat, Helvetica, Arial, sans-serif;
-    }
-
-    > ul {
-      display: flex;
-      flex-direction: row;
-      padding: 0;
-      margin: 0;
-
-      > li {
-        display: flex;
-      }
-    }
-  }
-`;
-
-export { StyledNav as Nav };
+export default Nav;
