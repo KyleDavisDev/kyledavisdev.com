@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from "next/image";
 import styled from "../../theme/styled-components";
 
 export const StyledContainer = styled.div`
@@ -7,7 +7,7 @@ export const StyledContainer = styled.div`
   margin: 0 auto;
 
   // tablets
-  @media (min-width: ${props => props.theme.exToSm}) {
+  @media (min-width: ${(props) => props.theme.exToSm}) {
     flex-direction: row;
     margin: 0;
   }
@@ -24,7 +24,7 @@ export const StyledImageContainer = styled.a`
   }
 
   // tablets
-  @media (min-width: ${props => props.theme.exToSm}) {
+  @media (min-width: ${(props) => props.theme.exToSm}) {
     display: inline-block;
   }
 `;
@@ -34,17 +34,17 @@ export const StyledImage = styled(Image)`
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  padding: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+  padding: 7px !important;
   background-color: #ebebeb;
 
   &:hover,
   &:focus {
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5) !important;
   }
 
   // tablets
-  @media (min-width: ${props => props.theme.exToSm}) {
+  @media (min-width: ${(props) => props.theme.exToSm}) {
     height: auto;
   }
 `;
@@ -76,7 +76,7 @@ export const StyledTextContainer = styled.div`
 `;
 
 export const StyledName = styled.h1`
-  color: ${props => props.theme.black};
+  color: ${(props) => props.theme.black};
   font-size: 3em;
   font-family: DroidSansBold, Helvetica, Arial, sans-serif;
 `;
