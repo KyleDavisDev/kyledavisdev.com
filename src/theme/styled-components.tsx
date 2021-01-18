@@ -5,10 +5,8 @@ const {
   css,
   keyframes,
   createGlobalStyle,
-  ThemeProvider
-} = styledComponents as styledComponents.ThemedStyledComponentsModule<
-  ThemeInterface
->;
+  ThemeProvider,
+} = styledComponents as styledComponents.ThemedStyledComponentsModule<ThemeInterface>;
 
 export interface ThemeInterface {
   primaryThemeColor: string;
@@ -39,9 +37,10 @@ export interface ThemeInterface {
   lightGrey: string;
   darkGrey: string;
   black: string;
+  lightBlue: string;
 }
 
- enum colors {
+enum colors {
   white = "#fff",
   grey = "#676767",
   lightGrey = "#CCCCCC",
@@ -50,7 +49,8 @@ export interface ThemeInterface {
   darkMustard = "#c97e00",
   lightMustard = "#fff4e3",
   smoke = "#f5f5f5",
-  black = "#333333"
+  black = "#333333",
+  lightBlue = "rgba(0, 160, 227, 0.05)",
 }
 
 enum scale {
@@ -66,7 +66,7 @@ enum scale {
   scaleH6 = "1rem",
   exToSm = "560px",
   smToMd = "768px",
-  mdToLg = "900px"
+  mdToLg = "900px",
 }
 
 export const theme = {
@@ -97,7 +97,8 @@ export const theme = {
   grey: colors.grey,
   lightGrey: colors.lightGrey,
   darkGrey: colors.darkGrey,
-  black: colors.black
+  black: colors.black,
+  lightBlue: colors.lightBlue,
 };
 
 export { css, keyframes, createGlobalStyle, ThemeProvider };
