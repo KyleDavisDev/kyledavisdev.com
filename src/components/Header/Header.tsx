@@ -21,11 +21,11 @@ export default class Header extends React.PureComponent<IHeaderProps> {
       <Bar>
         <StyledContainer>
           <StyledImageContainer href="#">
-            <Image
+            <StyledImage
               src="/static/profile-pic.jpg"
               alt="me"
-              height={200}
-              width={200}
+              height={116}
+              width={116}
             />
           </StyledImageContainer>
           <StyledTextContainer>
