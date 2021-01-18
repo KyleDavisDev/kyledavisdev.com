@@ -1,45 +1,48 @@
-const AdvancedReactCert= "/screenshots/AdvancedReactCert.png";
-const CustomWebIcons= "/screenshots/Custom-Icons-SS-min.png";
-const DoublePendulumSS= "/screenshots/DoublePendulum-SS-min.png";
-const FeatureSpotlight= "/screenshots/FeatureSpotlight-SS-min.png";
-const FractalTreesSS= "/screenshots/FractalTrees-SS-min.png";
-const KyleBonarReactWebsite= "/screenshots/KyleBonarReactWebsite-SS-min.png";
-const KyleBonarOriginalWebsite= "/screenshots/KyleBonarOriginalWebsite-SS-min.png";
-const PhyllotaxisSS= "/screenshots/Phyllotaxis-SS-min.png";
-const PingPongSS= "/screenshots/PingPong-SS-min.png";
-const SonsofVidya= "/screenshots/SonsofVidya-SS-min.png";
-const TamuAstronomySS= "/screenshots/Tamu-Astronomy-SS-min.png";
-const TamuPhysicsSS= "/screenshots/Tamu-Physics-SS-min.png";
-const TexasOakWiltSS= "/screenshots/Texas-Oak-Wilt-SS-min.png";
-const SFYTSS= "/screenshots/SFYT-SS-min.png";
-const SickFitsSS= "/screenshots/SickFits-SS-min.png";
-const WordCounterSS= "/screenshots/WordCounter-SS-min.png";
+const AdvancedReactCert = "/static/screenshots/AdvancedReactCert.png";
+const CustomWebIcons = "/static/screenshots/Custom-Icons-SS-min.png";
+const DoublePendulumSS = "/static/screenshots/DoublePendulum-SS-min.png";
+const FeatureSpotlight = "/static/screenshots/FeatureSpotlight-SS-min.png";
+const FractalTreesSS = "/static/screenshots/FractalTrees-SS-min.png";
+const KyleBonarReactWebsite =
+  "/static/screenshots/KyleBonarReactWebsite-SS-min.png";
+const KyleBonarOriginalWebsite =
+  "/static/screenshots/KyleBonarOriginalWebsite-SS-min.png";
+const PhyllotaxisSS = "/static/screenshots/Phyllotaxis-SS-min.png";
+const PingPongSS = "/static/screenshots/PingPong-SS-min.png";
+const SonsofVidya = "/static/screenshots/SonsofVidya-SS-min.png";
+const TamuAstronomySS = "/static/screenshots/Tamu-Astronomy-SS-min.png";
+const TamuPhysicsSS = "/static/screenshots/Tamu-Physics-SS-min.png";
+const TexasOakWiltSS = "/static/screenshots/Texas-Oak-Wilt-SS-min.png";
+const SFYTSS = "/static/screenshots/SFYT-SS-min.png";
+const SickFitsSS = "/static/screenshots/SickFits-SS-min.png";
+const WordCounterSS = "/static/screenshots/WordCounter-SS-min.png";
 
-const AdobeIllustratorLogo= "/icons/Adobe-Illustrator-CC-Logo.png";
-const ApolloClientLogo= "/icons/ApolloClient-Logo.png";
-const BootstrapLogo= "/icons/Bootstrap-Logo.png";
-const CSS3Logo= "/icons/CSS3-Logo.png";
-const ExpressLogo= "/icons/ExpressJS-Logo.png";
-const FoundationLogo= "/icons/Foundation-Logo.png";
-const GitHubLogo= "/icons/GitHub-Logo.png";
-const HTML5Logo= "/icons/HTML5-Logo.png";
-const JSLogo= "/icons/JS-Logo.png";
-const JQueryLogo= "/icons/JQuery-Logo.png";
-const LinuxLogo= "/icons/Linux-Logo.png";
-const MySQLLogo= "/icons/MySQL-Logo.png";
-const NginxLogo= "/icons/Nginx-Logo.png";
-const NodeJSLogo= "/icons/NodeJS-Logo.png";
-const PHPLogo= "/icons/PHP-Logo.png";
-const PrismaLogo= "/icons/Prisma-Logo.png";
-const ReactJSLogo= "/icons/ReactJS-Logo.png";
-const ReduxLogo= "/icons/Redux-Logo.png";
-const SassLogo= "/icons/Sass-Logo.png";
-const StyledComponentsLogo= "/icons/StyledComponents-Logo.png";
-const TSLogo= "/icons/TS-Logo.png";
-const WordPressLogo= "/icons/Wordpress-Logo.png";
-const YogaLogo= "/icons/Yoga-Logo.png";
+const AdobeIllustratorLogo = "/icons/Adobe-Illustrator-CC-Logo.png";
+const ApolloClientLogo = "/icons/ApolloClient-Logo.png";
+const BootstrapLogo = "/icons/Bootstrap-Logo.png";
+const CSS3Logo = "/icons/CSS3-Logo.png";
+const ExpressLogo = "/icons/ExpressJS-Logo.png";
+const FoundationLogo = "/icons/Foundation-Logo.png";
+const GitHubLogo = "/icons/GitHub-Logo.png";
+const HTML5Logo = "/icons/HTML5-Logo.png";
+const JSLogo = "/icons/JS-Logo.png";
+const JQueryLogo = "/icons/JQuery-Logo.png";
+const LinuxLogo = "/icons/Linux-Logo.png";
+const MySQLLogo = "/icons/MySQL-Logo.png";
+const NginxLogo = "/icons/Nginx-Logo.png";
+const NodeJSLogo = "/icons/NodeJS-Logo.png";
+const PHPLogo = "/icons/PHP-Logo.png";
+const PrismaLogo = "/icons/Prisma-Logo.png";
+const ReactJSLogo = "/icons/ReactJS-Logo.png";
+const ReduxLogo = "/icons/Redux-Logo.png";
+const SassLogo = "/icons/Sass-Logo.png";
+const StyledComponentsLogo = "/icons/StyledComponents-Logo.png";
+const TSLogo = "/icons/TS-Logo.png";
+const WordPressLogo = "/icons/Wordpress-Logo.png";
+const YogaLogo = "/icons/Yoga-Logo.png";
 
 export interface IProjectItem {
+  isActive: boolean;
   url: string;
   documentTitleName: string;
   name: string;
@@ -49,7 +52,6 @@ export interface IProjectItem {
   tools: Array<{ name: string; img: string }>;
   img: string;
   external: { linkPath: string; name: string };
-  isActive: boolean;
 }
 
 const ProjectList: IProjectItem[] = [
