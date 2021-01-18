@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/Link";
 import styled from "../../theme/styled-components";
 
 export const StyledContainer = styled.div`
