@@ -1,8 +1,15 @@
 import * as React from "react";
-import Image from 'next/image'
-import { StyledContainer, StyledProjectsContainer } from "./ProjectsStyles";
+import Link from "next/Link";
+
+import {
+  StyledContainer,
+  StyledGrid,
+  StyledProject,
+  StyledProjectsContainer,
+  StyledImage,
+  StyledAnchor
+} from "./ProjectsStyles";
 import SectionTitle from "../SectionTitle/SectionTitle";
-import { Link } from "react-router-dom";
 
 import ProjectList from "../../Data/Data";
 
@@ -13,28 +20,27 @@ const Projects: React.FunctionComponent<IProjectsProps> = props => {
     <StyledContainer>
       <StyledProjectsContainer>
         <SectionTitle>Projects</SectionTitle>
-        <div>
+        <StyledGrid>
           {ProjectList.map(project => {
             if (!project.isActive) return;
             return (
-              <div key={project.url}>
-                <Link
-                  key={project.name}
-                  className="card"
-                  to={`project/${project.url}`}
-                >
-                  <Image
-                    src={project.img}
-                    title={project.name}
-                    alt={project.name}
-                    width="64" height="64"
-                  />
-                  {project.name}
+              <StyledProject key={project.url}>
+                <Link href={`project?name=${project.url}`} passHref={false}>
+                  <StyledAnchor>
+                    <StyledImage
+                      src={project.img}
+                      title={project.name}
+                      alt={project.name}
+                      height={300}
+                      width={300}
+                    />
+                    <span>{project.name}</span>
+                  </StyledAnchor>
                 </Link>
-              </div>
+              </StyledProject>
             );
           })}
-        </div>
+        </StyledGrid>
       </StyledProjectsContainer>
     </StyledContainer>
   );
