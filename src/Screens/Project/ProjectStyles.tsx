@@ -24,18 +24,18 @@ export const StyledName = styled.h2`
 
 export const StyledImageContainer = styled.div`
   box-sizing: border-box;
-  margin-right: 0px;
+  margin-right: 0;
   margin-bottom: 15px;
 
   //tablets
   @media (min-width: ${props => props.theme.exToSm}) {
     margin-bottom: 15px;
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   // desktop
   @media (min-width: ${props => props.theme.mdToLg}) {
-    margin-bottom: 0px;
+    margin-bottom: 0;
     margin-right: 15px;
   }
 
@@ -53,7 +53,7 @@ export const StyledImageContainer = styled.div`
 `;
 
 export const StyledContentContainer = styled.div`
-  margin: 0px;
+  margin: 0;
   box-sizing: border-box;
   @media (min-width: ${props => props.theme.exToSm}) {
     margin-left: 10px;
