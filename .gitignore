@@ -4,7 +4,7 @@ dist
 variables.env
 public/uploads
 public/avatars
-src/theme/fonts
+public/static/fonts
 .next
 static/*.ttf
 .env.local
