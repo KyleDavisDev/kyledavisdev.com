@@ -4,14 +4,12 @@ import {
   StyledNav,
   StyledContainer,
   StyledName,
-  StyledMenu,
+  StyledMenu
 } from "./NavStyles";
 
-export interface INavProps {
-  className?: string;
-}
+export interface INavBarProps {}
 
-const Nav: React.FunctionComponent<INavProps> = (props) => {
+const NavBar: React.FunctionComponent<INavBarProps> = () => {
   return (
     <StyledNav>
       <StyledContainer>
@@ -29,4 +27,4 @@ const Nav: React.FunctionComponent<INavProps> = (props) => {
   );
 };
 
-export default Nav;
+export default NavBar;
