@@ -1,5 +1,5 @@
 import * as React from "react";
-import Nav from "../src/components/Nav/Nav";
+import NavBar from "../src/components/NavBar/NavBar";
 import Header from "../src/components/Header/Header";
 import AboutMe from "../src/components/AboutMe/AboutMe";
 // import ContactMe from "../src/components/ContactMe/ContactMe";
@@ -11,8 +11,7 @@ export default class Index extends React.Component<IIndexProps> {
   public render() {
     return (
       <>
-        {/*<p>yo!</p>*/}
-        <Nav />
+        <NavBar />
         <Header />
         <AboutMe />
         {/*/!* <ContactMe /> *!/*/}
