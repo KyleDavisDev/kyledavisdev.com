@@ -1,5 +1,7 @@
 import * as React from "react";
 import { useRouter } from "next/router";
+import Image from "next/image";
+
 import ProjectList from "../../Data/Data";
 import BannerBar from "../BannerBar/BannerBar";
 import {
@@ -10,7 +12,7 @@ import {
   StyledProjectInfoContainer
 } from "./ProjectStyles";
 
-const Project: React.FC<{}> = () => {
+const Project: React.FC<any> = () => {
   const router = useRouter();
   const { url } = router.query;
   const project = ProjectList.find(proj => proj.url === url);
@@ -40,10 +42,13 @@ const Project: React.FC<{}> = () => {
             title={externalName}
             className="image-link"
           >
-            <img
+            <Image
               src={img}
               title={name}
               alt={`Screenshot of project ${project.name}`}
+              layout={"responsive"}
+              width={250}
+              height={250}
             />
           </a>
         </StyledImageContainer>
