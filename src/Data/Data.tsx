@@ -17,29 +17,29 @@ const SFYTSS = "/static/screenshots/SFYT-SS-min.png";
 const SickFitsSS = "/static/screenshots/SickFits-SS-min.png";
 const WordCounterSS = "/static/screenshots/WordCounter-SS-min.png";
 
-const AdobeIllustratorLogo = "/icons/Adobe-Illustrator-CC-Logo.png";
-const ApolloClientLogo = "/icons/ApolloClient-Logo.png";
-const BootstrapLogo = "/icons/Bootstrap-Logo.png";
-const CSS3Logo = "/icons/CSS3-Logo.png";
-const ExpressLogo = "/icons/ExpressJS-Logo.png";
-const FoundationLogo = "/icons/Foundation-Logo.png";
-const GitHubLogo = "/icons/GitHub-Logo.png";
-const HTML5Logo = "/icons/HTML5-Logo.png";
-const JSLogo = "/icons/JS-Logo.png";
-const JQueryLogo = "/icons/JQuery-Logo.png";
-const LinuxLogo = "/icons/Linux-Logo.png";
-const MySQLLogo = "/icons/MySQL-Logo.png";
-const NginxLogo = "/icons/Nginx-Logo.png";
-const NodeJSLogo = "/icons/NodeJS-Logo.png";
-const PHPLogo = "/icons/PHP-Logo.png";
-const PrismaLogo = "/icons/Prisma-Logo.png";
-const ReactJSLogo = "/icons/ReactJS-Logo.png";
-const ReduxLogo = "/icons/Redux-Logo.png";
-const SassLogo = "/icons/Sass-Logo.png";
-const StyledComponentsLogo = "/icons/StyledComponents-Logo.png";
-const TSLogo = "/icons/TS-Logo.png";
-const WordPressLogo = "/icons/Wordpress-Logo.png";
-const YogaLogo = "/icons/Yoga-Logo.png";
+const AdobeIllustratorLogo = "/static/icons/Adobe-Illustrator-CC-Logo.png";
+const ApolloClientLogo = "/static/icons/ApolloClient-Logo.png";
+const BootstrapLogo = "/static/icons/Bootstrap-Logo.png";
+const CSS3Logo = "/static/icons/CSS3-Logo.png";
+const ExpressLogo = "/static/icons/ExpressJS-Logo.png";
+const FoundationLogo = "/static/icons/Foundation-Logo.png";
+const GitHubLogo = "/static/icons/GitHub-Logo.png";
+const HTML5Logo = "/static/icons/HTML5-Logo.png";
+const JSLogo = "/static/icons/JS-Logo.png";
+const JQueryLogo = "/static/icons/JQuery-Logo.png";
+const LinuxLogo = "/static/icons/Linux-Logo.png";
+const MySQLLogo = "/static/icons/MySQL-Logo.png";
+const NginxLogo = "/static/icons/Nginx-Logo.png";
+const NodeJSLogo = "/static/icons/NodeJS-Logo.png";
+const PHPLogo = "/static/icons/PHP-Logo.png";
+const PrismaLogo = "/static/icons/Prisma-Logo.png";
+const ReactJSLogo = "/static/icons/ReactJS-Logo.png";
+const ReduxLogo = "/static/icons/Redux-Logo.png";
+const SassLogo = "/static/icons/Sass-Logo.png";
+const StyledComponentsLogo = "/static/icons/StyledComponents-Logo.png";
+const TSLogo = "/static/icons/TS-Logo.png";
+const WordPressLogo = "/static/icons/Wordpress-Logo.png";
+const YogaLogo = "/static/icons/Yoga-Logo.png";
 
 export interface IProjectItem {
   isActive: boolean;
@@ -62,7 +62,7 @@ const ProjectList: IProjectItem[] = [
     purpose:
       "Texas Oak Wilt is a public education campaign within the Texas A&M Forest Service whose primary goal is to inform homeowners and landowners about the devastating effects of Oak Wilt on their trees and to provide assistance where/when they can. The Texas Oak Wilt team wanted to revitalize their relationship with Texas citizens by providing easily accessible and relevant information.",
     description:
-      "This site was built using Wordpress which allows for regular administrators to make content updates independently. Website users are able to directly contact their regional forester with questions and concerns through the use of custom forms as well as find local Oak Wilt events near them, which is powered by a custom widget. Additionally, the landing-page design is completely new and features a self-captured image. Lastly, the flow of the website was restructed to help give users a more streamlined flow of helpful information.",
+      "This site was built using Wordpress which allows for regular administrators to make content updates independently. Website users are able to directly contact their regional forester with questions and concerns through the use of custom forms as well as find local Oak Wilt events near them, which is powered by a custom widget. Additionally, the landing-page design is completely new and features a self-captured image. Lastly, the flow of the website was restructured to help give users a more streamlined flow of helpful information.",
     results:
       "The average users count increased by 40%, and the average session duration increased by 95%. The website also has the highest SEO score of it's search term (oak wilt). The server costs were cut by 94%, and page loading speed increased by 89%. This project was really special because it has real-world impact by helping Texans preserve their natural resources.",
     tools: [
@@ -98,7 +98,8 @@ const ProjectList: IProjectItem[] = [
       "The purpose of this project was primarily self-education. The <a href='https://advancedreact.com/' target='_blank' rel='noopener nofollow'>course</a> walks you through the process of creating an online store using technologies like <a href='https://reactjs.org/' target='_blank' rel='noopener nofollow'>React</a>, <a href='https://graphql.org/' target='_blank' rel='noopeneer nofollow'>GraphQL</a>, and <a href='https://jestjs.io/' target='_blank' rel='noopener nofollow'>Jest</a>. Additionally, I used <a href='https://www.typescriptlang.org/' target='_blank' rel='noopener nofollow'>TypeScript</a> on the front-end which was not included in the course.",
     description:
       "The end-product is an online store where users can purchase/sell products. The application's database is created using five main relational models: <strong> Users, Items, Orders, CartItems, and OrderItems</strong> and is queried using GraphQL. Some of the fun server-side goodies include JWT authentication, user-specific permissions, sending emails, uploading images, and charging credit cards. ",
-    results: `After <a href='${AdvancedReactCert}' target='_blank'>completing this course</a>, I am absolutely better at writting React/JavaScript tests. This will certainly be something I carry with me going forward as writting tests are a crucial part to any enterprise application. `,
+    results: `After <a href='${AdvancedReactCert}' target='_blank'>completing this course</a>, I am absolutely better at writing React/JavaScript tests. This will certainly be something I carry with me going forward as writing tests are a crucial part to any enterprise application. `,
+
     tools: [
       { name: "React", img: ReactJSLogo },
       { name: "TypeScript", img: TSLogo },
@@ -133,7 +134,7 @@ const ProjectList: IProjectItem[] = [
     purpose:
       "I love trying new foods. I love new flavors. I cannot resist buying a new bottle of hot sauce when I see it. The problem, however, is sometime I forget what a hot sauce tastes like and will end up buying the same bottle multiple times. This application serves as a catalog for all of the different sauces and flavors and helps me look back on the bottles I really enjoyed and the ones I did not.",
     description:
-      "Sauce For Your Thoughts (SFYT) was first thought of in early 2017 and was created using the modern JavaScript tech stack like <a href='https://www.typescriptlang.org/' target='_blank' rel='noopener nofollow'>TypesScript</a>, <a href='https://reactjs.org/' target='_blank' rel='noopener nofollow'>ReactJS</a>, <a href='https://redux.js.org/' target='_blank' rel='noopener nofollow'>Redux</a>, <a href='https://nodejs.org/en/' target='_blank' rel='noopener nofollow'>Node</a>, and <a href='https://expressjs.com/' target='_blank' rel='noopener nofollow'>ExpressJS</a>. One of the biggest challenges was, like many side projects, actually finishing it. SFYT was redesigned, rearchitectured, rewritten, put on hold, and picked up again several different times until it was finally published in late 2019. ",
+      "Sauce For Your Thoughts (SFYT) was first thought of in early 2017 and was created using the modern JavaScript tech stack like <a href='https://www.typescriptlang.org/' target='_blank' rel='noopener nofollow'>TypesScript</a>, <a href='https://reactjs.org/' target='_blank' rel='noopener nofollow'>ReactJS</a>, <a href='https://redux.js.org/' target='_blank' rel='noopener nofollow'>Redux</a>, <a href='https://nodejs.org/en/' target='_blank' rel='noopener nofollow'>Node</a>, and <a href='https://expressjs.com/' target='_blank' rel='noopener nofollow'>ExpressJS</a>. One of the biggest challenges was, like many side projects, actually finishing it. SFYT was redesigned (both in appearance and code structure), rewritten in TypeScript, put on hold, and picked up again several different times until it was finally published in late 2019. ",
     results:
       "While application is technically open and live to the public, there has not been any official advertising or mentioning yet so it is hard to really gauge any results. I know, personally, this application has been a huge learning asset as far as <a href='https://reactjs.org/' target='_blank' rel='noopener nofollow'>React</a>, <a href='https://redux.js.org/' target='_blank' rel='noopener nofollow'>Redux</a> and <a href='https://www.typescriptlang.org/' target='_blank' rel='noopener nofollow'>TypeScript</a> are concerned. The front-end code can be found <a href='https://github.com/KyleDavisDev/sauce-for-your-thoughts-front' target='_blank' rel='noopener nofollow'>here</a> and the back-end code <a href='https://github.com/KyleDavisDev/sauce-for-your-thoughts-api' target='_blank' rel='noopener nofollow'>here</a>.",
     tools: [
@@ -175,11 +176,11 @@ const ProjectList: IProjectItem[] = [
     documentTitleName: "Sons of Vidya",
     name: "Sons of Vidya",
     description:
-      "The site features a garage-like theme with an awesome vintage logo, several custom badges each with a common Sons' catchphrase, and a 'Feature Video' section that automatically pulls the most-recent Sons video. The front end consists of React and SCSS, while the backend includes Node and Nginx reverse proxying. Additionally, the site has an autorefreshing SSL certificate through Let's Encrypt and has an overall score of \"A+\" from SSL Labs for security.",
+      "The site features a garage-like theme with an awesome vintage logo, several custom badges each with a common Sons' catchphrase, and a 'Feature Video' section that automatically pulls the most-recent Sons video. The front end consists of React and SCSS, while the backend includes Node and Nginx reverse proxying. Additionally, the site has an auto-refreshing SSL certificate through Let's Encrypt and has an overall score of \"A+\" from SSL Labs for security.",
     purpose:
-      "The 'Sons of Vidya' is a very small channel on YouTube that I have been watching for years now. In most of their videos, you will find The Sons commentating over themselves playing video games and I find their quirky sense of humor entertaining. After noticing that their previouse website was put together in 2011 (and looked like it!) I decided to offer up my skills and contribute back to the channel.",
+      "The 'Sons of Vidya' is a very small channel on YouTube that I have been watching for years now. In most of their videos, you will find The Sons commentating over themselves playing video games and I find their quirky sense of humor entertaining. After noticing that their previous website was put together in 2011 (and looked like it!) I decided to offer up my skills and contribute back to the channel.",
     results:
-      "Using Google Analytics, we can are able to see that the site gets about 30 hits a month which, they have told me, was way more than they were expecting. The Sons continue to sporatically mention the website in their video and continue to show excitement about it. Code can be found <a href='https://github.com/KyleDavisDev/sons-of-vidya' target='_blank' rel='noopener nofollow'>here</a>.",
+      "Using Google Analytics, we can are able to see that the site gets about 30 hits a month which, they have told me, was way more than they were expecting. The Sons continue to sporadically mention the website in their video and continue to show excitement about it. Code can be found <a href='https://github.com/KyleDavisDev/sons-of-vidya' target='_blank' rel='noopener nofollow'>here</a>.",
     tools: [
       {
         name: "NodeJS Server Language",
