@@ -11,14 +11,14 @@ import {
   StyledName,
   StyledAttribute
 } from "./HeaderStyles";
-import Bar from "../Bar/Bar";
+import BannerBar from "../BannerBar/BannerBar";
 
 export interface IHeaderProps {}
 
 export default class Header extends React.PureComponent<IHeaderProps> {
   public render() {
     return (
-      <Bar>
+      <BannerBar>
         <StyledContainer>
           <StyledImageContainer href="#">
             <StyledImage
@@ -58,7 +58,7 @@ export default class Header extends React.PureComponent<IHeaderProps> {
             </ul>
           </StyledTextContainer>
         </StyledContainer>
-      </Bar>
+      </BannerBar>
     );
   }
 }

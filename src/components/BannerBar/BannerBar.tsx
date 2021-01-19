@@ -1,11 +1,11 @@
 import * as React from "react";
-import { BackgroundContainer, ContentContainer } from "./BarStyles";
+import { BackgroundContainer, ContentContainer } from "./BannerBarStyles";
 
 interface IBarProps {
   children: any;
 }
 
-const Bar: React.FunctionComponent<IBarProps> = props => {
+const BannerBar: React.FunctionComponent<IBarProps> = props => {
   return (
     <BackgroundContainer>
       <ContentContainer>{props.children}</ContentContainer>
@@ -13,4 +13,4 @@ const Bar: React.FunctionComponent<IBarProps> = props => {
   );
 };
 
-export default Bar;
+export default BannerBar;

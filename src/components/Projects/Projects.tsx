@@ -15,7 +15,7 @@ import ProjectList from "../../Data/Data";
 
 interface IProjectsProps {}
 
-const Projects: React.FunctionComponent<IProjectsProps> = props => {
+const Projects: React.FunctionComponent<IProjectsProps> = () => {
   return (
     <StyledContainer>
       <StyledProjectsContainer>
@@ -25,7 +25,11 @@ const Projects: React.FunctionComponent<IProjectsProps> = props => {
             if (!project.isActive) return;
             return (
               <StyledProject key={project.url}>
-                <Link href={`project/${project.url}`} passHref={false}>
+                <Link
+                  href={`project/${project.url}`}
+                  passHref={false}
+                  prefetch={true}
+                >
                   <StyledAnchor>
                     <StyledImage
                       src={project.img}

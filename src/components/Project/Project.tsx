@@ -1,7 +1,7 @@
 import * as React from "react";
 import { useRouter } from "next/router";
 import ProjectList from "../../Data/Data";
-import Bar from "../Bar/Bar";
+import BannerBar from "../BannerBar/BannerBar";
 import {
   StyledContentContainer,
   StyledImageContainer,
@@ -23,7 +23,7 @@ const Project: React.FC<{}> = () => {
   const { linkPath, name: externalName } = project.external;
   return (
     <>
-      <Bar>
+      <BannerBar>
         <div>
           <StyledName>{name}</StyledName>
           <StyledLink href="/">&larr; Back</StyledLink>
@@ -31,7 +31,7 @@ const Project: React.FC<{}> = () => {
         <StyledLink href={linkPath} target="_blank" rel="nofollow">
           View &rarr;
         </StyledLink>
-      </Bar>
+      </BannerBar>
       <StyledProjectInfoContainer>
         <StyledImageContainer>
           <a
