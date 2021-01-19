@@ -1,20 +1,17 @@
 import styled from "../../theme/styled-components";
 
 export const StyledProjectInfoContainer = styled.div`
-  padding: 2em;
+  padding: 2em 0;
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin: 0 auto;
   max-width: 900px;
-
-  // tablets
-  @media (min-width: ${props => props.theme.exToSm}) {
-    flex-direction: column;
-  }
 
   // desktop
   @media (min-width: ${props => props.theme.mdToLg}) {
     flex-direction: row;
+    align-items: flex-start;
   }
 `;
 
@@ -24,39 +21,42 @@ export const StyledName = styled.h2`
 
 export const StyledImageContainer = styled.div`
   box-sizing: border-box;
-  margin-right: 0;
+  padding: 0 15px;
+  max-width: 350px !important;
+  width: 100%;
+  flex: 1;
   margin-bottom: 15px;
 
   //tablets
   @media (min-width: ${props => props.theme.exToSm}) {
-    margin-bottom: 15px;
-    margin-right: 0;
   }
 
   // desktop
   @media (min-width: ${props => props.theme.mdToLg}) {
     margin-bottom: 0;
-    margin-right: 15px;
   }
 
   img {
-    height: 250px;
-    width: 250px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-
     &:hover,
     &:focus {
-      opacity: 0.6;
+      opacity: 0.8;
     }
   }
 `;
 
 export const StyledContentContainer = styled.div`
-  margin: 0;
+  margin: 0 auto;
   box-sizing: border-box;
+  width: 100%;
+  flex: 1;
+  padding: 0 15px;
+
   @media (min-width: ${props => props.theme.exToSm}) {
-    margin-left: 10px;
+  }
+
+  // desktop
+  @media (min-width: ${props => props.theme.mdToLg}) {
+    flex: 3;
   }
 
   img {
