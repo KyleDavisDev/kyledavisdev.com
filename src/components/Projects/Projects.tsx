@@ -25,7 +25,7 @@ const Projects: React.FunctionComponent<IProjectsProps> = props => {
             if (!project.isActive) return;
             return (
               <StyledProject key={project.url}>
-                <Link href={`project?name=${project.url}`} passHref={false}>
+                <Link href={`project/${project.url}`} passHref={false}>
                   <StyledAnchor>
                     <StyledImage
                       src={project.img}
