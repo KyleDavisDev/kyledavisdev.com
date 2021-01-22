@@ -7,7 +7,7 @@ export const StyledContainer = styled.div`
   margin: 0 auto;
 
   // tablets
-  @media (min-width: ${(props) => props.theme.exToSm}) {
+  @media (min-width: ${props => props.theme.extraSmallToSmall}) {
     flex-direction: row;
     margin: 0;
   }
@@ -24,7 +24,7 @@ export const StyledImageContainer = styled.a`
   }
 
   // tablets
-  @media (min-width: ${(props) => props.theme.exToSm}) {
+  @media (min-width: ${props => props.theme.extraSmallToSmall}) {
     display: inline-block;
   }
 `;
@@ -44,7 +44,7 @@ export const StyledImage = styled(Image)`
   }
 
   // tablets
-  @media (min-width: ${(props) => props.theme.exToSm}) {
+  @media (min-width: ${props => props.theme.extraSmallToSmall}) {
     height: auto;
   }
 `;
@@ -62,7 +62,7 @@ export const StyledTextContainer = styled.div`
       padding: 5px 10px 0 0;
 
       a {
-        font-family: DroidSans;
+        font-family: DroidSans, serif;
         text-decoration: none;
 
         &:hover,
@@ -76,7 +76,7 @@ export const StyledTextContainer = styled.div`
 `;
 
 export const StyledName = styled.h1`
-  color: ${(props) => props.theme.black};
+  color: ${props => props.theme.black};
   font-size: 3em;
   font-family: DroidSansBold, Helvetica, Arial, sans-serif;
 `;

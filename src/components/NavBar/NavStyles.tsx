@@ -21,7 +21,7 @@ export const StyledContainer = styled.div`
 `;
 
 export const StyledName = styled.h3`
-  background-color: ${(x) => x.theme.lightBlue};
+  background-color: ${x => x.theme.blue};
   color: rgb(0, 160, 227);
   padding: 0 10px;
   text-decoration: none;
@@ -48,7 +48,7 @@ export const StyledMenu = styled.ul`
 
     &:hover,
     &:focus {
-      background-color: ${(x) => x.theme.lightBlue};
+      background-color: ${x => x.theme.blue};
     }
 
     a {

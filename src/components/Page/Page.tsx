@@ -3,7 +3,7 @@ import * as React from "react";
 import {
   ThemeProvider,
   theme,
-  createGlobalStyle,
+  createGlobalStyle
 } from "../../theme/styled-components";
 import Meta from "../Meta/Meta";
 
@@ -42,15 +42,14 @@ const GlobalStyle = createGlobalStyle`
 
   h1,h2,h3,h4,h5,h6 {
     margin: 0px;
-    // font-family: DroidSans,Helvetica,Arial,sans-serif;
   }
 
 
-  a{
-    color: #333;
+  a {
+    color: ${x => x.theme.anchorColor};
   }
   a.active, a:hover, a:focus {
-    color: #00a0e3;
+    color: ${x => x.theme.anchorHoverColor};;
     background-color: rgba(0,160,227,.05);
   }
 
@@ -66,7 +65,7 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-const Page: React.FunctionComponent<IPageProps> = (props) => {
+const Page: React.FunctionComponent<IPageProps> = props => {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />

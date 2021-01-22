@@ -9,7 +9,7 @@ export const StyledProjectInfoContainer = styled.div`
   max-width: 900px;
 
   // desktop
-  @media (min-width: ${props => props.theme.mdToLg}) {
+  @media (min-width: ${props => props.theme.mediumToLarge}) {
     flex-direction: row;
     align-items: flex-start;
   }
@@ -28,11 +28,11 @@ export const StyledImageContainer = styled.div`
   margin-bottom: 15px;
 
   //tablets
-  @media (min-width: ${props => props.theme.exToSm}) {
+  @media (min-width: ${props => props.theme.extraSmallToSmall}) {
   }
 
   // desktop
-  @media (min-width: ${props => props.theme.mdToLg}) {
+  @media (min-width: ${props => props.theme.mediumToLarge}) {
     margin-bottom: 0;
   }
 
@@ -51,11 +51,11 @@ export const StyledContentContainer = styled.div`
   flex: 1;
   padding: 0 15px;
 
-  @media (min-width: ${props => props.theme.exToSm}) {
+  @media (min-width: ${props => props.theme.extraSmallToSmall}) {
   }
 
   // desktop
-  @media (min-width: ${props => props.theme.mdToLg}) {
+  @media (min-width: ${props => props.theme.mediumToLarge}) {
     flex: 3;
   }
 

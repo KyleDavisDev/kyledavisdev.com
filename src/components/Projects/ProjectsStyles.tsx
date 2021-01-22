@@ -27,12 +27,12 @@ export const StyledProject = styled.div`
   position: relative;
 
   // tablets
-  @media (min-width: ${props => props.theme.exToSm}) {
+  @media (min-width: ${props => props.theme.extraSmallToSmall}) {
     max-width: 50%;
   }
 
   // desktop
-  @media (min-width: ${props => props.theme.mdToLg}) {
+  @media (min-width: ${props => props.theme.mediumToLarge}) {
     max-width: 33%;
   }
 `;
