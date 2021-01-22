@@ -9,16 +9,9 @@ const {
 } = styledComponents as styledComponents.ThemedStyledComponentsModule<ThemeInterface>;
 
 export interface ThemeInterface {
-  primaryThemeColor: string;
-  primaryDarkThemeColor: string;
-  primaryLightThemeColor: string;
-  secondaryThemeColor: string;
-  navigationTextColor: string;
-  navigationIconColor: string;
-  landingHeroTextColor: string;
-  cardBackgroundColor: string;
-
   siteBackgroundColor: string;
+  anchorColor: string;
+  anchorHoverColor: string;
 
   scaleP: string;
   scaleH1: string;
@@ -27,36 +20,31 @@ export interface ThemeInterface {
   scaleH4: string;
   scaleH5: string;
   scaleH6: string;
-  exToSm: string;
-  smToMd: string;
-  mdToLg: string;
+  extraSmallToSmall: string;
+  smallToMedium: string;
+  mediumToLarge: string;
   defaultFontSize: string;
 
-  white: string;
   grey: string;
   lightGrey: string;
   darkGrey: string;
   black: string;
-  lightBlue: string;
+  blue: string;
+  darkBlue: string;
 }
 
 enum colors {
-  white = "#fff",
+  smoke = "#fbfbfb",
   grey = "#676767",
   lightGrey = "#CCCCCC",
   darkGrey = "#555",
-  mustard = "#FFA816",
-  darkMustard = "#c97e00",
-  lightMustard = "#fff4e3",
-  smoke = "#f5f5f5",
   black = "#333333",
-  lightBlue = "rgba(0, 160, 227, 0.05)"
+  blue = "rgba(0, 160, 227, 0.05)",
+  darkBlue = "rgb(0, 160, 227)"
 }
 
 enum scale {
   defaultFontSize = "16px",
-  maxPageWidth = "75rem",
-  footerMaxWidth = "300px",
   scaleP = "1rem",
   scaleH1 = "2.5rem",
   scaleH2 = "2.25rem",
@@ -64,22 +52,15 @@ enum scale {
   scaleH4 = "1.875rem",
   scaleH5 = "1.125rem",
   scaleH6 = "1rem",
-  exToSm = "560px",
-  smToMd = "768px",
-  mdToLg = "900px"
+  extraSmallToSmall = "560px",
+  smallToMedium = "768px",
+  mediumToLarge = "900px"
 }
 
 export const theme = {
-  primaryThemeColor: colors.mustard,
-  primaryDarkThemeColor: colors.darkMustard,
-  primaryLightThemeColor: colors.lightMustard,
-  secondaryThemeColor: colors.mustard,
-  navigationTextColor: colors.white,
-  navigationIconColor: colors.white,
-  landingHeroTextColor: colors.white,
-  cardBackgroundColor: colors.white,
-
   siteBackgroundColor: colors.smoke,
+  anchorColor: colors.black,
+  anchorHoverColor: colors.darkBlue,
 
   scaleP: scale.scaleP,
   scaleH1: scale.scaleH1,
@@ -88,17 +69,17 @@ export const theme = {
   scaleH4: scale.scaleH4,
   scaleH5: scale.scaleH5,
   scaleH6: scale.scaleH6,
-  exToSm: scale.exToSm,
-  smToMd: scale.smToMd,
-  mdToLg: scale.mdToLg,
+  extraSmallToSmall: scale.extraSmallToSmall,
+  smallToMedium: scale.smallToMedium,
+  mediumToLarge: scale.mediumToLarge,
   defaultFontSize: scale.defaultFontSize,
 
-  white: colors.white,
   grey: colors.grey,
   lightGrey: colors.lightGrey,
   darkGrey: colors.darkGrey,
   black: colors.black,
-  lightBlue: colors.lightBlue
+  blue: colors.blue,
+  darkBlue: colors.darkBlue
 };
 
 export { css, keyframes, createGlobalStyle, ThemeProvider };
