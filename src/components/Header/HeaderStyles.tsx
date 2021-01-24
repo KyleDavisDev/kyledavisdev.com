@@ -33,13 +33,14 @@ export const StyledImage = styled(Image)`
   max-width: 100px;
   width: 100%;
   height: 100%;
-  border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.125) !important;
   padding: 7px !important;
   background-color: #ebebeb;
+  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+  border-radius: 50%;
 
   &:hover,
   &:focus {
+    opacity: 0.8;
     border: 1px solid rgba(0, 0, 0, 0.5) !important;
   }
 
