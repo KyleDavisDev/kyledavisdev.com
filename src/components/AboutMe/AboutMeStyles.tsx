@@ -9,9 +9,8 @@ export const StyledContainer = styled.div`
 export const StyledTextContainer = styled.div`
   display: block;
   max-width: 600px;
-  width p {
-    font-family: DroidSans, Helvetica, Arial, sans-serif;
-    font-size: 1rem;
-    margin: 0 0 0.5em;
+
+  p:last-of-type {
+    margin-bottom: 0;
   }
 `;
