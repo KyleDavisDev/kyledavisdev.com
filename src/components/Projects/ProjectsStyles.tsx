@@ -62,5 +62,6 @@ export const StyledImage = styled(Image)`
   &:focus {
     background-color: transparent;
     opacity: 0.8;
+    border: 1px solid rgba(0, 0, 0, 0.5) !important;
   }
 `;
