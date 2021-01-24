@@ -41,6 +41,11 @@ const TSLogo = "/static/icons/TS-Logo.png";
 const WordPressLogo = "/static/icons/Wordpress-Logo.png";
 const YogaLogo = "/static/icons/Yoga-Logo.png";
 
+export interface IProjectImageItem {
+  path: string;
+  alt?: string;
+}
+
 export interface IProjectItem {
   isActive: boolean;
   url: string;
@@ -50,7 +55,7 @@ export interface IProjectItem {
   results?: string;
   description: string;
   tools: Array<{ name: string; img: string }>;
-  img: string;
+  images: Array<IProjectImageItem>;
   external: { link: string; name: string };
 }
 
@@ -83,7 +88,7 @@ const ProjectList: IProjectItem[] = [
         img: LinuxLogo
       }
     ],
-    img: TexasOakWiltSS,
+    images: [{ path: TexasOakWiltSS }],
     external: {
       link: "https://texasoakwilt.org",
       name: "Texas Oak Wilt Website"
@@ -120,7 +125,7 @@ const ProjectList: IProjectItem[] = [
         img: GitHubLogo
       }
     ],
-    img: SickFitsSS,
+    images: [{ path: SickFitsSS }],
     external: {
       link: "https://sick-fits.now.sh/",
       name: "Sick Fits website"
@@ -164,7 +169,7 @@ const ProjectList: IProjectItem[] = [
         img: GitHubLogo
       }
     ],
-    img: SFYTSS,
+    images: [{ path: SFYTSS }],
     external: {
       link: "https://sauceforyourthoughts.com",
       name: "Texas Oak Wilt Website"
@@ -206,7 +211,7 @@ const ProjectList: IProjectItem[] = [
         img: GitHubLogo
       }
     ],
-    img: SonsofVidya,
+    images: [{ path: SonsofVidya }],
     external: {
       link: "https://sonsofvidya.kyledavisdev.com",
       name: "Sons of Vidya Fan Website"
@@ -227,7 +232,7 @@ const ProjectList: IProjectItem[] = [
       },
       { name: "CSS3", img: CSS3Logo }
     ],
-    img: FeatureSpotlight,
+    images: [{ path: FeatureSpotlight }],
     external: {
       link:
         "https://crane.it.utsa.edu:8443/resources/appSpotlight/dining/index.html",
@@ -262,7 +267,7 @@ const ProjectList: IProjectItem[] = [
       { name: "HTML5", img: HTML5Logo },
       { name: "Sass CSS", img: SassLogo }
     ],
-    img: KyleBonarReactWebsite,
+    images: [{ path: KyleBonarReactWebsite }],
     external: {
       link: "https://kyledavisdev.com",
       name: "Kyle Davis ReactJS Portfolio Website"
@@ -297,7 +302,7 @@ const ProjectList: IProjectItem[] = [
       },
       { name: "CSS3", img: CSS3Logo }
     ],
-    img: TamuPhysicsSS,
+    images: [{ path: TamuPhysicsSS }],
     external: {
       link: "http://physics.tamu.edu",
       name: "TAMU Physics Website"
@@ -332,7 +337,7 @@ const ProjectList: IProjectItem[] = [
       },
       { name: "CSS3", img: CSS3Logo }
     ],
-    img: TamuAstronomySS,
+    images: [{ path: TamuAstronomySS }],
     external: {
       link: "http://mitchell.physics.tamu.edu",
       name: "TAMU Astronomy Website"
@@ -359,7 +364,7 @@ const ProjectList: IProjectItem[] = [
       { name: "HTML5", img: HTML5Logo },
       { name: "CSS3", img: CSS3Logo }
     ],
-    img: KyleBonarOriginalWebsite,
+    images: [{ path: KyleBonarOriginalWebsite }],
     external: {
       link: "/KyleBonar_2015",
       name: "Original Kyle Bonar Website"
@@ -378,7 +383,7 @@ const ProjectList: IProjectItem[] = [
         img: AdobeIllustratorLogo
       }
     ],
-    img: CustomWebIcons,
+    images: [{ path: CustomWebIcons }],
     external: {
       link: "https://github.com/KyleDavisDev/utsa-icons",
       name: "GitHub of Web Icons"
@@ -396,7 +401,7 @@ const ProjectList: IProjectItem[] = [
       { name: "HTML5", img: HTML5Logo },
       { name: "CSS3", img: CSS3Logo }
     ],
-    img: WordCounterSS,
+    images: [{ path: WordCounterSS }],
     external: {
       link: "/JSGames/wordCount",
       name: "Fun Word Counting Application"
@@ -414,7 +419,7 @@ const ProjectList: IProjectItem[] = [
       { name: "HTML5", img: HTML5Logo },
       { name: "CSS3", img: CSS3Logo }
     ],
-    img: PhyllotaxisSS,
+    images: [{ path: PhyllotaxisSS }],
     external: {
       link: "/JSGames/phyllotaxis",
       name: "Phyllotaxis Art"
@@ -432,7 +437,7 @@ const ProjectList: IProjectItem[] = [
       { name: "HTML5", img: HTML5Logo },
       { name: "CSS3", img: CSS3Logo }
     ],
-    img: FractalTreesSS,
+    images: [{ path: FractalTreesSS }],
     external: {
       link: "/JSGames/fractalTrees",
       name: "Fractal Tree Application"
@@ -450,7 +455,7 @@ const ProjectList: IProjectItem[] = [
       { name: "HTML5", img: HTML5Logo },
       { name: "CSS3", img: CSS3Logo }
     ],
-    img: DoublePendulumSS,
+    images: [{ path: DoublePendulumSS }],
     external: {
       link: "/JSGames/doublePend",
       name: "Double Pendulum Visualization"
@@ -468,7 +473,7 @@ const ProjectList: IProjectItem[] = [
       { name: "HTML5", img: HTML5Logo },
       { name: "CSS3", img: CSS3Logo }
     ],
-    img: PingPongSS,
+    images: [{ path: PingPongSS }],
     external: {
       link: "/JSGames/pong",
       name: "Simple Pong Game"
