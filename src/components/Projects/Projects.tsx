@@ -32,7 +32,7 @@ const Projects: React.FunctionComponent<IProjectsProps> = () => {
                 >
                   <StyledAnchor>
                     <StyledImage
-                      src={project.img}
+                      src={project.images[0].path}
                       title={project.name}
                       alt={project.name}
                       height={300}
