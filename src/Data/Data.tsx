@@ -51,7 +51,7 @@ export interface IProjectItem {
   description: string;
   tools: Array<{ name: string; img: string }>;
   img: string;
-  external: { linkPath: string; name: string };
+  external: { link: string; name: string };
 }
 
 const ProjectList: IProjectItem[] = [
@@ -85,7 +85,7 @@ const ProjectList: IProjectItem[] = [
     ],
     img: TexasOakWiltSS,
     external: {
-      linkPath: "https://texasoakwilt.org",
+      link: "https://texasoakwilt.org",
       name: "Texas Oak Wilt Website"
     },
     isActive: true
@@ -122,7 +122,7 @@ const ProjectList: IProjectItem[] = [
     ],
     img: SickFitsSS,
     external: {
-      linkPath: "https://sick-fits.now.sh/",
+      link: "https://sick-fits.now.sh/",
       name: "Sick Fits website"
     },
     isActive: true
@@ -166,7 +166,7 @@ const ProjectList: IProjectItem[] = [
     ],
     img: SFYTSS,
     external: {
-      linkPath: "https://sauceforyourthoughts.com",
+      link: "https://sauceforyourthoughts.com",
       name: "Texas Oak Wilt Website"
     },
     isActive: true
@@ -208,7 +208,7 @@ const ProjectList: IProjectItem[] = [
     ],
     img: SonsofVidya,
     external: {
-      linkPath: "https://sonsofvidya.kyledavisdev.com",
+      link: "https://sonsofvidya.kyledavisdev.com",
       name: "Sons of Vidya Fan Website"
     },
     isActive: true
@@ -229,7 +229,7 @@ const ProjectList: IProjectItem[] = [
     ],
     img: FeatureSpotlight,
     external: {
-      linkPath:
+      link:
         "https://crane.it.utsa.edu:8443/resources/appSpotlight/dining/index.html",
       name: "UTSA Feature Spotlight"
     },
@@ -264,7 +264,7 @@ const ProjectList: IProjectItem[] = [
     ],
     img: KyleBonarReactWebsite,
     external: {
-      linkPath: "https://kyledavisdev.com",
+      link: "https://kyledavisdev.com",
       name: "Kyle Davis ReactJS Portfolio Website"
     },
     isActive: false
@@ -299,7 +299,7 @@ const ProjectList: IProjectItem[] = [
     ],
     img: TamuPhysicsSS,
     external: {
-      linkPath: "http://physics.tamu.edu",
+      link: "http://physics.tamu.edu",
       name: "TAMU Physics Website"
     },
     isActive: true
@@ -334,7 +334,7 @@ const ProjectList: IProjectItem[] = [
     ],
     img: TamuAstronomySS,
     external: {
-      linkPath: "http://mitchell.physics.tamu.edu",
+      link: "http://mitchell.physics.tamu.edu",
       name: "TAMU Astronomy Website"
     },
     isActive: true
@@ -361,7 +361,7 @@ const ProjectList: IProjectItem[] = [
     ],
     img: KyleBonarOriginalWebsite,
     external: {
-      linkPath: "/KyleBonar_2015",
+      link: "/KyleBonar_2015",
       name: "Original Kyle Bonar Website"
     },
     isActive: false
@@ -380,7 +380,7 @@ const ProjectList: IProjectItem[] = [
     ],
     img: CustomWebIcons,
     external: {
-      linkPath: "https://github.com/KyleDavisDev/utsa-icons",
+      link: "https://github.com/KyleDavisDev/utsa-icons",
       name: "GitHub of Web Icons"
     },
     isActive: false
@@ -398,7 +398,7 @@ const ProjectList: IProjectItem[] = [
     ],
     img: WordCounterSS,
     external: {
-      linkPath: "/JSGames/wordCount",
+      link: "/JSGames/wordCount",
       name: "Fun Word Counting Application"
     },
     isActive: false
@@ -416,7 +416,7 @@ const ProjectList: IProjectItem[] = [
     ],
     img: PhyllotaxisSS,
     external: {
-      linkPath: "/JSGames/phyllotaxis",
+      link: "/JSGames/phyllotaxis",
       name: "Phyllotaxis Art"
     },
     isActive: true
@@ -434,7 +434,7 @@ const ProjectList: IProjectItem[] = [
     ],
     img: FractalTreesSS,
     external: {
-      linkPath: "/JSGames/fractalTrees",
+      link: "/JSGames/fractalTrees",
       name: "Fractal Tree Application"
     },
     isActive: true
@@ -452,7 +452,7 @@ const ProjectList: IProjectItem[] = [
     ],
     img: DoublePendulumSS,
     external: {
-      linkPath: "/JSGames/doublePend",
+      link: "/JSGames/doublePend",
       name: "Double Pendulum Visualization"
     },
     isActive: true
@@ -470,7 +470,7 @@ const ProjectList: IProjectItem[] = [
     ],
     img: PingPongSS,
     external: {
-      linkPath: "/JSGames/pong",
+      link: "/JSGames/pong",
       name: "Simple Pong Game"
     },
     isActive: true
