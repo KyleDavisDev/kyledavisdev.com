@@ -1,14 +1,13 @@
 import * as React from "react";
 import { useRouter } from "next/router";
-import Image from "next/image";
 
 import ProjectList from "../../Data/Data";
 import {
   StyledContentContainer,
-  StyledImageContainer,
   StyledProjectInfoContainer
 } from "./ProjectStyles";
 import ProjectBanner from "./components/ProjectBanner/ProjectBanner";
+import ProjectImages from "./components/ProjectImages/ProjectImages";
 
 const Project: React.FC<any> = () => {
   const router = useRouter();
@@ -19,31 +18,15 @@ const Project: React.FC<any> = () => {
     return <p>Could not find project</p>;
   }
 
-  const { name, img, tools, description, purpose, results } = project;
+  const { name, images, tools, description, purpose, results } = project;
   const { link, name: externalName } = project.external;
   return (
     <>
       <ProjectBanner link={link} name={externalName} />
 
       <StyledProjectInfoContainer>
-        <StyledImageContainer>
-          <a
-            href={link}
-            target="_blank"
-            title={externalName}
-            className="image-link"
-          >
-            <Image
-              src={img}
-              title={name}
-              alt={`Screenshot of project ${project.name}`}
-              layout={"responsive"}
-              width={250}
-              height={250}
-            />
-          </a>
-        </StyledImageContainer>
         <StyledContentContainer>
+          <ProjectImages name={name} images={images} />
           {purpose && (
             <div>
               <h2>Purpose</h2>
