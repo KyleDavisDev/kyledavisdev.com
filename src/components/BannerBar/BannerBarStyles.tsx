@@ -14,4 +14,5 @@ export const ContentContainer = styled.div`
   max-width: 900px;
   margin: 0 auto;
   font-family: DroidSansBold, Helvetica, Arial, sans-serif;
+  color: ${x => x.theme.black};
 `;
