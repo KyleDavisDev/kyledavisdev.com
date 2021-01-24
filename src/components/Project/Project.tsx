@@ -8,6 +8,7 @@ import {
 } from "./ProjectStyles";
 import ProjectBanner from "./components/ProjectBanner/ProjectBanner";
 import ProjectImages from "./components/ProjectImages/ProjectImages";
+import ProjectTools from "./components/ProjectTools/ProjectTools";
 
 const Project: React.FC<any> = () => {
   const router = useRouter();
@@ -43,22 +44,7 @@ const Project: React.FC<any> = () => {
               <p dangerouslySetInnerHTML={{ __html: results }} />
             </div>
           )}
-          <div>
-            <h2>Tools</h2>
-            <p>
-              {tools.map(tool => {
-                return (
-                  <img
-                    key={tool.name}
-                    src={tool.img}
-                    className="technology-image"
-                    title={tool.name}
-                    alt={tool.name}
-                  />
-                );
-              })}
-            </p>
-          </div>
+          <ProjectTools tools={tools} />
         </StyledContentContainer>
       </StyledProjectInfoContainer>
     </>
