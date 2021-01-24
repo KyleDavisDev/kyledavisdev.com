@@ -15,10 +15,6 @@ export const StyledProjectInfoContainer = styled.div`
   }
 `;
 
-export const StyledName = styled.h2`
-  color: #3a4145;
-`;
-
 export const StyledImageContainer = styled.div`
   box-sizing: border-box;
   padding: 0 15px;
@@ -68,14 +64,5 @@ export const StyledContentContainer = styled.div`
     margin-top: 0.5em;
     margin-bottom: 2em;
     line-height: 1.8;
-  }
-`;
-
-export const StyledLink = styled.a`
-  text-decoration: none;
-  &:hover,
-  &:focus {
-    background-color: transparent;
-    text-decoration: underline;
   }
 `;
