@@ -3,14 +3,12 @@ import { useRouter } from "next/router";
 import Image from "next/image";
 
 import ProjectList from "../../Data/Data";
-import BannerBar from "../BannerBar/BannerBar";
 import {
   StyledContentContainer,
   StyledImageContainer,
-  StyledLink,
-  StyledName,
   StyledProjectInfoContainer
 } from "./ProjectStyles";
+import ProjectBanner from "./components/ProjectBanner/ProjectBanner";
 
 const Project: React.FC<any> = () => {
   const router = useRouter();
@@ -22,22 +20,15 @@ const Project: React.FC<any> = () => {
   }
 
   const { name, img, tools, description, purpose, results } = project;
-  const { linkPath, name: externalName } = project.external;
+  const { link, name: externalName } = project.external;
   return (
     <>
-      <BannerBar>
-        <div>
-          <StyledName>{name}</StyledName>
-          <StyledLink href="/">&larr; Back</StyledLink>
-        </div>
-        <StyledLink href={linkPath} target="_blank" rel="nofollow">
-          View &rarr;
-        </StyledLink>
-      </BannerBar>
+      <ProjectBanner link={link} name={externalName} />
+
       <StyledProjectInfoContainer>
         <StyledImageContainer>
           <a
-            href={linkPath}
+            href={link}
             target="_blank"
             title={externalName}
             className="image-link"
