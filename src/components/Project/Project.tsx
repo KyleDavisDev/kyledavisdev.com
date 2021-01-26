@@ -9,6 +9,7 @@ import {
 import ProjectBanner from "./components/ProjectBanner/ProjectBanner";
 import ProjectImages from "./components/ProjectImages/ProjectImages";
 import ProjectTools from "./components/ProjectTools/ProjectTools";
+import ProjectBlurb from "./components/ProjectBlurb/ProjectBlurb";
 
 const Project: React.FC<any> = () => {
   const router = useRouter();
@@ -28,22 +29,9 @@ const Project: React.FC<any> = () => {
       <StyledProjectInfoContainer>
         <StyledContentContainer>
           <ProjectImages name={name} images={images} />
-          {purpose && (
-            <div>
-              <h2>Purpose</h2>
-              <p dangerouslySetInnerHTML={{ __html: purpose }} />
-            </div>
-          )}
-          <div>
-            <h2>Description</h2>
-            <p dangerouslySetInnerHTML={{ __html: description }} />
-          </div>
-          {results && (
-            <div>
-              <h2>Results</h2>
-              <p dangerouslySetInnerHTML={{ __html: results }} />
-            </div>
-          )}
+          <ProjectBlurb title={"Purpose"} text={purpose} />
+          <ProjectBlurb title={"Description"} text={description} />
+          <ProjectBlurb title={"Results"} text={results} />
           <ProjectTools tools={tools} />
         </StyledContentContainer>
       </StyledProjectInfoContainer>
