@@ -20,10 +20,10 @@ const Project: React.FC<any> = () => {
   }
 
   const { name, images, tools, description, purpose, results } = project;
-  const { link, name: externalName } = project.external;
+
   return (
     <>
-      <ProjectBanner link={link} name={externalName} />
+      <ProjectBanner {...project.external} />
 
       <StyledProjectInfoContainer>
         <StyledContentContainer>
