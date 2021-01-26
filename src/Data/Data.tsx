@@ -50,6 +50,12 @@ export interface IToolsItem {
   img: string;
   link?: string;
 }
+export interface IExternalData {
+  isActive: boolean;
+  link: string;
+  name: string;
+  linkText?: string;
+}
 
 export interface IProjectItem {
   isActive: boolean;
@@ -61,7 +67,7 @@ export interface IProjectItem {
   description: string;
   tools: Array<IToolsItem>;
   images: Array<IProjectImageItem>;
-  external: { link: string; name: string };
+  external: IExternalData;
 }
 
 const tools: { [name: string]: IToolsItem } = {
@@ -193,6 +199,7 @@ const ProjectList: IProjectItem[] = [
     ],
     images: [{ path: TexasOakWiltSS }],
     external: {
+      isActive: true,
       link: "https://texasoakwilt.org",
       name: "Texas Oak Wilt Website"
     },
@@ -207,7 +214,6 @@ const ProjectList: IProjectItem[] = [
     description:
       "The end-product is an online store where users can purchase/sell products. The application's database is created using five main relational models: <strong> Users, Items, Orders, CartItems, and OrderItems</strong> and is queried using GraphQL. Some of the fun server-side goodies include JWT authentication, user-specific permissions, sending emails, uploading images, and charging credit cards. ",
     results: `After <a href='${AdvancedReactCert}' target='_blank'>completing this course</a>, I am absolutely better at writing React/JavaScript tests. This will certainly be something I carry with me going forward as writing tests are a crucial part to any enterprise application. `,
-
     tools: [
       tools.React,
       tools.TypeScript,
@@ -221,8 +227,10 @@ const ProjectList: IProjectItem[] = [
     ],
     images: [{ path: SickFitsSS }],
     external: {
-      link: "https://sick-fits.now.sh/",
-      name: "Sick Fits website"
+      isActive: true,
+      link: "https://advancedreact.com/",
+      name: "Sick Fits website",
+      linkText: "View Course page"
     },
     isActive: true
   },
@@ -250,8 +258,9 @@ const ProjectList: IProjectItem[] = [
     ],
     images: [{ path: SFYTSS }],
     external: {
+      isActive: true,
       link: "https://sauceforyourthoughts.com",
-      name: "Texas Oak Wilt Website"
+      name: "Sauce for your thoughts!"
     },
     isActive: true
   },
@@ -277,6 +286,7 @@ const ProjectList: IProjectItem[] = [
     ],
     images: [{ path: SonsofVidya }],
     external: {
+      isActive: true,
       link: "https://sonsofvidya.kyledavisdev.com",
       name: "Sons of Vidya Fan Website"
     },
@@ -291,6 +301,7 @@ const ProjectList: IProjectItem[] = [
     tools: [tools.HTML5, tools.Bootstrap3, tools.CSS3],
     images: [{ path: FeatureSpotlight }],
     external: {
+      isActive: false,
       link:
         "https://crane.it.utsa.edu:8443/resources/appSpotlight/dining/index.html",
       name: "UTSA Feature Spotlight"
@@ -314,6 +325,7 @@ const ProjectList: IProjectItem[] = [
     ],
     images: [{ path: KyleBonarReactWebsite }],
     external: {
+      isActive: false,
       link: "https://kyledavisdev.com",
       name: "Kyle Davis ReactJS Portfolio Website"
     },
@@ -337,6 +349,7 @@ const ProjectList: IProjectItem[] = [
     ],
     images: [{ path: TamuPhysicsSS }],
     external: {
+      isActive: true,
       link: "http://physics.tamu.edu",
       name: "TAMU Physics Website"
     },
@@ -360,6 +373,7 @@ const ProjectList: IProjectItem[] = [
     ],
     images: [{ path: TamuAstronomySS }],
     external: {
+      isActive: true,
       link: "http://mitchell.physics.tamu.edu",
       name: "TAMU Astronomy Website"
     },
@@ -381,6 +395,7 @@ const ProjectList: IProjectItem[] = [
     ],
     images: [{ path: KyleBonarOriginalWebsite }],
     external: {
+      isActive: false,
       link: "/KyleBonar_2015",
       name: "Original Kyle Bonar Website"
     },
@@ -395,6 +410,7 @@ const ProjectList: IProjectItem[] = [
     tools: [tools.AdobeIllustrator],
     images: [{ path: CustomWebIcons }],
     external: {
+      isActive: false,
       link: "https://github.com/KyleDavisDev/utsa-icons",
       name: "GitHub of Web Icons"
     },
@@ -409,6 +425,7 @@ const ProjectList: IProjectItem[] = [
     tools: [tools.JavaScript, tools.HTML5, tools.CSS3],
     images: [{ path: WordCounterSS }],
     external: {
+      isActive: false,
       link: "/JSGames/wordCount",
       name: "Fun Word Counting Application"
     },
@@ -423,6 +440,7 @@ const ProjectList: IProjectItem[] = [
     tools: [tools.JavaScript, tools.HTML5, tools.CSS3],
     images: [{ path: PhyllotaxisSS }],
     external: {
+      isActive: true,
       link: "/JSGames/phyllotaxis",
       name: "Phyllotaxis Art"
     },
@@ -437,6 +455,7 @@ const ProjectList: IProjectItem[] = [
     tools: [tools.JavaScript, tools.HTML5, tools.CSS3],
     images: [{ path: FractalTreesSS }],
     external: {
+      isActive: true,
       link: "/JSGames/fractalTrees",
       name: "Fractal Tree Application"
     },
@@ -451,6 +470,7 @@ const ProjectList: IProjectItem[] = [
     tools: [tools.JavaScript, tools.HTML5, tools.CSS3],
     images: [{ path: DoublePendulumSS }],
     external: {
+      isActive: true,
       link: "/JSGames/doublePend",
       name: "Double Pendulum Visualization"
     },
@@ -465,6 +485,7 @@ const ProjectList: IProjectItem[] = [
     tools: [tools.JavaScript, tools.HTML5, tools.CSS3],
     images: [{ path: PingPongSS }],
     external: {
+      isActive: true,
       link: "/JSGames/pong",
       name: "Simple Pong Game"
     },
