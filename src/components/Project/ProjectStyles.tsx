@@ -19,11 +19,6 @@ export const StyledContentContainer = styled.div`
   @media (min-width: ${props => props.theme.mediumToLarge}) {
   }
 
-  img {
-    height: 50px;
-    margin: 0 5px;
-  }
-
   p {
     margin-top: 0.5em;
     margin-bottom: 2em;
