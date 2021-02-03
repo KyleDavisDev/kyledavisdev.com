@@ -11,7 +11,6 @@ const KyleBonarOriginalWebsite =
   "/static/screenshots/KyleBonarOriginalWebsite-SS-min.png";
 const PhyllotaxisSS = "/static/screenshots/Phyllotaxis-SS-min.png";
 const PingPongSS = "/static/screenshots/PingPong-SS-min.png";
-const SonsofVidya = "/static/screenshots/SonsofVidya-SS-min.png";
 const TamuAstronomySS = "/static/screenshots/Tamu-Astronomy-SS-min.png";
 const TamuPhysicsSS = "/static/screenshots/Tamu-Physics-SS-min.png";
 const TexasOakWiltSS =
@@ -178,7 +177,12 @@ const ProjectList: IProjectItem[] = [
       tools.Nginx,
       tools.GitHub
     ],
-    images: [{ path: SonsofVidya }],
+    images: [
+      { path: "/static/screenshots/SonsOfVidya/Landing.jpg" },
+      { path: "/static/screenshots/SonsOfVidya/Banner.jpg" },
+      { path: "/static/screenshots/SonsOfVidya/Banner2.jpg" },
+      { path: "/static/screenshots/SonsOfVidya/Videos.jpg" }
+    ],
     external: {
       isActive: true,
       link: "https://sonsofvidya.kyledavisdev.com",
