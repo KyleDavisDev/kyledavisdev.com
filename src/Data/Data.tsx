@@ -105,7 +105,8 @@ const ProjectList: IProjectItem[] = [
       { path: "/static/screenshots/SickFits/Cart.png" },
       { path: "/static/screenshots/SickFits/CreditCardPayment.png" },
       { path: "/static/screenshots/SickFits/SellItem.png" },
-      { path: "/static/screenshots/SickFits/TechStack.png" }
+      { path: "/static/screenshots/SickFits/TechStack.png" },
+      { path: "/static/screenshots/SickFits/AdvancedReactCert.png" }
     ],
     external: {
       isActive: true,
