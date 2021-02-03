@@ -17,7 +17,6 @@ const TamuPhysicsSS = "/static/screenshots/Tamu-Physics-SS-min.png";
 const TexasOakWiltSS =
   "/static/screenshots/TexasOakWilt/Texas-Oak-Wilt-SS-min.png";
 const SFYTSS = "/static/screenshots/SFYT-SS-min.png";
-const SickFitsSS = "/static/screenshots/SickFits-SS-min.png";
 const WordCounterSS = "/static/screenshots/WordCounter-SS-min.png";
 
 export interface IProjectImageItem {
@@ -100,7 +99,14 @@ const ProjectList: IProjectItem[] = [
       tools.Linux,
       tools.GitHub
     ],
-    images: [{ path: SickFitsSS }],
+    images: [
+      { path: "/static/screenshots/SickFits/Main.png" },
+      { path: "/static/screenshots/SickFits/Login.png" },
+      { path: "/static/screenshots/SickFits/Cart.png" },
+      { path: "/static/screenshots/SickFits/CreditCardPayment.png" },
+      { path: "/static/screenshots/SickFits/SellItem.png" },
+      { path: "/static/screenshots/SickFits/TechStack.png" }
+    ],
     external: {
       isActive: true,
       link: "https://advancedreact.com/",
