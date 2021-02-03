@@ -14,6 +14,9 @@ export const ToolsContainer = styled.div`
   }
 
   img {
+    max-height: 50px;
+    margin-right: 10px;
+
     &:hover,
     &:focus {
       opacity: 0.8;
