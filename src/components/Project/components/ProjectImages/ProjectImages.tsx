@@ -25,9 +25,9 @@ const ProjectImages: React.FC<IProjectImages> = props => {
                 src={path}
                 title={name}
                 alt={alt ? alt : `Screenshot of project ${name}`}
-                width={"200"}
+                width={"225"}
                 layout={"fixed"}
-                height={"200"}
+                height={"225"}
                 onClick={() => console.log("yo")}
               />
             </div>
