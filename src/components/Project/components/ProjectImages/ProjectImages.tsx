@@ -20,58 +20,17 @@ const ProjectImages: React.FC<IProjectImages> = props => {
           const { alt, path } = image;
 
           return (
-            <>
-              <div>
-                <Image
-                  src={path}
-                  title={name}
-                  alt={alt ? alt : `Screenshot of project ${name}`}
-                  width={"200"}
-                  layout={"fixed"}
-                  height={"200"}
-                />
-              </div>
-              <div>
-                <Image
-                  src={path}
-                  title={name}
-                  alt={alt ? alt : `Screenshot of project ${name}`}
-                  width={"200"}
-                  layout={"fixed"}
-                  height={"200"}
-                />
-              </div>
-              <div>
-                <Image
-                  src={path}
-                  title={name}
-                  alt={alt ? alt : `Screenshot of project ${name}`}
-                  width={"200"}
-                  layout={"fixed"}
-                  height={"200"}
-                />
-              </div>
-              <div>
-                <Image
-                  src={path}
-                  title={name}
-                  alt={alt ? alt : `Screenshot of project ${name}`}
-                  width={"200"}
-                  layout={"fixed"}
-                  height={"200"}
-                />
-              </div>
-              <div>
-                <Image
-                  src={path}
-                  title={name}
-                  alt={alt ? alt : `Screenshot of project ${name}`}
-                  width={"200"}
-                  layout={"fixed"}
-                  height={"200"}
-                />
-              </div>
-            </>
+            <div>
+              <Image
+                src={path}
+                title={name}
+                alt={alt ? alt : `Screenshot of project ${name}`}
+                width={"200"}
+                layout={"fixed"}
+                height={"200"}
+                onClick={() => console.log("yo")}
+              />
+            </div>
           );
         })}
       </StyledImageContainer>
