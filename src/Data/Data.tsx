@@ -16,7 +16,6 @@ const TamuAstronomySS = "/static/screenshots/Tamu-Astronomy-SS-min.png";
 const TamuPhysicsSS = "/static/screenshots/Tamu-Physics-SS-min.png";
 const TexasOakWiltSS =
   "/static/screenshots/TexasOakWilt/Texas-Oak-Wilt-SS-min.png";
-const SFYTSS = "/static/screenshots/SFYT-SS-min.png";
 const WordCounterSS = "/static/screenshots/WordCounter-SS-min.png";
 
 export interface IProjectImageItem {
@@ -138,7 +137,20 @@ const ProjectList: IProjectItem[] = [
       tools.Linux,
       tools.GitHub
     ],
-    images: [{ path: SFYTSS }],
+    images: [
+      { path: "/static/screenshots/SFYT/SFYT-SS-min.png" },
+      { path: "/static/screenshots/SFYT/Sauces.jpg" },
+      { path: "/static/screenshots/SFYT/Spotlight.jpg" },
+      { path: "/static/screenshots/SFYT/Add1.png" },
+      { path: "/static/screenshots/SFYT/Add2.png" },
+      { path: "/static/screenshots/SFYT/Review1.png" },
+      { path: "/static/screenshots/SFYT/Review2.png" },
+      { path: "/static/screenshots/SFYT/Register.png" },
+      { path: "/static/screenshots/SFYT/Login.png" },
+      { path: "/static/screenshots/SFYT/Settings.png" },
+      { path: "/static/screenshots/SFYT/UpdateEmail.png" },
+      { path: "/static/screenshots/SFYT/UpdateAvatar.png" }
+    ],
     external: {
       isActive: true,
       link: "https://sauceforyourthoughts.com",
