@@ -30,7 +30,6 @@ export const StyledImageContainer = styled.div`
     &:hover,
     &:focus {
       opacity: 0.8;
-      cursor: pointer;
     }
   }
 `;
