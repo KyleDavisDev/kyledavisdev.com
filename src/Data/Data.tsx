@@ -11,7 +11,6 @@ const KyleBonarOriginalWebsite =
 const PhyllotaxisSS = "/static/screenshots/Phyllotaxis-SS-min.png";
 const PingPongSS = "/static/screenshots/PingPong-SS-min.png";
 const TamuAstronomySS = "/static/screenshots/Tamu-Astronomy-SS-min.png";
-const TamuPhysicsSS = "/static/screenshots/Tamu-Physics-SS-min.png";
 const WordCounterSS = "/static/screenshots/WordCounter-SS-min.png";
 
 export interface IProjectImageItem {
@@ -255,7 +254,16 @@ const ProjectList: IProjectItem[] = [
       tools.Foundation,
       tools.CSS3
     ],
-    images: [{ path: TamuPhysicsSS }],
+    images: [
+      { path: "/static/screenshots/Physics/Tamu-Physics-SS-min.png" },
+      { path: "/static/screenshots/Physics/ProspectiveStudents.jpg" },
+      { path: "/static/screenshots/Physics/ProspectiveStudents2.jpg" },
+      { path: "/static/screenshots/Physics/Calendar.png" },
+      { path: "/static/screenshots/Physics/Directory.png" },
+      { path: "/static/screenshots/Physics/Outreach.jpg" },
+      { path: "/static/screenshots/Physics/Research.png" },
+      { path: "/static/screenshots/Physics/Research2.jpg" }
+    ],
     external: {
       isActive: true,
       link: "http://physics.tamu.edu",
