@@ -14,7 +14,7 @@ export const ToolsContainer = styled.div`
   }
 
   img {
-    max-height: 50px;
+    max-height: 40px;
     margin-right: 10px;
 
     &:hover,
