@@ -3,7 +3,6 @@ import { tools, IToolsItem } from "./tools";
 const AdvancedReactCert = "/static/screenshots/AdvancedReactCert.png";
 const CustomWebIcons = "/static/screenshots/Custom-Icons-SS-min.png";
 const DoublePendulumSS = "/static/screenshots/DoublePendulum-SS-min.png";
-const FeatureSpotlight = "/static/screenshots/FeatureSpotlight-SS-min.png";
 const FractalTreesSS = "/static/screenshots/FractalTrees-SS-min.png";
 const KyleBonarReactWebsite =
   "/static/screenshots/KyleBonarReactWebsite-SS-min.png";
@@ -99,8 +98,8 @@ const ProjectList: IProjectItem[] = [
     images: [
       { path: "/static/screenshots/SickFits/Main.png" },
       { path: "/static/screenshots/SickFits/Login.png" },
-      { path: "/static/screenshots/SickFits/Cart.png" },
       { path: "/static/screenshots/SickFits/CreditCardPayment.png" },
+      { path: "/static/screenshots/SickFits/Cart.png" },
       { path: "/static/screenshots/SickFits/SellItem.png" },
       { path: "/static/screenshots/SickFits/TechStack.png" },
       { path: "/static/screenshots/SickFits/AdvancedReactCert.png" }
@@ -196,7 +195,19 @@ const ProjectList: IProjectItem[] = [
     description:
       "This project was originally developed for the UTSA Mobile App in an attempt to battle the feeling of staleness, which existed on the app prior. Originally, the app would open up to a \"What's New\" landing page which would be updated every couple of months but with the new design and layout, any of the app's components can be promoted and shown off at the drop of a hat. In production, this design has been used for the calendar, student registration, a tech conference, and now dining. This design is responsive and will soon be used on other non-mobile platforms as well.",
     tools: [tools.HTML5, tools.Bootstrap3, tools.CSS3],
-    images: [{ path: FeatureSpotlight }],
+    images: [
+      { path: "/static/screenshots/FeatureSpotlight/Athletics.png" },
+      { path: "/static/screenshots/FeatureSpotlight/Banner.png" },
+      { path: "/static/screenshots/FeatureSpotlight/Calendar.png" },
+      { path: "/static/screenshots/FeatureSpotlight/Dashboard.png" },
+      { path: "/static/screenshots/FeatureSpotlight/Dining.png" },
+      { path: "/static/screenshots/FeatureSpotlight/Educuase.png" },
+      { path: "/static/screenshots/FeatureSpotlight/Harvey.png" },
+      { path: "/static/screenshots/FeatureSpotlight/MyCourses.png" },
+      { path: "/static/screenshots/FeatureSpotlight/MyHolds.png" },
+      { path: "/static/screenshots/FeatureSpotlight/Orientation.png" },
+      { path: "/static/screenshots/FeatureSpotlight/Registration.png" }
+    ],
     external: {
       isActive: false,
       link:
