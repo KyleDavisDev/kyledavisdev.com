@@ -25,11 +25,7 @@ const Projects: React.FunctionComponent<IProjectsProps> = () => {
             if (!project.isActive) return;
             return (
               <StyledProject key={project.url}>
-                <Link
-                  href={`project/${project.url}`}
-                  passHref={false}
-                  prefetch={true}
-                >
+                <Link href={`project/${project.url}`} passHref={false}>
                   <StyledAnchor>
                     <StyledImage
                       src={project.images[0].path}
