@@ -13,8 +13,6 @@ const PhyllotaxisSS = "/static/screenshots/Phyllotaxis-SS-min.png";
 const PingPongSS = "/static/screenshots/PingPong-SS-min.png";
 const TamuAstronomySS = "/static/screenshots/Tamu-Astronomy-SS-min.png";
 const TamuPhysicsSS = "/static/screenshots/Tamu-Physics-SS-min.png";
-const TexasOakWiltSS =
-  "/static/screenshots/TexasOakWilt/Texas-Oak-Wilt-SS-min.png";
 const WordCounterSS = "/static/screenshots/WordCounter-SS-min.png";
 
 export interface IProjectImageItem {
@@ -63,12 +61,13 @@ const ProjectList: IProjectItem[] = [
       tools.Linux
     ],
     images: [
-      { path: TexasOakWiltSS },
+      { path: "/static/screenshots/TexasOakWilt/Texas-Oak-Wilt-SS-min.png" },
       { path: "/static/screenshots/TexasOakWilt/FindMyForester.png" },
-      { path: "/static/screenshots/TexasOakWilt/RecommendedTrees.png" },
       { path: "/static/screenshots/TexasOakWilt/Vendors.png" },
-      { path: "/static/screenshots/TexasOakWilt/OakwiltIdentification.png" },
-      { path: "/static/screenshots/TexasOakWilt/FAQs.png" }
+      { path: "/static/screenshots/TexasOakWilt/RecommendedTrees.png" },
+      { path: "/static/screenshots/TexasOakWilt/FAQ2.png" },
+      { path: "/static/screenshots/TexasOakWilt/OakwiltSpread.png" },
+      { path: "/static/screenshots/TexasOakWilt/Identification.png" }
     ],
     external: {
       isActive: true,
