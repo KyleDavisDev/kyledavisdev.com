@@ -24,11 +24,10 @@ const ProjectImages: React.FC<IProjectImages> = props => {
               <Image
                 src={path}
                 title={name}
-                alt={alt ? alt : `Screenshot of project ${name}`}
+                alt={alt ? alt : `Screenshot from project ${name}`}
                 width={"225"}
                 layout={"fixed"}
                 height={"225"}
-                onClick={() => console.log("yo")}
               />
             </div>
           );
