@@ -2,15 +2,8 @@ import { tools, IToolsItem } from "./tools";
 
 const AdvancedReactCert = "/static/screenshots/AdvancedReactCert.png";
 const CustomWebIcons = "/static/screenshots/Custom-Icons-SS-min.png";
-
-// const FractalTreesSS = "/static/screenshots/JSGames/FractalTrees-SS-min.png";
 const KyleBonarReactWebsite =
   "/static/screenshots/KyleBonarReactWebsite-SS-min.png";
-const KyleBonarOriginalWebsite =
-  "/static/screenshots/KyleBonarOriginalWebsite-SS-min.png";
-// const PhyllotaxisSS = "/static/screenshots/JSGames/Phyllotaxis-SS-min.png";
-// const PingPongSS = "/static/screenshots/JSGames/PingPong-SS-min.png";
-// const WordCounterSS = "/static/screenshots/JSGames/WordCounter-SS-min.png";
 
 export interface IProjectImageItem {
   path: string;
@@ -29,6 +22,7 @@ export interface IProjectItem {
   url: string;
   documentTitleName: string;
   name: string;
+  pubYear?: string;
   purpose?: string;
   results?: string;
   description: string;
@@ -48,6 +42,7 @@ const ProjectList: IProjectItem[] = [
       "This site was built using Wordpress which allows for regular administrators to make content updates independently. Website users are able to directly contact their regional forester with questions and concerns through the use of custom forms as well as find local Oak Wilt events near them, which is powered by a custom widget. Additionally, the landing-page design is completely new and features a self-captured image. Lastly, the flow of the website was restructured to help give users a more streamlined flow of helpful information.",
     results:
       "The average users count increased by 40%, and the average session duration increased by 95%. The website also has the highest SEO score of it's search term (oak wilt). The server costs were cut by 94%, and page loading speed increased by 89%. This project was really special because it has real-world impact by helping Texans preserve their natural resources.",
+    pubYear: "2018-2019",
     tools: [
       tools.PHP7,
       tools.Wordpress,
@@ -75,6 +70,7 @@ const ProjectList: IProjectItem[] = [
   },
   {
     url: "sickfits",
+    pubYear: "2018",
     documentTitleName: "Sick Fits",
     name: "Sick Fits",
     purpose:
@@ -112,6 +108,7 @@ const ProjectList: IProjectItem[] = [
   },
   {
     url: "sfyt",
+    pubYear: "2018-2020",
     documentTitleName: "Sauce For Your Thoughts",
     name: "Sauce For Your Thoughts",
     purpose:
@@ -155,6 +152,7 @@ const ProjectList: IProjectItem[] = [
   },
   {
     url: "sons_of_vidya",
+    pubYear: "2018",
     documentTitleName: "Sons of Vidya",
     name: "Sons of Vidya",
     description:
@@ -188,6 +186,7 @@ const ProjectList: IProjectItem[] = [
   },
   {
     url: "feature_spotlight",
+    pubYear: "2018-2019",
     documentTitleName: "Feature Spotlight",
     name: "Feature Spotlight",
     description:
@@ -239,6 +238,7 @@ const ProjectList: IProjectItem[] = [
   },
   {
     url: "tamu_physics",
+    pubYear: "2016",
     documentTitleName: "TAMU Physics",
     name: "Texas A&M Physics",
     description:
@@ -273,6 +273,7 @@ const ProjectList: IProjectItem[] = [
   },
   {
     url: "tamu_mitchell",
+    pubYear: "2015-2016",
     documentTitleName: "TAMU Astronomy",
     name: "Texas A&M Astronomy",
     description:
@@ -303,9 +304,10 @@ const ProjectList: IProjectItem[] = [
     isActive: true
   },
   {
-    url: "kyle_bonar_original",
+    url: "kyle_davis_original",
+    pubYear: "2015",
     documentTitleName: "Original Website",
-    name: "Kyle Bonar First Personal Website",
+    name: "Kyle Davis First Personal Website",
     description:
       "When I started this project, I simply wanted to show off some projects that I had built, I had no idea the steps involved to put a website out on the internet. Starting from scratch, I had to configure a fresh server, install all of the proper tools, register and connect to the proper domain name, and implement security protocols. Luckily, with enough documentation and triple-checking each and every step, I was able to create this all my own. The webpage may not be the most visually appealing thing but I am incredibly proud of myself for sticking it out, and not getting overwhelmed by the immense challenge. Lastly, this project was built on the LEMP stack although, as it stands, is mostly just a static webpage.",
     tools: [
@@ -316,13 +318,18 @@ const ProjectList: IProjectItem[] = [
       tools.HTML5,
       tools.CSS3
     ],
-    images: [{ path: KyleBonarOriginalWebsite }],
+    images: [
+      { path: "/static/screenshots/KyleDavisOriginal/Main.jpg" },
+      { path: "/static/screenshots/KyleDavisOriginal/Projects.png" },
+      { path: "/static/screenshots/KyleDavisOriginal/Email.jpg" },
+      { path: "/static/screenshots/KyleDavisOriginal/Resume.jpg" }
+    ],
     external: {
       isActive: false,
       link: "/KyleBonar_2015",
-      name: "Original Kyle Bonar Website"
+      name: "Original Kyle Davis Website"
     },
-    isActive: false
+    isActive: true
   },
   {
     url: "illustrator_web_icons",
@@ -341,6 +348,7 @@ const ProjectList: IProjectItem[] = [
   },
   {
     url: "JSGames",
+    pubYear: "2015",
     documentTitleName: "Games with JavaScript",
     name: "JavaScript Games",
     description:
