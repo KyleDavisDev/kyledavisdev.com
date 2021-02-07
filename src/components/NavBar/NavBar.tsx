@@ -1,4 +1,5 @@
 import * as React from "react";
+import Link from "next/link";
 
 import {
   StyledNav,
@@ -13,7 +14,11 @@ const NavBar: React.FunctionComponent<INavBarProps> = () => {
   return (
     <StyledNav>
       <StyledContainer>
-        <StyledName>Kyle Davis</StyledName>
+        <StyledName>
+          <Link href={"/"}>
+            <a>Kyle Davis</a>
+          </Link>
+        </StyledName>
 
         <StyledMenu>
           <li>
