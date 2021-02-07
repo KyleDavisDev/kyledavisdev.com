@@ -24,7 +24,7 @@ const Project: React.FC<any> = () => {
 
   return (
     <>
-      <ProjectBanner {...project.external} />
+      <ProjectBanner {...project.external} year={project.pubYear} />
 
       <StyledProjectInfoContainer>
         <StyledContentContainer>
