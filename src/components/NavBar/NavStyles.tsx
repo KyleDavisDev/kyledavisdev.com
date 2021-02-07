@@ -29,6 +29,15 @@ export const StyledName = styled.h3`
   font-family: Montserrat, Helvetica, Arial, sans-serif;
   display: flex;
   align-items: center;
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      background-color: transparent;
+    }
+  }
 `;
 
 export const StyledMenu = styled.ul`
