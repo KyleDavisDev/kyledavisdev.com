@@ -1,5 +1,5 @@
 import * as React from "react";
-import Link from "next/Link";
+import Link from "next/link";
 
 import {
   StyledContainer,
@@ -34,7 +34,9 @@ const Projects: React.FunctionComponent<IProjectsProps> = () => {
                       height={300}
                       width={300}
                     />
-                    <span>{project.name}</span>
+                    <span>
+                      {project.name} {project.pubYear && `(${project.pubYear})`}
+                    </span>
                   </StyledAnchor>
                 </Link>
               </StyledProject>
