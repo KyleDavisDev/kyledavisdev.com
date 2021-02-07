@@ -2,16 +2,15 @@ import { tools, IToolsItem } from "./tools";
 
 const AdvancedReactCert = "/static/screenshots/AdvancedReactCert.png";
 const CustomWebIcons = "/static/screenshots/Custom-Icons-SS-min.png";
-const DoublePendulumSS = "/static/screenshots/DoublePendulum-SS-min.png";
-const FractalTreesSS = "/static/screenshots/FractalTrees-SS-min.png";
+
+// const FractalTreesSS = "/static/screenshots/JSGames/FractalTrees-SS-min.png";
 const KyleBonarReactWebsite =
   "/static/screenshots/KyleBonarReactWebsite-SS-min.png";
 const KyleBonarOriginalWebsite =
   "/static/screenshots/KyleBonarOriginalWebsite-SS-min.png";
-const PhyllotaxisSS = "/static/screenshots/Phyllotaxis-SS-min.png";
-const PingPongSS = "/static/screenshots/PingPong-SS-min.png";
-const TamuAstronomySS = "/static/screenshots/Tamu-Astronomy-SS-min.png";
-const WordCounterSS = "/static/screenshots/WordCounter-SS-min.png";
+// const PhyllotaxisSS = "/static/screenshots/JSGames/Phyllotaxis-SS-min.png";
+// const PingPongSS = "/static/screenshots/JSGames/PingPong-SS-min.png";
+// const WordCounterSS = "/static/screenshots/JSGames/WordCounter-SS-min.png";
 
 export interface IProjectImageItem {
   path: string;
@@ -59,7 +58,7 @@ const ProjectList: IProjectItem[] = [
       tools.Linux
     ],
     images: [
-      { path: "/static/screenshots/TexasOakWilt/Texas-Oak-Wilt-SS-min.png" },
+      { path: "/static/screenshots/TexasOakWilt/Main.jpg" },
       { path: "/static/screenshots/TexasOakWilt/FindMyForester.png" },
       { path: "/static/screenshots/TexasOakWilt/Vendors.png" },
       { path: "/static/screenshots/TexasOakWilt/RecommendedTrees.png" },
@@ -259,6 +258,7 @@ const ProjectList: IProjectItem[] = [
       { path: "/static/screenshots/Physics/ProspectiveStudents.jpg" },
       { path: "/static/screenshots/Physics/ProspectiveStudents2.jpg" },
       { path: "/static/screenshots/Physics/Calendar.png" },
+      { path: "/static/screenshots/Physics/Calendar2.png" },
       { path: "/static/screenshots/Physics/Directory.png" },
       { path: "/static/screenshots/Physics/Outreach.jpg" },
       { path: "/static/screenshots/Physics/Research.png" },
@@ -287,7 +287,14 @@ const ProjectList: IProjectItem[] = [
       tools.Foundation,
       tools.CSS3
     ],
-    images: [{ path: TamuAstronomySS }],
+    images: [
+      { path: "/static/screenshots/Astronomy/Main.jpg" },
+      { path: "/static/screenshots/Astronomy/Courses.jpg" },
+      { path: "/static/screenshots/Astronomy/Faculty.jpg" },
+      { path: "/static/screenshots/Astronomy/Person.png" },
+      { path: "/static/screenshots/Astronomy/Publications.png" },
+      { path: "/static/screenshots/Astronomy/Research.jpg" }
+    ],
     external: {
       isActive: true,
       link: "http://mitchell.physics.tamu.edu",
@@ -333,13 +340,46 @@ const ProjectList: IProjectItem[] = [
     isActive: false
   },
   {
+    url: "JSGames",
+    documentTitleName: "Games with JavaScript",
+    name: "JavaScript Games",
+    description:
+      "<b>Phyllotaxis:</b> To create nice <a href='https://www.google.com/search?q=phyllotaxis' target='_blank' rel='nofollow noopener'>phyllotaxis</a> images using only client-side rendering. Users can click anywhere within the canvas to create unique patterns and hopefully learn a bit too! The most common of phyllotaxis plants is the Aloe Polyphylla. This code can be found in my gitHub." +
+      "<br /><br /> " +
+      "<b>Fractal trees:</b> To create a nice application which captures the ideas of fractal design. Users can click the canvas and cause a single branch to split into two. When the user clicks again, the branches will split again, so forth and so on. At any time, the tree can reset while sliders allow for customization and design a unique tree. This code can be found on my gitHub." +
+      "<br /><br /> " +
+      "<b>Word Counting:</b> Fun application that counts the number of times each unique word appears within a text area and creates a \"bubble\" with a respective area. Becoming more comfortable with JavaScript's Object Oriented Programming and using JavaScript's canvas method to have a little fun were the main goals of this project. Even with a block of text 32,000 lines long and over 8,000 unique words, the application works like a charm. This code can be found in my gitHub." +
+      "<br /><br /> " +
+      "<b>Double Pendulum:</b> Inspired by my research as an undergraduate for my computational physics course, the double pendulum is an excellent example of chaos theory. The simplified idea is that even the slightest change in the initial conditions can lead to a drastic change in the overall outcome of a system is incredibly interesting. This application relies entirely on the browser to run the model and the user can modify the double pendulum by using sliders. This code can be found on my gitHub." +
+      "<br /><br /> " +
+      "<b>Ping Pong:</b> A classic arcade game brought to you in a browser! This was my first time messing around with HTML5's canvas as well as creating a very simple A.I.. Users simply need to click on the canvas to start the game, and use the arrow up and down arrow keys to move their paddle. The ball speeds up over time so be careful! This code can be found in my GitHub.",
+    tools: [tools.JavaScript, tools.HTML5, tools.CSS3],
+    images: [
+      { path: "/static/screenshots/JSGames/Phyllotaxis.jpg" },
+      { path: "/static/screenshots/JSGames/Phyllotaxis2.png" },
+      { path: "/static/screenshots/JSGames/Phyllotaxis3.jpg" },
+      { path: "/static/screenshots/JSGames/FractalTree.png" },
+      { path: "/static/screenshots/JSGames/FractalTree2.png" },
+      { path: "/static/screenshots/JSGames/FractalTree3.png" },
+      { path: "/static/screenshots/JSGames/WordCounter-SS-min.png" },
+      { path: "/static/screenshots/JSGames/DoublePendulum-SS-min.png" },
+      { path: "/static/screenshots/JSGames/PingPong-SS-min.png" }
+    ],
+    external: {
+      isActive: false,
+      link: "",
+      name: "Games"
+    },
+    isActive: true
+  },
+  {
     url: "Word_Counting_App",
     documentTitleName: "Word Counter",
     name: "Word Counting App",
     description:
       "Fun application that counts the number of times each unique word appears within a text area and creates a \"bubble\" with a respective area. Becoming more comfortable with JavaScript's Object Oriented Programming and using JavaScript's canvas method to have a little fun were the main goals of this project. Even with a block of text 32,000 lines long and over 8,000 unique words, the application works like a charm. This code can be found in my gitHub.",
     tools: [tools.JavaScript, tools.HTML5, tools.CSS3],
-    images: [{ path: WordCounterSS }],
+    images: [{ path: "/static/screenshots/JSGames/WordCounter-SS-min.png" }],
     external: {
       isActive: false,
       link: "/JSGames/wordCount",
@@ -354,13 +394,13 @@ const ProjectList: IProjectItem[] = [
     description:
       "To create nice phyllotaxis images using only client-side rendering. Users can click anywhere within the canvas to create unique patterns and hopefully learn a bit too! The most common of phyllotaxis plants is the Aloe Polyphylla. This code can be found in my gitHub.",
     tools: [tools.JavaScript, tools.HTML5, tools.CSS3],
-    images: [{ path: PhyllotaxisSS }],
+    images: [{ path: "/static/screenshots/JSGames/Phyllotaxis-SS-min.png" }],
     external: {
-      isActive: true,
+      isActive: false,
       link: "/JSGames/phyllotaxis",
       name: "Phyllotaxis Art"
     },
-    isActive: true
+    isActive: false
   },
   {
     url: "Fractal_Trees_App",
@@ -369,13 +409,13 @@ const ProjectList: IProjectItem[] = [
     description:
       "To create a nice application which captures the ideas of fractal design. Users can click the canvas and cause a single branch to split into two. When the user clicks again, the branches will split again, so forth and so on. At any time, the tree can reset while sliders allow for customization and design a unique tree. This code can be found on my gitHub.",
     tools: [tools.JavaScript, tools.HTML5, tools.CSS3],
-    images: [{ path: FractalTreesSS }],
+    images: [{ path: "/static/screenshots/JSGames/FractalTrees-SS-min.png" }],
     external: {
-      isActive: true,
+      isActive: false,
       link: "/JSGames/fractalTrees",
       name: "Fractal Tree Application"
     },
-    isActive: true
+    isActive: false
   },
   {
     url: "Double_Pendulum_Vis",
@@ -384,13 +424,13 @@ const ProjectList: IProjectItem[] = [
     description:
       "Inspired by my research as a senior in computational physics, the double pendulum is an excellent example of chaos theory. The simplified idea is that even the slightest change in the initial conditions can lead to a drastic change in the overall outcome of a system is incredibly interesting. This application relies entirely on the browser to run the model and the user can modify the double pendulum by using sliders. This code can be found on my gitHub.",
     tools: [tools.JavaScript, tools.HTML5, tools.CSS3],
-    images: [{ path: DoublePendulumSS }],
+    images: [{ path: "/static/screenshots/JSGames/DoublePendulum-SS-min.png" }],
     external: {
-      isActive: true,
+      isActive: false,
       link: "/JSGames/doublePend",
       name: "Double Pendulum Visualization"
     },
-    isActive: true
+    isActive: false
   },
   {
     url: "Classic_Ping_Pong",
@@ -399,13 +439,13 @@ const ProjectList: IProjectItem[] = [
     description:
       "A classic arcade game brought to you in a browser! This was my first time messing around with HTML5's canvas as well as creating a very simple A.I.. Users simply need to click on the canvas to start the game, and use the arrow up and down arrow keys to move their paddle. The ball speeds up over time so be careful! This code can be found in my GitHub.",
     tools: [tools.JavaScript, tools.HTML5, tools.CSS3],
-    images: [{ path: PingPongSS }],
+    images: [{ path: "/static/screenshots/JSGames/PingPong-SS-min.png" }],
     external: {
-      isActive: true,
+      isActive: false,
       link: "/JSGames/pong",
       name: "Simple Pong Game"
     },
-    isActive: true
+    isActive: false
   }
 ];
 
