@@ -69,7 +69,7 @@ const ProjectList: IProjectItem[] = [
     external: {
       isActive: true,
       link: "https://texasoakwilt.org",
-      name: "Texas Oak Wilt Website"
+      name: "Texas Oak Wilt"
     },
     isActive: true
   },
@@ -105,7 +105,7 @@ const ProjectList: IProjectItem[] = [
     external: {
       isActive: true,
       link: "https://advancedreact.com/",
-      name: "Sick Fits website",
+      name: "Sick Fits",
       linkText: "View Course page"
     },
     isActive: true
@@ -182,7 +182,7 @@ const ProjectList: IProjectItem[] = [
     external: {
       isActive: true,
       link: "https://sonsofvidya.kyledavisdev.com",
-      name: "Sons of Vidya Fan Website"
+      name: "Sons of Vidya Fan"
     },
     isActive: true
   },
@@ -233,14 +233,14 @@ const ProjectList: IProjectItem[] = [
     external: {
       isActive: false,
       link: "https://kyledavisdev.com",
-      name: "Kyle Davis ReactJS Portfolio Website"
+      name: "Kyle Davis ReactJS Portfolio"
     },
     isActive: false
   },
   {
     url: "tamu_physics",
     documentTitleName: "TAMU Physics",
-    name: "Texas A&M Physics Website",
+    name: "Texas A&M Physics",
     description:
       "In just two short months, the Physics Department's website was given a massive overhaul. Everything from choosing a new server host, to updating the backend logic and databases, to making the design responsive, to providing the staff and faculty members a practical way to update and manage content throughout the site. On a massive team of exactly two people, I played a huge role in getting this project up and running.",
     tools: [
@@ -267,14 +267,14 @@ const ProjectList: IProjectItem[] = [
     external: {
       isActive: true,
       link: "http://physics.tamu.edu",
-      name: "TAMU Physics Website"
+      name: "TAMU Physics"
     },
     isActive: true
   },
   {
     url: "tamu_mitchell",
     documentTitleName: "TAMU Astronomy",
-    name: "Texas A&M Astronomy Website",
+    name: "Texas A&M Astronomy",
     description:
       "As a student Web Development Assistant, I worked on a small team to recreate the Astronomy Department's home domain. We were responsible for migrating years of static content into a MySQL database, for both easier management and record keeping, while also ensuring that every page be responsive. Several custom Wordpress themes were developed for this project and are actively maintained today.",
     tools: [
@@ -298,7 +298,7 @@ const ProjectList: IProjectItem[] = [
     external: {
       isActive: true,
       link: "http://mitchell.physics.tamu.edu",
-      name: "TAMU Astronomy Website"
+      name: "TAMU Astronomy"
     },
     isActive: true
   },
@@ -368,7 +368,7 @@ const ProjectList: IProjectItem[] = [
     external: {
       isActive: false,
       link: "",
-      name: "Games"
+      name: "JavaScript Games"
     },
     isActive: true
   },
