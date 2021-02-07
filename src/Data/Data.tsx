@@ -306,8 +306,8 @@ const ProjectList: IProjectItem[] = [
   {
     url: "kyle_davis_original",
     pubYear: "2015",
-    documentTitleName: "Original Website",
-    name: "Kyle Davis First Personal Website",
+    documentTitleName: "Original Portfolio",
+    name: "Kyle Davis First Portfolio",
     description:
       "When I started this project, I simply wanted to show off some projects that I had built, I had no idea the steps involved to put a website out on the internet. Starting from scratch, I had to configure a fresh server, install all of the proper tools, register and connect to the proper domain name, and implement security protocols. Luckily, with enough documentation and triple-checking each and every step, I was able to create this all my own. The webpage may not be the most visually appealing thing but I am incredibly proud of myself for sticking it out, and not getting overwhelmed by the immense challenge. Lastly, this project was built on the LEMP stack although, as it stands, is mostly just a static webpage.",
     tools: [
@@ -327,7 +327,7 @@ const ProjectList: IProjectItem[] = [
     external: {
       isActive: false,
       link: "/KyleBonar_2015",
-      name: "Original Kyle Davis Website"
+      name: "Original Kyle Davis Portfolio"
     },
     isActive: true
   },
