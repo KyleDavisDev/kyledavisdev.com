@@ -15,21 +15,4 @@ export const StyledImageContainer = styled.div`
   > div {
     padding-right: 25px;
   }
-
-  //tablets
-  @media (min-width: ${props => props.theme.extraSmallToSmall}) {
-  }
-
-  // desktop
-  @media (min-width: ${props => props.theme.mediumToLarge}) {
-  }
-
-  img {
-    //margin: 0 15px !important;
-
-    &:hover,
-    &:focus {
-      opacity: 0.8;
-    }
-  }
 `;
