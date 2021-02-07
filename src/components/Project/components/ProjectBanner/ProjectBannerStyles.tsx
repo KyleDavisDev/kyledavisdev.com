@@ -6,5 +6,6 @@ export const StyledLink = styled.a`
   &:focus {
     background-color: transparent;
     text-decoration: underline;
+    cursor: pointer;
   }
 `;
