@@ -1,5 +1,5 @@
 import * as React from "react";
-import { IToolsItem } from "../../../../Data/Data";
+import { IToolsItem } from "../../../../Data/tools";
 import SectionHeader from "../SectionHeader/SectionHeader";
 import { ToolsContainer } from "./ProjectToolsStyles";
 
