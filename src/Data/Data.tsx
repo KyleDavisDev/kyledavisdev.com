@@ -117,11 +117,11 @@ const ProjectList: IProjectItem[] = [
     documentTitleName: "Conversation Exchange (POC)",
     name: "Conversation Exchange (POC)",
     purpose:
-      "Texas Oak Wilt is a public education campaign within the Texas A&M Forest Service whose primary goal is to inform homeowners and landowners about the devastating effects of Oak Wilt on their trees and to provide assistance where/when they can. The Texas Oak Wilt team wanted to revitalize their relationship with Texas citizens by providing easily accessible and relevant information.",
+      "Conversation Exchange (CE) is an extremely popular website for language learning where the main idea is that the best way to learn a second language is to practice someone who speaks it natively. When I noticed that there wasn't a mobile app for the website, I took it upon myself to create a simple Proof of Concept (POC) which is what you see here!",
     description:
-      "This site was built using Wordpress which allows for regular administrators to make content updates independently. Website users are able to directly contact their regional forester with questions and concerns through the use of custom forms as well as find local Oak Wilt events near them, which is powered by a custom widget. Additionally, the landing-page design is completely new and features a self-captured image. Lastly, the flow of the website was restructured to help give users a more streamlined flow of helpful information.",
+      "This POC was built using <a href='https://www.sketch.com/' target='_blank' rel='nofollow noopener'>Sketch</a> and while I have used Sketch to create mock websites, this was the first time using it to create a mock mobile app. The POC includes a login page, a home \"feed\" with clickable articles from the website, a page to read the article, a page for chatroom selection, a page for a specific chatroom, a page to manage your app settings, and a page to manage your profile settings.",
     results:
-      "The average users count increased by 40%, and the average session duration increased by 95%. The website also has the highest SEO score of it's search term (oak wilt). The server costs were cut by 94%, and page loading speed increased by 89%. This project was really special because it has real-world impact by helping Texans preserve their natural resources.",
+      "Apart from the owners showing great appreciation for the POC, not a whole lot has come out of project. I really enjoyed the challenge and change-of-pace of designing for a mobile interface instead of my normal website interface and I may do it again in the future!",
     pubYear: "2019",
     tools: [tools.Sketch],
     images: [
