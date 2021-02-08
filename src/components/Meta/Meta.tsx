@@ -9,35 +9,35 @@ import { theme } from "../../theme/styled-components";
 let progressBar;
 
 if (typeof window !== "undefined") {
-    // tslint:disable-next-line:no-var-requires
-    // import ProgressBar from "rsup-progress";
-    progressBar = new ProgressBar({
-        height: 5,
-        color: theme.secondaryThemeColor
-    });
+  // tslint:disable-next-line:no-var-requires
+  // import ProgressBar from "rsup-progress";
+  progressBar = new ProgressBar({
+    height: 5,
+    color: theme.sitePrimaryColor
+  });
 }
 
 Router.events.on("routeChangeStart", () => {
-    progressBar.start();
+  progressBar.start();
 });
 Router.events.on("routeChangeComplete", () => {
-    progressBar.end();
+  progressBar.end();
 });
 Router.events.on("routeChangeError", () => {
-    progressBar.end();
+  progressBar.end();
 });
 
 interface IMetaProps {}
 
 const Meta: React.FC<IMetaProps> = () => {
-    return (
-        <Head>
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <meta charSet="utf-8" />
-            <link rel="shortcut icon" href="/static/favicon.png" />
-            <title>Kyle Davis</title>
-        </Head>
-    );
+  return (
+    <Head>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta charSet="utf-8" />
+      <link rel="shortcut icon" href="/static/favicon.png" />
+      <title>Kyle Davis</title>
+    </Head>
+  );
 };
 
 export default Meta;
