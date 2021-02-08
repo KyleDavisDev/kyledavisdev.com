@@ -9,6 +9,7 @@ const {
 } = styledComponents as styledComponents.ThemedStyledComponentsModule<ThemeInterface>;
 
 export interface ThemeInterface {
+  sitePrimaryColor: string;
   siteBackgroundColor: string;
   anchorColor: string;
   anchorHoverColor: string;
@@ -58,6 +59,7 @@ enum scale {
 }
 
 export const theme = {
+  sitePrimaryColor: colors.blue,
   siteBackgroundColor: colors.smoke,
   anchorColor: colors.black,
   anchorHoverColor: colors.darkBlue,
