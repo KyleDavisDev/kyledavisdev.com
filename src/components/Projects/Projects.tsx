@@ -1,38 +1,48 @@
 import * as React from "react";
-import { StyledContainer, StyledProjectsContainer } from "./ProjectsStyles";
+import Link from "next/link";
+
+import {
+  StyledContainer,
+  StyledGrid,
+  StyledProject,
+  StyledProjectsContainer,
+  StyledImage,
+  StyledAnchor
+} from "./ProjectsStyles";
 import SectionTitle from "../SectionTitle/SectionTitle";
-import { Link } from "react-router-dom";
 
 import ProjectList from "../../Data/Data";
 
 interface IProjectsProps {}
 
-const Projects: React.FunctionComponent<IProjectsProps> = props => {
+const Projects: React.FunctionComponent<IProjectsProps> = () => {
   return (
     <StyledContainer>
       <StyledProjectsContainer>
         <SectionTitle>Projects</SectionTitle>
-        <div>
+        <StyledGrid>
           {ProjectList.map(project => {
             if (!project.isActive) return;
             return (
-              <div key={project.url}>
-                <Link
-                  key={project.name}
-                  className="card"
-                  to={`project/${project.url}`}
-                >
-                  <img
-                    src={project.img}
-                    title={project.name}
-                    alt={project.name}
-                  />
-                  {project.name}
+              <StyledProject key={project.url}>
+                <Link href={`project/${project.url}`} passHref={false}>
+                  <StyledAnchor>
+                    <StyledImage
+                      src={project.images[0].path}
+                      title={project.name}
+                      alt={project.name}
+                      height={300}
+                      width={300}
+                    />
+                    <span>
+                      {project.name} {project.pubYear && `(${project.pubYear})`}
+                    </span>
+                  </StyledAnchor>
                 </Link>
-              </div>
+              </StyledProject>
             );
           })}
-        </div>
+        </StyledGrid>
       </StyledProjectsContainer>
     </StyledContainer>
   );

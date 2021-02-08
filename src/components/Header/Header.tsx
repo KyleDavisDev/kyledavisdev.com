@@ -1,6 +1,5 @@
 import * as React from "react";
 
-import profilePic from "../../images/profile/profile-pic.jpg";
 import { FaEnvelope } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -12,17 +11,22 @@ import {
   StyledName,
   StyledAttribute
 } from "./HeaderStyles";
-import Bar from "../Bar/Bar";
+import BannerBar from "../BannerBar/BannerBar";
 
 export interface IHeaderProps {}
 
 export default class Header extends React.PureComponent<IHeaderProps> {
   public render() {
     return (
-      <Bar>
+      <BannerBar>
         <StyledContainer>
           <StyledImageContainer href="#">
-            <StyledImage src={profilePic} />
+            <StyledImage
+              src="/static/profile-pic.jpg"
+              alt="me"
+              height={116}
+              width={116}
+            />
           </StyledImageContainer>
           <StyledTextContainer>
             <StyledName>Kyle Davis</StyledName>
@@ -54,7 +58,7 @@ export default class Header extends React.PureComponent<IHeaderProps> {
             </ul>
           </StyledTextContainer>
         </StyledContainer>
-      </Bar>
+      </BannerBar>
     );
   }
 }

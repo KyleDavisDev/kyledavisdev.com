@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styled from "../../theme/styled-components";
 
 export const StyledContainer = styled.div`
@@ -6,7 +7,7 @@ export const StyledContainer = styled.div`
   margin: 0 auto;
 
   // tablets
-  @media (min-width: ${props => props.theme.exToSm}) {
+  @media (min-width: ${props => props.theme.extraSmallToSmall}) {
     flex-direction: row;
     margin: 0;
   }
@@ -23,27 +24,28 @@ export const StyledImageContainer = styled.a`
   }
 
   // tablets
-  @media (min-width: ${props => props.theme.exToSm}) {
+  @media (min-width: ${props => props.theme.extraSmallToSmall}) {
     display: inline-block;
   }
 `;
 
-export const StyledImage = styled.img`
+export const StyledImage = styled(Image)`
   max-width: 100px;
   width: 100%;
   height: 100%;
-  border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  padding: 7px;
+  padding: 7px !important;
   background-color: #ebebeb;
+  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+  border-radius: 50%;
 
   &:hover,
   &:focus {
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+    border: 1px solid rgba(0, 0, 0, 0.5) !important;
   }
 
   // tablets
-  @media (min-width: ${props => props.theme.exToSm}) {
+  @media (min-width: ${props => props.theme.extraSmallToSmall}) {
     height: auto;
   }
 `;
@@ -61,7 +63,7 @@ export const StyledTextContainer = styled.div`
       padding: 5px 10px 0 0;
 
       a {
-        font-family: DroidSans;
+        font-family: DroidSans, serif;
         text-decoration: none;
 
         &:hover,
