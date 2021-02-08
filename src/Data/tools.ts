@@ -17,6 +17,7 @@ const PrismaLogo = "/static/icons/Prisma-Logo.png";
 const ReactJSLogo = "/static/icons/ReactJS-Logo.png";
 const ReduxLogo = "/static/icons/Redux-Logo.png";
 const SassLogo = "/static/icons/Sass-Logo.png";
+const SketchLogo = "/static/icons/Sketch-Logo.png";
 const StyledComponentsLogo = "/static/icons/StyledComponents-Logo.png";
 const TSLogo = "/static/icons/TS-Logo.png";
 const WordPressLogo = "/static/icons/Wordpress-Logo.png";
@@ -118,6 +119,7 @@ export const tools: { [name: string]: IToolsItem } = {
   React: { name: "React", img: ReactJSLogo, link: "https://reactjs.org/" },
   Redux: { name: "Redux", img: ReduxLogo, link: "https://redux.js.org/" },
   Sass: { name: "Sass CSS", img: SassLogo, link: "https://sass-lang.com/" },
+  Sketch: { name: "Sketch", img: SketchLogo, link: "https://www.sketch.com/" },
   StyledComponents: {
     name: "Styled Components styling",
     img: StyledComponentsLogo,
