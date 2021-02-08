@@ -33,82 +33,8 @@ export interface IProjectItem {
 
 const ProjectList: IProjectItem[] = [
   {
-    url: "texas_oak_wilt",
-    documentTitleName: "Texas Oak Wilt",
-    name: "Texas Oak Wilt",
-    purpose:
-      "Texas Oak Wilt is a public education campaign within the Texas A&M Forest Service whose primary goal is to inform homeowners and landowners about the devastating effects of Oak Wilt on their trees and to provide assistance where/when they can. The Texas Oak Wilt team wanted to revitalize their relationship with Texas citizens by providing easily accessible and relevant information.",
-    description:
-      "This site was built using Wordpress which allows for regular administrators to make content updates independently. Website users are able to directly contact their regional forester with questions and concerns through the use of custom forms as well as find local Oak Wilt events near them, which is powered by a custom widget. Additionally, the landing-page design is completely new and features a self-captured image. Lastly, the flow of the website was restructured to help give users a more streamlined flow of helpful information.",
-    results:
-      "The average users count increased by 40%, and the average session duration increased by 95%. The website also has the highest SEO score of it's search term (oak wilt). The server costs were cut by 94%, and page loading speed increased by 89%. This project was really special because it has real-world impact by helping Texans preserve their natural resources.",
-    pubYear: "2018-2019",
-    tools: [
-      tools.PHP7,
-      tools.Wordpress,
-      tools.MySQL,
-      tools.JavaScript,
-      tools.HTML5,
-      tools.CSS3,
-      tools.Linux
-    ],
-    images: [
-      { path: "/static/screenshots/TexasOakWilt/Main.jpg" },
-      { path: "/static/screenshots/TexasOakWilt/FindMyForester.png" },
-      { path: "/static/screenshots/TexasOakWilt/Vendors.png" },
-      { path: "/static/screenshots/TexasOakWilt/RecommendedTrees.png" },
-      { path: "/static/screenshots/TexasOakWilt/FAQ2.png" },
-      { path: "/static/screenshots/TexasOakWilt/OakwiltSpread.png" },
-      { path: "/static/screenshots/TexasOakWilt/Identification.png" }
-    ],
-    external: {
-      isActive: true,
-      link: "https://texasoakwilt.org",
-      name: "Texas Oak Wilt"
-    },
-    isActive: true
-  },
-  {
-    url: "sickfits",
-    pubYear: "2018",
-    documentTitleName: "Sick Fits",
-    name: "Sick Fits",
-    purpose:
-      "The purpose of this project was primarily self-education. The <a href='https://advancedreact.com/' target='_blank' rel='noopener nofollow'>course</a> walks you through the process of creating an online store using technologies like <a href='https://reactjs.org/' target='_blank' rel='noopener nofollow'>React</a>, <a href='https://graphql.org/' target='_blank' rel='noopeneer nofollow'>GraphQL</a>, and <a href='https://jestjs.io/' target='_blank' rel='noopener nofollow'>Jest</a>. Additionally, I used <a href='https://www.typescriptlang.org/' target='_blank' rel='noopener nofollow'>TypeScript</a> on the front-end which was not included in the course.",
-    description:
-      "The end-product is an online store where users can purchase/sell products. The application's database is created using five main relational models: <strong> Users, Items, Orders, CartItems, and OrderItems</strong> and is queried using GraphQL. Some of the fun server-side goodies include JWT authentication, user-specific permissions, sending emails, uploading images, and charging credit cards. ",
-    results: `After <a href='${AdvancedReactCert}' target='_blank'>completing this course</a>, I am absolutely better at writing React/JavaScript tests. This will certainly be something I carry with me going forward as writing tests are a crucial part to any enterprise application. `,
-    tools: [
-      tools.React,
-      tools.TypeScript,
-      tools.ApolloClient,
-      tools.StyledComponents,
-      tools.NodeJS,
-      tools.GraphQLYoga,
-      tools.Prisma,
-      tools.Linux,
-      tools.GitHub
-    ],
-    images: [
-      { path: "/static/screenshots/SickFits/Main.png" },
-      { path: "/static/screenshots/SickFits/Login.png" },
-      { path: "/static/screenshots/SickFits/CreditCardPayment.png" },
-      { path: "/static/screenshots/SickFits/Cart.png" },
-      { path: "/static/screenshots/SickFits/SellItem.png" },
-      { path: "/static/screenshots/SickFits/TechStack.png" },
-      { path: "/static/screenshots/SickFits/AdvancedReactCert.png" }
-    ],
-    external: {
-      isActive: true,
-      link: "https://advancedreact.com/",
-      name: "Sick Fits",
-      linkText: "View Course page"
-    },
-    isActive: true
-  },
-  {
     url: "sfyt",
-    pubYear: "2018-2020",
+    pubYear: "2017-2020",
     documentTitleName: "Sauce For Your Thoughts",
     name: "Sauce For Your Thoughts",
     purpose:
@@ -151,6 +77,112 @@ const ProjectList: IProjectItem[] = [
     isActive: true
   },
   {
+    url: "texas_oak_wilt",
+    documentTitleName: "Texas Oak Wilt",
+    name: "Texas Oak Wilt",
+    purpose:
+      "Texas Oak Wilt is a public education campaign within the Texas A&M Forest Service whose primary goal is to inform homeowners and landowners about the devastating effects of Oak Wilt on their trees and to provide assistance where/when they can. The Texas Oak Wilt team wanted to revitalize their relationship with Texas citizens by providing easily accessible and relevant information.",
+    description:
+      "This site was built using Wordpress which allows for regular administrators to make content updates independently. Website users are able to directly contact their regional forester with questions and concerns through the use of custom forms as well as find local Oak Wilt events near them, which is powered by a custom widget. Additionally, the landing-page design is completely new and features a self-captured image. Lastly, the flow of the website was restructured to help give users a more streamlined flow of helpful information.",
+    results:
+      "The average users count increased by 40%, and the average session duration increased by 95%. The website also has the highest SEO score of it's search term (oak wilt). The server costs were cut by 94%, and page loading speed increased by 89%. This project was really special because it has real-world impact by helping Texans preserve their natural resources.",
+    pubYear: "2018-2019",
+    tools: [
+      tools.PHP7,
+      tools.Wordpress,
+      tools.MySQL,
+      tools.JavaScript,
+      tools.HTML5,
+      tools.CSS3,
+      tools.Linux
+    ],
+    images: [
+      { path: "/static/screenshots/TexasOakWilt/Main.jpg" },
+      { path: "/static/screenshots/TexasOakWilt/FindMyForester.png" },
+      { path: "/static/screenshots/TexasOakWilt/Vendors.png" },
+      { path: "/static/screenshots/TexasOakWilt/RecommendedTrees.png" },
+      { path: "/static/screenshots/TexasOakWilt/FAQ2.png" },
+      { path: "/static/screenshots/TexasOakWilt/OakwiltSpread.png" },
+      { path: "/static/screenshots/TexasOakWilt/Identification.png" }
+    ],
+    external: {
+      isActive: true,
+      link: "https://texasoakwilt.org",
+      name: "Texas Oak Wilt"
+    },
+    isActive: true
+  },
+  {
+    url: "conversationexchange",
+    documentTitleName: "Conversation Exchange (POC)",
+    name: "Conversation Exchange (POC)",
+    purpose:
+      "Texas Oak Wilt is a public education campaign within the Texas A&M Forest Service whose primary goal is to inform homeowners and landowners about the devastating effects of Oak Wilt on their trees and to provide assistance where/when they can. The Texas Oak Wilt team wanted to revitalize their relationship with Texas citizens by providing easily accessible and relevant information.",
+    description:
+      "This site was built using Wordpress which allows for regular administrators to make content updates independently. Website users are able to directly contact their regional forester with questions and concerns through the use of custom forms as well as find local Oak Wilt events near them, which is powered by a custom widget. Additionally, the landing-page design is completely new and features a self-captured image. Lastly, the flow of the website was restructured to help give users a more streamlined flow of helpful information.",
+    results:
+      "The average users count increased by 40%, and the average session duration increased by 95%. The website also has the highest SEO score of it's search term (oak wilt). The server costs were cut by 94%, and page loading speed increased by 89%. This project was really special because it has real-world impact by helping Texans preserve their natural resources.",
+    pubYear: "2019",
+    tools: [tools.Sketch],
+    images: [
+      { path: "/static/screenshots/ConversationExchange/Login.png" },
+      { path: "/static/screenshots/ConversationExchange/Home.png" },
+      { path: "/static/screenshots/ConversationExchange/Home2.png" },
+      { path: "/static/screenshots/ConversationExchange/Article.png" },
+      { path: "/static/screenshots/ConversationExchange/Article2.png" },
+      { path: "/static/screenshots/ConversationExchange/Chatrooms.png" },
+      { path: "/static/screenshots/ConversationExchange/Chatrooms2.png" },
+      { path: "/static/screenshots/ConversationExchange/Conversation.png" },
+      { path: "/static/screenshots/ConversationExchange/Settings.png" },
+      { path: "/static/screenshots/ConversationExchange/Profile.png" },
+      { path: "/static/screenshots/ConversationExchange/Profile2.png" }
+    ],
+    external: {
+      isActive: true,
+      link: "https://conversationexchange.com/",
+      name: "Conversation Exchange (POC)"
+    },
+    isActive: true
+  },
+  {
+    url: "sickfits",
+    pubYear: "2018",
+    documentTitleName: "Sick Fits",
+    name: "Sick Fits",
+    purpose:
+      "The purpose of this project was primarily self-education. The <a href='https://advancedreact.com/' target='_blank' rel='noopener nofollow'>course</a> walks you through the process of creating an online store using technologies like <a href='https://reactjs.org/' target='_blank' rel='noopener nofollow'>React</a>, <a href='https://graphql.org/' target='_blank' rel='noopeneer nofollow'>GraphQL</a>, and <a href='https://jestjs.io/' target='_blank' rel='noopener nofollow'>Jest</a>. Additionally, I used <a href='https://www.typescriptlang.org/' target='_blank' rel='noopener nofollow'>TypeScript</a> on the front-end which was not included in the course.",
+    description:
+      "The end-product is an online store where users can purchase/sell products. The application's database is created using five main relational models: <strong> Users, Items, Orders, CartItems, and OrderItems</strong> and is queried using GraphQL. Some of the fun server-side goodies include JWT authentication, user-specific permissions, sending emails, uploading images, and charging credit cards. ",
+    results: `After <a href='${AdvancedReactCert}' target='_blank'>completing this course</a>, I am absolutely better at writing React/JavaScript tests. This will certainly be something I carry with me going forward as writing tests are a crucial part to any enterprise application. `,
+    tools: [
+      tools.React,
+      tools.TypeScript,
+      tools.ApolloClient,
+      tools.StyledComponents,
+      tools.NodeJS,
+      tools.GraphQLYoga,
+      tools.Prisma,
+      tools.Linux,
+      tools.GitHub
+    ],
+    images: [
+      { path: "/static/screenshots/SickFits/Main.png" },
+      { path: "/static/screenshots/SickFits/Login.png" },
+      { path: "/static/screenshots/SickFits/CreditCardPayment.png" },
+      { path: "/static/screenshots/SickFits/Cart.png" },
+      { path: "/static/screenshots/SickFits/SellItem.png" },
+      { path: "/static/screenshots/SickFits/TechStack.png" },
+      { path: "/static/screenshots/SickFits/AdvancedReactCert.png" }
+    ],
+    external: {
+      isActive: true,
+      link: "https://advancedreact.com/",
+      name: "Sick Fits",
+      linkText: "View Course page"
+    },
+    isActive: true
+  },
+  {
     url: "sons_of_vidya",
     pubYear: "2018",
     documentTitleName: "Sons of Vidya",
@@ -186,7 +218,7 @@ const ProjectList: IProjectItem[] = [
   },
   {
     url: "feature_spotlight",
-    pubYear: "2018-2019",
+    pubYear: "2017-2018",
     documentTitleName: "Feature Spotlight",
     name: "Feature Spotlight",
     description:
