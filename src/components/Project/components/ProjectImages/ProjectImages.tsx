@@ -28,6 +28,7 @@ const ProjectImages: React.FC<IProjectImages> = props => {
                 width={"225"}
                 layout={"fixed"}
                 height={"225"}
+                priority={true}
               />
             </div>
           );
