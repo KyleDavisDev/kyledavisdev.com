@@ -23,15 +23,11 @@ const NavBar: React.FunctionComponent<INavBarProps> = () => {
 
         <StyledMenu>
           <li>
-            <a target="_blank" href="#">
-              <h3>
-                <Image
-                  src={"/documents/Davis_Kyle_09FEB2020.pdf"}
-                  height={1}
-                  width={1}
-                />
-              </h3>
-            </a>
+            <Link href={"/static/documents/Davis_Kyle_09FEB2020.pdf"}>
+              <a>
+                <h3>Resume</h3>
+              </a>
+            </Link>
           </li>
         </StyledMenu>
       </StyledContainer>
