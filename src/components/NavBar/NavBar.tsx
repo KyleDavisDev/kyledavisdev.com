@@ -1,5 +1,6 @@
 import * as React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 import {
   StyledNav,
@@ -23,7 +24,13 @@ const NavBar: React.FunctionComponent<INavBarProps> = () => {
         <StyledMenu>
           <li>
             <a target="_blank" href="#">
-              <h3>Resume</h3>
+              <h3>
+                <Image
+                  src={"/documents/Davis_Kyle_09FEB2020.pdf"}
+                  height={1}
+                  width={1}
+                />
+              </h3>
             </a>
           </li>
         </StyledMenu>
