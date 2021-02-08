@@ -29,6 +29,7 @@ const ProjectImages: React.FC<IProjectImages> = props => {
                 layout={"fixed"}
                 height={"225"}
                 priority={true}
+                loading={"eager"}
               />
             </div>
           );
