@@ -410,7 +410,7 @@ const ProjectList: IProjectItem[] = [
       { path: "/static/screenshots/JSGames/FractalTree3_300x300.png" },
       { path: "/static/screenshots/JSGames/WordCounter-SS-min_300x300.png" },
       { path: "/static/screenshots/JSGames/DoublePendulum-SS-min_300x300.png" },
-      { path: "/static/screenshots/JSGames/PingPong-SS-mi_300x300n.png" }
+      { path: "/static/screenshots/JSGames/PingPong-SS-min_300x300.png" }
     ],
     external: {
       isActive: false,
