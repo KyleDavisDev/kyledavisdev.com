@@ -1,5 +1,4 @@
 import * as React from "react";
-import Image from "next/image";
 import { StyledImageContainer } from "./ProjectImagesStyles";
 import { IProjectImageItem } from "../../../../Data/Data";
 import SectionHeader from "../SectionHeader/SectionHeader";
@@ -21,15 +20,12 @@ const ProjectImages: React.FC<IProjectImages> = props => {
 
           return (
             <div>
-              <Image
+              <img
                 src={path}
                 title={name}
                 alt={alt ? alt : `Screenshot from project ${name}`}
                 width={"225"}
-                layout={"fixed"}
                 height={"225"}
-                priority={true}
-                loading={"eager"}
               />
             </div>
           );
