@@ -56,18 +56,18 @@ const ProjectList: IProjectItem[] = [
       tools.GitHub
     ],
     images: [
-      { path: "/static/screenshots/SFYT/SFYT-SS-min.png" },
-      { path: "/static/screenshots/SFYT/Sauces.jpg" },
-      { path: "/static/screenshots/SFYT/Spotlight.jpg" },
-      { path: "/static/screenshots/SFYT/Add1.png" },
-      { path: "/static/screenshots/SFYT/Add2.png" },
-      { path: "/static/screenshots/SFYT/Review1.png" },
-      { path: "/static/screenshots/SFYT/Review2.png" },
-      { path: "/static/screenshots/SFYT/Register.png" },
-      { path: "/static/screenshots/SFYT/Login.png" },
-      { path: "/static/screenshots/SFYT/Settings.png" },
-      { path: "/static/screenshots/SFYT/UpdateEmail.png" },
-      { path: "/static/screenshots/SFYT/UpdateAvatar.png" }
+      { path: "/static/screenshots/SFYT/SFYT-SS-min_300x300.png" },
+      { path: "/static/screenshots/SFYT/Sauces_300x300.jpg" },
+      { path: "/static/screenshots/SFYT/Spotlight_300x300.jpg" },
+      { path: "/static/screenshots/SFYT/Add1_300x300.png" },
+      { path: "/static/screenshots/SFYT/Add2_300x300.png" },
+      { path: "/static/screenshots/SFYT/Review1_300x300.png" },
+      { path: "/static/screenshots/SFYT/Review2_300x300.png" },
+      { path: "/static/screenshots/SFYT/Register_300x300.png" },
+      { path: "/static/screenshots/SFYT/Login_300x300.png" },
+      { path: "/static/screenshots/SFYT/Settings_300x300.png" },
+      { path: "/static/screenshots/SFYT/UpdateEmail_300x300.png" },
+      { path: "/static/screenshots/SFYT/UpdateAvatar_300x300.png" }
     ],
     external: {
       isActive: true,
@@ -97,13 +97,13 @@ const ProjectList: IProjectItem[] = [
       tools.Linux
     ],
     images: [
-      { path: "/static/screenshots/TexasOakWilt/Main.jpg" },
-      { path: "/static/screenshots/TexasOakWilt/FindMyForester.png" },
-      { path: "/static/screenshots/TexasOakWilt/Vendors.png" },
-      { path: "/static/screenshots/TexasOakWilt/RecommendedTrees.png" },
-      { path: "/static/screenshots/TexasOakWilt/FAQ2.png" },
-      { path: "/static/screenshots/TexasOakWilt/OakwiltSpread.png" },
-      { path: "/static/screenshots/TexasOakWilt/Identification.png" }
+      { path: "/static/screenshots/TexasOakWilt/Main_300x300.jpg" },
+      { path: "/static/screenshots/TexasOakWilt/FindMyForester_300x300.png" },
+      { path: "/static/screenshots/TexasOakWilt/Vendors_300x300.png" },
+      { path: "/static/screenshots/TexasOakWilt/RecommendedTrees_300x300.png" },
+      { path: "/static/screenshots/TexasOakWilt/FAQ2_300x300.png" },
+      { path: "/static/screenshots/TexasOakWilt/OakwiltSpread_300x300.png" },
+      { path: "/static/screenshots/TexasOakWilt/Identification_300x300.png" }
     ],
     external: {
       isActive: true,
@@ -125,17 +125,24 @@ const ProjectList: IProjectItem[] = [
     pubYear: "2019",
     tools: [tools.Sketch],
     images: [
-      { path: "/static/screenshots/ConversationExchange/Login.png" },
-      { path: "/static/screenshots/ConversationExchange/Home.png" },
-      { path: "/static/screenshots/ConversationExchange/Home2.png" },
-      { path: "/static/screenshots/ConversationExchange/Article.png" },
-      { path: "/static/screenshots/ConversationExchange/Article2.png" },
-      { path: "/static/screenshots/ConversationExchange/Chatrooms.png" },
-      { path: "/static/screenshots/ConversationExchange/Chatrooms2.png" },
-      { path: "/static/screenshots/ConversationExchange/Conversation.png" },
-      { path: "/static/screenshots/ConversationExchange/Settings.png" },
-      { path: "/static/screenshots/ConversationExchange/Profile.png" },
-      { path: "/static/screenshots/ConversationExchange/Profile2.png" }
+      { path: "/static/screenshots/ConversationExchange/Login_300x300.png" },
+      { path: "/static/screenshots/ConversationExchange/Home_300x300.png" },
+      { path: "/static/screenshots/ConversationExchange/Home2_300x300.png" },
+      { path: "/static/screenshots/ConversationExchange/Article_300x300.png" },
+      { path: "/static/screenshots/ConversationExchange/Article2_300x300.png" },
+      {
+        path: "/static/screenshots/ConversationExchange/Chatrooms_300x300.png"
+      },
+      {
+        path: "/static/screenshots/ConversationExchange/Chatrooms2_300x300.png"
+      },
+      {
+        path:
+          "/static/screenshots/ConversationExchange/Conversation_300x300.png"
+      },
+      { path: "/static/screenshots/ConversationExchange/Settings_300x300.png" },
+      { path: "/static/screenshots/ConversationExchange/Profile_300x300.png" },
+      { path: "/static/screenshots/ConversationExchange/Profile2_300x300.png" }
     ],
     external: {
       isActive: true,
@@ -166,13 +173,13 @@ const ProjectList: IProjectItem[] = [
       tools.GitHub
     ],
     images: [
-      { path: "/static/screenshots/SickFits/Main.png" },
-      { path: "/static/screenshots/SickFits/Login.png" },
-      { path: "/static/screenshots/SickFits/CreditCardPayment.png" },
-      { path: "/static/screenshots/SickFits/Cart.png" },
-      { path: "/static/screenshots/SickFits/SellItem.png" },
-      { path: "/static/screenshots/SickFits/TechStack.png" },
-      { path: "/static/screenshots/SickFits/AdvancedReactCert.png" }
+      { path: "/static/screenshots/SickFits/Main_300x300.png" },
+      { path: "/static/screenshots/SickFits/Login_300x300.png" },
+      { path: "/static/screenshots/SickFits/CreditCardPayment_300x300.png" },
+      { path: "/static/screenshots/SickFits/Cart_300x300.png" },
+      { path: "/static/screenshots/SickFits/SellItem_300x300.png" },
+      { path: "/static/screenshots/SickFits/TechStack_300x300.png" },
+      { path: "/static/screenshots/SickFits/AdvancedReactCert_300x300.png" }
     ],
     external: {
       isActive: true,
@@ -204,10 +211,10 @@ const ProjectList: IProjectItem[] = [
       tools.GitHub
     ],
     images: [
-      { path: "/static/screenshots/SonsOfVidya/Landing.jpg" },
-      { path: "/static/screenshots/SonsOfVidya/Banner.jpg" },
-      { path: "/static/screenshots/SonsOfVidya/Banner2.jpg" },
-      { path: "/static/screenshots/SonsOfVidya/Videos.jpg" }
+      { path: "/static/screenshots/SonsOfVidya/Landing_300x300.jpg" },
+      { path: "/static/screenshots/SonsOfVidya/Banner_300x300.jpg" },
+      { path: "/static/screenshots/SonsOfVidya/Banner2_300x300.jpg" },
+      { path: "/static/screenshots/SonsOfVidya/Videos_300x300.jpg" }
     ],
     external: {
       isActive: true,
@@ -225,17 +232,17 @@ const ProjectList: IProjectItem[] = [
       "This project was originally developed for the UTSA Mobile App in an attempt to battle the feeling of staleness, which existed on the app prior. Originally, the app would open up to a \"What's New\" landing page which would be updated every couple of months but with the new design and layout, any of the app's components can be promoted and shown off at the drop of a hat. In production, this design has been used for the calendar, student registration, a tech conference, and now dining. This design is responsive and will soon be used on other non-mobile platforms as well.",
     tools: [tools.HTML5, tools.Bootstrap3, tools.CSS3],
     images: [
-      { path: "/static/screenshots/FeatureSpotlight/Athletics.png" },
-      { path: "/static/screenshots/FeatureSpotlight/Banner.png" },
-      { path: "/static/screenshots/FeatureSpotlight/Calendar.png" },
-      { path: "/static/screenshots/FeatureSpotlight/Dashboard.png" },
-      { path: "/static/screenshots/FeatureSpotlight/Dining.png" },
-      { path: "/static/screenshots/FeatureSpotlight/Educuase.png" },
-      { path: "/static/screenshots/FeatureSpotlight/Harvey.png" },
-      { path: "/static/screenshots/FeatureSpotlight/MyCourses.png" },
-      { path: "/static/screenshots/FeatureSpotlight/MyHolds.png" },
-      { path: "/static/screenshots/FeatureSpotlight/Orientation.png" },
-      { path: "/static/screenshots/FeatureSpotlight/Registration.png" }
+      { path: "/static/screenshots/FeatureSpotlight/Athletics_300x300.png" },
+      { path: "/static/screenshots/FeatureSpotlight/Banner_300x300.png" },
+      { path: "/static/screenshots/FeatureSpotlight/Calendar_300x300.png" },
+      { path: "/static/screenshots/FeatureSpotlight/Dashboard_300x300.png" },
+      { path: "/static/screenshots/FeatureSpotlight/Dining_300x300.png" },
+      { path: "/static/screenshots/FeatureSpotlight/Educuase_300x300.png" },
+      { path: "/static/screenshots/FeatureSpotlight/Harvey_300x300.png" },
+      { path: "/static/screenshots/FeatureSpotlight/MyCourses_300x300.png" },
+      { path: "/static/screenshots/FeatureSpotlight/MyHolds_300x300.png" },
+      { path: "/static/screenshots/FeatureSpotlight/Orientation_300x300.png" },
+      { path: "/static/screenshots/FeatureSpotlight/Registration_300x300.png" }
     ],
     external: {
       isActive: false,
@@ -287,14 +294,14 @@ const ProjectList: IProjectItem[] = [
     ],
     images: [
       { path: "/static/screenshots/Physics/Tamu-Physics-SS-min.png" },
-      { path: "/static/screenshots/Physics/ProspectiveStudents.jpg" },
-      { path: "/static/screenshots/Physics/ProspectiveStudents2.jpg" },
-      { path: "/static/screenshots/Physics/Calendar.png" },
-      { path: "/static/screenshots/Physics/Calendar2.png" },
-      { path: "/static/screenshots/Physics/Directory.png" },
-      { path: "/static/screenshots/Physics/Outreach.jpg" },
-      { path: "/static/screenshots/Physics/Research.png" },
-      { path: "/static/screenshots/Physics/Research2.jpg" }
+      { path: "/static/screenshots/Physics/ProspectiveStudents_300x300.jpg" },
+      { path: "/static/screenshots/Physics/ProspectiveStudents2_300x300.jpg" },
+      { path: "/static/screenshots/Physics/Calendar_300x300.png" },
+      { path: "/static/screenshots/Physics/Calendar2_300x300.png" },
+      { path: "/static/screenshots/Physics/Directory_300x300.png" },
+      { path: "/static/screenshots/Physics/Outreach_300x300.jpg" },
+      { path: "/static/screenshots/Physics/Research_300x300.png" },
+      { path: "/static/screenshots/Physics/Research2_300x300.jpg" }
     ],
     external: {
       isActive: true,
@@ -321,12 +328,12 @@ const ProjectList: IProjectItem[] = [
       tools.CSS3
     ],
     images: [
-      { path: "/static/screenshots/Astronomy/Main.jpg" },
-      { path: "/static/screenshots/Astronomy/Courses.jpg" },
-      { path: "/static/screenshots/Astronomy/Faculty.jpg" },
-      { path: "/static/screenshots/Astronomy/Person.png" },
-      { path: "/static/screenshots/Astronomy/Publications.png" },
-      { path: "/static/screenshots/Astronomy/Research.jpg" }
+      { path: "/static/screenshots/Astronomy/Main_300x300.jpg" },
+      { path: "/static/screenshots/Astronomy/Courses_300x300.jpg" },
+      { path: "/static/screenshots/Astronomy/Faculty_300x300.jpg" },
+      { path: "/static/screenshots/Astronomy/Person_300x300.png" },
+      { path: "/static/screenshots/Astronomy/Publications_300x300.png" },
+      { path: "/static/screenshots/Astronomy/Research_300x300.jpg" }
     ],
     external: {
       isActive: true,
@@ -351,10 +358,10 @@ const ProjectList: IProjectItem[] = [
       tools.CSS3
     ],
     images: [
-      { path: "/static/screenshots/KyleDavisOriginal/Main.jpg" },
-      { path: "/static/screenshots/KyleDavisOriginal/Projects.png" },
-      { path: "/static/screenshots/KyleDavisOriginal/Email.jpg" },
-      { path: "/static/screenshots/KyleDavisOriginal/Resume.jpg" }
+      { path: "/static/screenshots/KyleDavisOriginal/Main_300x300.jpg" },
+      { path: "/static/screenshots/KyleDavisOriginal/Projects_300x300.png" },
+      { path: "/static/screenshots/KyleDavisOriginal/Email_300x300.jpg" },
+      { path: "/static/screenshots/KyleDavisOriginal/Resume_300x300.jpg" }
     ],
     external: {
       isActive: false,
@@ -395,15 +402,15 @@ const ProjectList: IProjectItem[] = [
       "<b>Ping Pong:</b> A classic arcade game brought to you in a browser! This was my first time messing around with HTML5's canvas as well as creating a very simple A.I.. Users simply need to click on the canvas to start the game, and use the arrow up and down arrow keys to move their paddle. The ball speeds up over time so be careful! This code can be found in my GitHub.",
     tools: [tools.JavaScript, tools.HTML5, tools.CSS3],
     images: [
-      { path: "/static/screenshots/JSGames/Phyllotaxis.jpg" },
-      { path: "/static/screenshots/JSGames/Phyllotaxis2.png" },
-      { path: "/static/screenshots/JSGames/Phyllotaxis3.jpg" },
-      { path: "/static/screenshots/JSGames/FractalTree.png" },
-      { path: "/static/screenshots/JSGames/FractalTree2.png" },
-      { path: "/static/screenshots/JSGames/FractalTree3.png" },
-      { path: "/static/screenshots/JSGames/WordCounter-SS-min.png" },
-      { path: "/static/screenshots/JSGames/DoublePendulum-SS-min.png" },
-      { path: "/static/screenshots/JSGames/PingPong-SS-min.png" }
+      { path: "/static/screenshots/JSGames/Phyllotaxis_300x300.jpg" },
+      { path: "/static/screenshots/JSGames/Phyllotaxis2_300x300.png" },
+      { path: "/static/screenshots/JSGames/Phyllotaxis3_300x300.jpg" },
+      { path: "/static/screenshots/JSGames/FractalTree_300x300.png" },
+      { path: "/static/screenshots/JSGames/FractalTree2_300x300.png" },
+      { path: "/static/screenshots/JSGames/FractalTree3_300x300.png" },
+      { path: "/static/screenshots/JSGames/WordCounter-SS-min_300x300.png" },
+      { path: "/static/screenshots/JSGames/DoublePendulum-SS-min_300x300.png" },
+      { path: "/static/screenshots/JSGames/PingPong-SS-mi_300x300n.png" }
     ],
     external: {
       isActive: false,
