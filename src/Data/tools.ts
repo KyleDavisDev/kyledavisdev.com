@@ -10,6 +10,7 @@ const JSLogo = "/static/icons/JS-Logo.png";
 const JQueryLogo = "/static/icons/JQuery-Logo.png";
 const LinuxLogo = "/static/icons/Linux-Logo.png";
 const MySQLLogo = "/static/icons/MySQL-Logo.png";
+const NextJSLogo = "/static/icons/NextJS-Logo.png";
 const NginxLogo = "/static/icons/Nginx-Logo.png";
 const NodeJSLogo = "/static/icons/NodeJS-Logo.png";
 const PHPLogo = "/static/icons/PHP-Logo.png";
@@ -94,6 +95,11 @@ export const tools: { [name: string]: IToolsItem } = {
     name: "MySQL database",
     img: MySQLLogo,
     link: "https://www.mysql.com/"
+  },
+  NextJS: {
+    name: "NextJS Framework",
+    img: NextJSLogo,
+    link: "https://nextjs.org/"
   },
   Nginx: {
     name: "Nginx Web Server",
