@@ -33,6 +33,37 @@ export interface IProjectItem {
 
 const ProjectList: IProjectItem[] = [
   {
+    url: "watchbatterychart",
+    pubYear: "2021",
+    documentTitleName: "Watchbatterychart.com",
+    name: "Watch Battery Conversion Chart",
+    purpose:
+      "This is a dead-simple project that allows you to compare the sizes of different watch battery brands against one another. Need to know how the size of a specific Timex battery compares to a Duracell battery? This is your chart! This site was also created to help alleviate the pain-point of there not being any good-looking and easy-to-read conversion charts online. Every example I could find looked dated or is trying to sell you something. Hopefully this application changes that!",
+    description:
+      "<a href='https://watchbatterychart.com' target='_blank' rel='nofollow noopener'>Watchbatterychart.com</a> is made using  <a href='https://www.typescriptlang.org/' target='_blank' rel='noopener nofollow'>TypesScript</a>, <a href='https://reactjs.org/' target='_blank' rel='noopener nofollow'>ReactJS</a>, and <a href='https://nextjs.org/' target='_blank' rel='noopener nofollow'>NextJS</a>. It offers a way to sort the table by columns, it has a text input to help filter by, and is responsive! Additionally, the text and spacing is larger than other charts online as well as offers a on-hover color change effect for each row for improved readability.",
+    results:
+      "Although this application has only just released, I hope that others can make use of it and will find it valuable! I really like enjoyed working with <a href='https://nextjs.org/' target='_blank' rel='noopener nofollow'>NextJS</a> on an application that is simply and straight-forward too because it let me use this technology in a new way.",
+    tools: [
+      tools.React,
+      tools.TypeScript,
+      tools.NextJS,
+      tools.StyledComponents,
+      tools.GitHub
+    ],
+    images: [
+      { path: "/static/screenshots/WatchBatteryChart/main_300x300.png" },
+      { path: "/static/screenshots/WatchBatteryChart/middle_300x300.png" },
+      { path: "/static/screenshots/WatchBatteryChart/bottom_300x300.png" },
+      { path: "/static/screenshots/WatchBatteryChart/responsive.png" }
+    ],
+    external: {
+      isActive: true,
+      link: "https://watchbatterychart.com",
+      name: "Watch Battery Conversion Chart!"
+    },
+    isActive: true
+  },
+  {
     url: "sfyt",
     pubYear: "2017-2020",
     documentTitleName: "Sauce For Your Thoughts",
@@ -47,6 +78,7 @@ const ProjectList: IProjectItem[] = [
       tools.React,
       tools.TypeScript,
       tools.Redux,
+      tools.NextJS,
       tools.HTML5,
       tools.StyledComponents,
       tools.NodeJS,
