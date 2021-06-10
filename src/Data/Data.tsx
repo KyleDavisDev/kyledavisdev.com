@@ -243,7 +243,7 @@ const ProjectList: IProjectItem[] = [
       tools.GitHub
     ],
     images: [
-      { path: "/static/screenshots/SonsOfVidya/Landing_300x300.jpg" },
+      { path: "/static/screenshots/SonsOfVidya/Landing2_300x300.jpg" },
       { path: "/static/screenshots/SonsOfVidya/Banner_300x300.jpg" },
       { path: "/static/screenshots/SonsOfVidya/Banner2_300x300.jpg" },
       { path: "/static/screenshots/SonsOfVidya/Videos_300x300.jpg" }
