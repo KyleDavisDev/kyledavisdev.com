@@ -4,7 +4,7 @@ import { StyledContainer, StyledTextContainer } from "./AboutMeStyles";
 
 interface IAboutMeProps {}
 
-const AboutMe: React.FunctionComponent<IAboutMeProps> = (props) => {
+const AboutMe: React.FunctionComponent<IAboutMeProps> = props => {
   return (
     <StyledContainer>
       <StyledTextContainer>
@@ -20,8 +20,10 @@ const AboutMe: React.FunctionComponent<IAboutMeProps> = (props) => {
         <p>
           I primarily focus on the front-end, where I make pixel-perfect,
           minimalistic designs, but I also enjoy working with databases and
-          server logic. In my projects section, for example, you can find
-          several applications where I wrote the entire stack!
+          server logic. The majority of my projects are internal tooling (behind
+          login pages) and so I cannot demo them. The project section below,
+          however, include some of my projects I've created in my off time
+          either for fun or for learning!
         </p>
 
         <p>
