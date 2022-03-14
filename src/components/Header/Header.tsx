@@ -3,6 +3,7 @@ import * as React from "react";
 import { FaEnvelope } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { FaFileAlt } from "react-icons/fa";
 import {
   StyledContainer,
   StyledImageContainer,
@@ -33,10 +34,15 @@ export default class Header extends React.PureComponent<IHeaderProps> {
             <StyledAttribute>
               <strong>Full-Stack Developer</strong>
             </StyledAttribute>
-            {/* <StyledAttribute>
-              Practicing <strong>Coffee Drinker</strong>
-            </StyledAttribute> */}
             <ul>
+              <li>
+                <a
+                  href="/static/documents/Davis_Kyle_09FEB2020.pdf"
+                  target="_blank"
+                >
+                  <FaFileAlt /> Resume
+                </a>
+              </li>
               <li>
                 <a href="mailto:kyledavisdev@gmail.com">
                   <FaEnvelope /> Mail
