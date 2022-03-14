@@ -37,7 +37,7 @@ export default class Header extends React.PureComponent<IHeaderProps> {
             <ul>
               <li>
                 <a
-                  href="/static/documents/Davis_Kyle_09FEB2020.pdf"
+                  href="/static/documents/Davis_Kyle_14MAR2022.pdf"
                   target="_blank"
                 >
                   <FaFileAlt /> Resume
