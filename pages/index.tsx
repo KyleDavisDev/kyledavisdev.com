@@ -2,7 +2,6 @@ import * as React from "react";
 import NavBar from "../src/components/NavBar/NavBar";
 import Header from "../src/components/Header/Header";
 import AboutMe from "../src/components/AboutMe/AboutMe";
-// import ContactMe from "../src/components/ContactMe/ContactMe";
 import Projects from "../src/components/Projects/Projects";
 
 export interface IIndexProps {}
@@ -14,7 +13,6 @@ export default class Index extends React.Component<IIndexProps> {
         <NavBar />
         <Header />
         <AboutMe />
-        {/*/!* <ContactMe /> *!/*/}
         <Projects />
       </>
     );
