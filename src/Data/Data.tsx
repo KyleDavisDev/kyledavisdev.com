@@ -35,28 +35,27 @@ const ProjectList: IProjectItem[] = [
   {
     url: "vanderbilt",
     pubYear: "2022",
-    documentTitleName: "https://engineering.vanderbilt.edu/academics/online-masters-computer-science-cs/index.php",
+    documentTitleName: "Vanderbilt University - Master's in Computer Science",
     name: "Master's in Computer Science",
     purpose:
-      "This is a dead-simple project that allows you to compare the sizes of different watch battery brands against one another. Need to know how the size of a specific Timex battery compares to a Duracell battery? This is your chart! This site was also created to help alleviate the pain-point of there not being any good-looking and easy-to-read conversion charts online. Every example I could find looked dated or is trying to sell you something. Hopefully this application changes that!",
+      "Earning a Master's in Computer Science has been a personal goal of mine for many years. A Master's degree helps to gain specialized knowledge and demonstrates advanced expertise. Additionally, I'll have a stronger foundation to work across many different industries.",
     description:
-      "<a href='https://watchbatterychart.com' target='_blank' rel='nofollow noopener'>Watchbatterychart.com</a> is made using  <a href='https://www.typescriptlang.org/' target='_blank' rel='noopener nofollow'>TypesScript</a>, <a href='https://reactjs.org/' target='_blank' rel='noopener nofollow'>ReactJS</a>, and <a href='https://nextjs.org/' target='_blank' rel='noopener nofollow'>NextJS</a>. It offers a way to sort the table by columns, it has a text input to help filter by, and is responsive! Additionally, the text and spacing is larger than other charts online as well as offers an on-hover color change effect for each row for improved readability.",
+      "I applied to <a href='https://www.vanderbilt.edu/' target='_blank' rel='nofollow noopener'>Vanderbilt University</a> in the summer of 2021 due to their high-quality program and their online-first format. I was accepted quickly after and my first semester was in January 2022. The curriculum includes topics such as Mobile and cloud computing, Cybersecurity, Distributed systems, Intelligent systems, Software and systems engineering, and Computer science theory."
+    ,
     results:
-      "Although this application has only just released, I hope that others can make use of it and will find it valuable! I really like enjoyed working with <a href='https://nextjs.org/' target='_blank' rel='noopener nofollow'>NextJS</a> on an application that is simply and straight-forward too because it let me use this technology in a new way.",
+      "So far, I have been absolutely amazed at the program. The online format seems to lend itself towards self-motivated working professionals. I have classmates across the nation and many of them are in wildly different industries; each bringing their own perspective and experience to the classroom. Every week our discussions are extremely rich and productive. I've learned so much within just a couple of months.",
     tools: [
       tools.Java,
-      tools.TypeScript,
-      tools.NextJS,
-      tools.StyledComponents,
       tools.GitHub
     ],
     images: [
-      { path: "/static/screenshots/WatchBatteryChart/main_300x300.png" }
+      { path: "/static/screenshots/Vanderbilt/Engineering_300x300.png" }
     ],
     external: {
       isActive: true,
-      link: "https://watchbatterychart.com",
-      name: "Watch Battery Conversion Chart!"
+      linkText: "View program",
+      link: "https://engineeringonline.vanderbilt.edu/computer-science/",
+      name: "Vanderbilt University - Master's in Computer Science"
     },
     isActive: true
   },
