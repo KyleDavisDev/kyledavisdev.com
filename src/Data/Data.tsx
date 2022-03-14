@@ -33,6 +33,34 @@ export interface IProjectItem {
 
 const ProjectList: IProjectItem[] = [
   {
+    url: "vanderbilt",
+    pubYear: "2022",
+    documentTitleName: "https://engineering.vanderbilt.edu/academics/online-masters-computer-science-cs/index.php",
+    name: "Master's in Computer Science",
+    purpose:
+      "This is a dead-simple project that allows you to compare the sizes of different watch battery brands against one another. Need to know how the size of a specific Timex battery compares to a Duracell battery? This is your chart! This site was also created to help alleviate the pain-point of there not being any good-looking and easy-to-read conversion charts online. Every example I could find looked dated or is trying to sell you something. Hopefully this application changes that!",
+    description:
+      "<a href='https://watchbatterychart.com' target='_blank' rel='nofollow noopener'>Watchbatterychart.com</a> is made using  <a href='https://www.typescriptlang.org/' target='_blank' rel='noopener nofollow'>TypesScript</a>, <a href='https://reactjs.org/' target='_blank' rel='noopener nofollow'>ReactJS</a>, and <a href='https://nextjs.org/' target='_blank' rel='noopener nofollow'>NextJS</a>. It offers a way to sort the table by columns, it has a text input to help filter by, and is responsive! Additionally, the text and spacing is larger than other charts online as well as offers an on-hover color change effect for each row for improved readability.",
+    results:
+      "Although this application has only just released, I hope that others can make use of it and will find it valuable! I really like enjoyed working with <a href='https://nextjs.org/' target='_blank' rel='noopener nofollow'>NextJS</a> on an application that is simply and straight-forward too because it let me use this technology in a new way.",
+    tools: [
+      tools.Java,
+      tools.TypeScript,
+      tools.NextJS,
+      tools.StyledComponents,
+      tools.GitHub
+    ],
+    images: [
+      { path: "/static/screenshots/WatchBatteryChart/main_300x300.png" }
+    ],
+    external: {
+      isActive: true,
+      link: "https://watchbatterychart.com",
+      name: "Watch Battery Conversion Chart!"
+    },
+    isActive: true
+  },
+  {
     url: "watchbatterychart",
     pubYear: "2021",
     documentTitleName: "Watchbatterychart.com",
@@ -40,7 +68,7 @@ const ProjectList: IProjectItem[] = [
     purpose:
       "This is a dead-simple project that allows you to compare the sizes of different watch battery brands against one another. Need to know how the size of a specific Timex battery compares to a Duracell battery? This is your chart! This site was also created to help alleviate the pain-point of there not being any good-looking and easy-to-read conversion charts online. Every example I could find looked dated or is trying to sell you something. Hopefully this application changes that!",
     description:
-      "<a href='https://watchbatterychart.com' target='_blank' rel='nofollow noopener'>Watchbatterychart.com</a> is made using  <a href='https://www.typescriptlang.org/' target='_blank' rel='noopener nofollow'>TypesScript</a>, <a href='https://reactjs.org/' target='_blank' rel='noopener nofollow'>ReactJS</a>, and <a href='https://nextjs.org/' target='_blank' rel='noopener nofollow'>NextJS</a>. It offers a way to sort the table by columns, it has a text input to help filter by, and is responsive! Additionally, the text and spacing is larger than other charts online as well as offers a on-hover color change effect for each row for improved readability.",
+      "<a href='https://watchbatterychart.com' target='_blank' rel='nofollow noopener'>Watchbatterychart.com</a> is made using  <a href='https://www.typescriptlang.org/' target='_blank' rel='noopener nofollow'>TypesScript</a>, <a href='https://reactjs.org/' target='_blank' rel='noopener nofollow'>ReactJS</a>, and <a href='https://nextjs.org/' target='_blank' rel='noopener nofollow'>NextJS</a>. It offers a way to sort the table by columns, it has a text input to help filter by, and is responsive! Additionally, the text and spacing is larger than other charts online as well as offers an on-hover color change effect for each row for improved readability.",
     results:
       "Although this application has only just released, I hope that others can make use of it and will find it valuable! I really like enjoyed working with <a href='https://nextjs.org/' target='_blank' rel='noopener nofollow'>NextJS</a> on an application that is simply and straight-forward too because it let me use this technology in a new way.",
     tools: [
@@ -71,9 +99,9 @@ const ProjectList: IProjectItem[] = [
     purpose:
       "I love trying new foods. I love new flavors. I cannot resist buying a new bottle of hot sauce when I see it. The problem, however, is sometime I forget what a hot sauce tastes like and will end up buying the same bottle multiple times. This application serves as a catalog for all of the different sauces and flavors and helps me look back on the bottles I really enjoyed and the ones I did not.",
     description:
-      "Sauce For Your Thoughts (SFYT) was first thought of in early 2017 and was created using the modern JavaScript tech stack like <a href='https://www.typescriptlang.org/' target='_blank' rel='noopener nofollow'>TypesScript</a>, <a href='https://reactjs.org/' target='_blank' rel='noopener nofollow'>ReactJS</a>, <a href='https://redux.js.org/' target='_blank' rel='noopener nofollow'>Redux</a>, <a href='https://nodejs.org/en/' target='_blank' rel='noopener nofollow'>Node</a>, and <a href='https://expressjs.com/' target='_blank' rel='noopener nofollow'>ExpressJS</a>. One of the biggest challenges was, like many side projects, actually finishing it. SFYT was redesigned (both in appearance and code structure), rewritten in TypeScript, put on hold, and picked up again several different times until it was finally published in late 2019. ",
+      "Sauce For Your Thoughts (SFYT) was first thought of in early 2017 and was created using the modern JavaScript tech stack like <a href='https://www.typescriptlang.org/' target='_blank' rel='noopener nofollow'>TypesScript</a>, <a href='https://reactjs.org/' target='_blank' rel='noopener nofollow'>ReactJS</a>, <a href='https://redux.js.org/' target='_blank' rel='noopener nofollow'>Redux</a>, <a href='https://nodejs.org/en/' target='_blank' rel='noopener nofollow'>Node</a>, and <a href='https://expressjs.com/' target='_blank' rel='noopener nofollow'>ExpressJS</a>. One of the biggest challenges was, like many side projects, actually finishing it. SFYT was redesigned (both in appearance and code structure), rewritten in TypeScript, put on hold, and picked up again many times until it was finally published in late 2019. ",
     results:
-      "While application is technically open and live to the public, there has not been any official advertising or mentioning yet so it is hard to really gauge any results. I know, personally, this application has been a huge learning asset as far as <a href='https://reactjs.org/' target='_blank' rel='noopener nofollow'>React</a>, <a href='https://redux.js.org/' target='_blank' rel='noopener nofollow'>Redux</a> and <a href='https://www.typescriptlang.org/' target='_blank' rel='noopener nofollow'>TypeScript</a> are concerned. The front-end code can be found <a href='https://github.com/KyleDavisDev/sauce-for-your-thoughts-front' target='_blank' rel='noopener nofollow'>here</a> and the back-end code <a href='https://github.com/KyleDavisDev/sauce-for-your-thoughts-api' target='_blank' rel='noopener nofollow'>here</a>.",
+      "While application is technically open and live to the public, there has not been any official advertising or mentioning, so it is hard to really gauge any results. I know, personally, this application has been a huge learning asset as far as <a href='https://reactjs.org/' target='_blank' rel='noopener nofollow'>React</a>, <a href='https://redux.js.org/' target='_blank' rel='noopener nofollow'>Redux</a> and <a href='https://www.typescriptlang.org/' target='_blank' rel='noopener nofollow'>TypeScript</a> are concerned. The front-end code can be found <a href='https://github.com/KyleDavisDev/sauce-for-your-thoughts-front' target='_blank' rel='noopener nofollow'>here</a> and the back-end code <a href='https://github.com/KyleDavisDev/sauce-for-your-thoughts-api' target='_blank' rel='noopener nofollow'>here</a>.",
     tools: [
       tools.React,
       tools.TypeScript,
@@ -191,7 +219,7 @@ const ProjectList: IProjectItem[] = [
     purpose:
       "The purpose of this project was primarily self-education. The <a href='https://advancedreact.com/' target='_blank' rel='noopener nofollow'>course</a> walks you through the process of creating an online store using technologies like <a href='https://reactjs.org/' target='_blank' rel='noopener nofollow'>React</a>, <a href='https://graphql.org/' target='_blank' rel='noopeneer nofollow'>GraphQL</a>, and <a href='https://jestjs.io/' target='_blank' rel='noopener nofollow'>Jest</a>. Additionally, I used <a href='https://www.typescriptlang.org/' target='_blank' rel='noopener nofollow'>TypeScript</a> on the front-end which was not included in the course.",
     description:
-      "The end-product is an online store where users can purchase/sell products. The application's database is created using five main relational models: <strong> Users, Items, Orders, CartItems, and OrderItems</strong> and is queried using GraphQL. Some of the fun server-side goodies include JWT authentication, user-specific permissions, sending emails, uploading images, and charging credit cards. ",
+      "The end-product is an online store where users can purchase/sell products. The application's database is created using five main relational models: <strong> Users, Items, Orders, CartItems, and OrderItems</strong> and is queried using GraphQL. Some fun server-side goodies include JWT authentication, user-specific permissions, sending emails, uploading images, and charging credit cards. ",
     results: `After <a href='${AdvancedReactCert}' target='_blank'>completing this course</a>, I am absolutely better at writing React/JavaScript tests. This will certainly be something I carry with me going forward as writing tests are a crucial part to any enterprise application. `,
     tools: [
       tools.React,
@@ -337,7 +365,7 @@ const ProjectList: IProjectItem[] = [
     ],
     external: {
       isActive: true,
-      link: "http://physics.tamu.edu",
+      link: "https://physics.tamu.edu",
       name: "TAMU Physics"
     },
     isActive: true
@@ -369,7 +397,7 @@ const ProjectList: IProjectItem[] = [
     ],
     external: {
       isActive: true,
-      link: "http://mitchell.physics.tamu.edu",
+      link: "https://mitchell.physics.tamu.edu",
       name: "TAMU Astronomy"
     },
     isActive: true
@@ -427,7 +455,7 @@ const ProjectList: IProjectItem[] = [
       "<br /><br /> " +
       "<b>Fractal trees:</b> To create a nice application which captures the ideas of fractal design. Users can click the canvas and cause a single branch to split into two. When the user clicks again, the branches will split again, so forth and so on. At any time, the tree can reset while sliders allow for customization and design a unique tree. This code can be found on my gitHub." +
       "<br /><br /> " +
-      "<b>Word Counting:</b> Fun application that counts the number of times each unique word appears within a text area and creates a \"bubble\" with a respective area. Becoming more comfortable with JavaScript's Object Oriented Programming and using JavaScript's canvas method to have a little fun were the main goals of this project. Even with a block of text 32,000 lines long and over 8,000 unique words, the application works like a charm. This code can be found in my gitHub." +
+      "<b>Word Counting:</b> Fun application that counts the number of times each unique word appears within a text area and creates a \"bubble\" with a respective area. Becoming more comfortable with JavaScript's Object-Oriented Programming and using JavaScript's canvas method to have a little fun were the main goals of this project. Even with a block of text 32,000 lines long and over 8,000 unique words, the application works like a charm. This code can be found in my gitHub." +
       "<br /><br /> " +
       "<b>Double Pendulum:</b> Inspired by my research as an undergraduate for my computational physics course, the double pendulum is an excellent example of chaos theory. The simplified idea is that even the slightest change in the initial conditions can lead to a drastic change in the overall outcome of a system is incredibly interesting. This application relies entirely on the browser to run the model and the user can modify the double pendulum by using sliders. This code can be found on my gitHub." +
       "<br /><br /> " +
