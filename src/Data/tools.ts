@@ -6,6 +6,7 @@ const ExpressLogo = "/static/icons/ExpressJS-Logo.png";
 const FoundationLogo = "/static/icons/Foundation-Logo.png";
 const GitHubLogo = "/static/icons/GitHub-Logo.png";
 const HTML5Logo = "/static/icons/HTML5-Logo.png";
+const JavaLogo = "/static/icons/Java.png";
 const JSLogo = "/static/icons/JS-Logo.png";
 const JQueryLogo = "/static/icons/JQuery-Logo.png";
 const LinuxLogo = "/static/icons/Linux-Logo.png";
@@ -75,6 +76,11 @@ export const tools: { [name: string]: IToolsItem } = {
     name: "HTML5",
     img: HTML5Logo,
     link: "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
+  },
+  Java: {
+    name: "Java",
+    img: JavaLogo,
+    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
   },
   JavaScript: {
     name: "JavaScript",
