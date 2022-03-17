@@ -38,12 +38,12 @@ const ProjectList: IProjectItem[] = [
     documentTitleName: "Vanderbilt University - Master's in Computer Science",
     name: "Master's in Computer Science",
     purpose:
-      "Earning a Master's in Computer Science has been a personal goal of mine for many years. A Master's degree helps to gain specialized knowledge and demonstrates advanced expertise. Additionally, I'll have a stronger foundation to work across many different industries.",
+      "Earning a Master's in Computer Science has been a personal goal for many years. A Master's degree will help me gain specialized knowledge and demonstrate advanced expertise. Additionally, I'll have a stronger foundation to work across many different industries such as mobile and cloud computing.",
     description:
       "I applied to <a href='https://www.vanderbilt.edu/' target='_blank' rel='nofollow noopener'>Vanderbilt University</a> in the summer of 2021 due to their high-quality program and their online-first format. I was accepted quickly after and my first semester was in January 2022. The curriculum includes topics such as Mobile and cloud computing, Cybersecurity, Distributed systems, Intelligent systems, Software and systems engineering, and Computer science theory."
     ,
     results:
-      "So far, I have been absolutely amazed at the program. The online format seems to lend itself towards self-motivated working professionals. I have classmates across the nation and many of them are in wildly different industries; each bringing their own perspective and experience to the classroom. Every week our discussions are extremely rich and productive. I've learned so much within just a couple of months.",
+      "My first semester started in January 2022, and I have been impressed and engaged with the program so far. The online format seems to lend itself towards self-motivated, working professionals. I have classmates across the nation and many of them are in very different industries from me; each bringing their own perspective and experience to the classroom. Every week our discussions are productive and show me different angles and styles of coding. I've learned so much within just a few months.",
     tools: [
       tools.Java,
       tools.GitHub
