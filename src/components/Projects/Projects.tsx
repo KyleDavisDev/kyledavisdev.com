@@ -28,7 +28,7 @@ const Projects: React.FunctionComponent<IProjectsProps> = () => {
                 <Link href={`project/${project.url}`} passHref={false}>
                   <StyledAnchor>
                     <StyledImage
-                      src={project.images[0].path}
+                      src={project.images[0].thumbnailPath}
                       title={project.name}
                       alt={project.name}
                       height={300}
