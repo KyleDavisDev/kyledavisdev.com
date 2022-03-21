@@ -406,47 +406,47 @@ const ProjectList: IProjectItem[] = [
     images: [
       {
         thumbnailPath: "/static/screenshots/FeatureSpotlight/Athletics_300x300.png",
-        thumbnailPath: "/static/screenshots/FeatureSpotlight/Athletics_512x512.png"
+        largePath: "/static/screenshots/FeatureSpotlight/Athletics_512x512.png"
       },
       {
         thumbnailPath: "/static/screenshots/FeatureSpotlight/Banner_300x300.png",
-        thumbnailPath: "/static/screenshots/FeatureSpotlight/Banner_512x512.png"
+        largePath: "/static/screenshots/FeatureSpotlight/Banner_512x512.png"
       },
       {
         thumbnailPath: "/static/screenshots/FeatureSpotlight/Calendar_300x300.png",
-        thumbnailPath: "/static/screenshots/FeatureSpotlight/Calendar_512x512.png"
+        largePath: "/static/screenshots/FeatureSpotlight/Calendar_512x512.png"
       },
       {
         thumbnailPath: "/static/screenshots/FeatureSpotlight/Dashboard_300x300.png",
-        thumbnailPath: "/static/screenshots/FeatureSpotlight/Dashboard_512x512.png"
+        largePath: "/static/screenshots/FeatureSpotlight/Dashboard_512x512.png"
       },
       {
         thumbnailPath: "/static/screenshots/FeatureSpotlight/Dining_300x300.png",
-        thumbnailPath: "/static/screenshots/FeatureSpotlight/Dining_512x512.png"
+        largePath: "/static/screenshots/FeatureSpotlight/Dining_512x512.png"
       },
       {
         thumbnailPath: "/static/screenshots/FeatureSpotlight/Educuase_300x300.png",
-        thumbnailPath: "/static/screenshots/FeatureSpotlight/Educuase_512x512.png"
+        largePath: "/static/screenshots/FeatureSpotlight/Educuase_512x512.png"
       },
       {
         thumbnailPath: "/static/screenshots/FeatureSpotlight/Harvey_300x300.png",
-        thumbnailPath: "/static/screenshots/FeatureSpotlight/Harvey_512x512.png"
+        largePath: "/static/screenshots/FeatureSpotlight/Harvey_512x512.png"
       },
       {
         thumbnailPath: "/static/screenshots/FeatureSpotlight/MyCourses_300x300.png",
-        thumbnailPath: "/static/screenshots/FeatureSpotlight/MyCourses_512x512.png"
+        largePath: "/static/screenshots/FeatureSpotlight/MyCourses_512x512.png"
       },
       {
         thumbnailPath: "/static/screenshots/FeatureSpotlight/MyHolds_300x300.png",
-        thumbnailPath: "/static/screenshots/FeatureSpotlight/MyHolds_512x512.png"
+        largePath: "/static/screenshots/FeatureSpotlight/MyHolds_512x512.png"
       },
       {
         thumbnailPath: "/static/screenshots/FeatureSpotlight/Orientation_300x300.png",
-        thumbnailPath: "/static/screenshots/FeatureSpotlight/Orientation_512x512.png"
+        largePath: "/static/screenshots/FeatureSpotlight/Orientation_512x512.png"
       },
       {
         thumbnailPath: "/static/screenshots/FeatureSpotlight/Registration_300x300.png",
-        thumbnailPath: "/static/screenshots/FeatureSpotlight/Registration_512x512.png"
+        largePath: "/static/screenshots/FeatureSpotlight/Registration_512x512.png"
       }
     ],
     external: {
