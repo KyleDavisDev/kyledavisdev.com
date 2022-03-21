@@ -189,20 +189,33 @@ const ProjectList: IProjectItem[] = [
     pubYear: "2018-2019",
     tools: [tools.PHP7, tools.Wordpress, tools.MySQL, tools.JavaScript, tools.HTML5, tools.CSS3, tools.Linux],
     images: [
-      { thumbnailPath: "/static/screenshots/TexasOakWilt/Main_300x300.jpg" },
       {
-        thumbnailPath: "/static/screenshots/TexasOakWilt/FindMyForester_300x300.png"
-      },
-      { thumbnailPath: "/static/screenshots/TexasOakWilt/Vendors_300x300.png" },
-      {
-        thumbnailPath: "/static/screenshots/TexasOakWilt/RecommendedTrees_300x300.png"
-      },
-      { thumbnailPath: "/static/screenshots/TexasOakWilt/FAQ2_300x300.png" },
-      {
-        thumbnailPath: "/static/screenshots/TexasOakWilt/OakwiltSpread_300x300.png"
+        thumbnailPath: "/static/screenshots/TexasOakWilt/Main_300x300.jpg",
+        largePath: "/static/screenshots/TexasOakWilt/Main_512x512.png"
       },
       {
-        thumbnailPath: "/static/screenshots/TexasOakWilt/Identification_300x300.png"
+        thumbnailPath: "/static/screenshots/TexasOakWilt/FindMyForester_300x300.png",
+        largePath: "/static/screenshots/TexasOakWilt/FindMyForester_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/TexasOakWilt/Vendors_300x300.png",
+        largePath: "/static/screenshots/TexasOakWilt/Vendors_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/TexasOakWilt/RecommendedTrees_300x300.png",
+        largePath: "/static/screenshots/TexasOakWilt/RecommendedTrees_512x469.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/TexasOakWilt/FAQ2_300x300.png",
+        largePath: "/static/screenshots/TexasOakWilt/FAQ2_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/TexasOakWilt/OakwiltSpread_300x300.png",
+        largePath: "/static/screenshots/TexasOakWilt/OakwiltSpread_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/TexasOakWilt/Identification_300x300.png",
+        largePath: "/static/screenshots/TexasOakWilt/Identification_512x512.png"
       }
     ],
     external: {
