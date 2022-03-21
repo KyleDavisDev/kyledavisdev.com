@@ -14,16 +14,11 @@ const ProjectTools: React.FC<IProjectTools> = props => {
     <div>
       <SectionHeader>Tools</SectionHeader>
       <ToolsContainer>
-        {tools.map(tool => {
+        {tools.map((tool, ind) => {
           return (
-            <div>
+            <div key={`tool-${ind}`}>
               <a href={tool.link} rel={"nofollow noopener"} target={"_blank"}>
-                <img
-                  key={tool.name}
-                  src={tool.img}
-                  title={tool.name}
-                  alt={tool.name}
-                />
+                <img key={tool.name} src={tool.img} title={tool.name} alt={tool.name} />
               </a>
             </div>
           );
