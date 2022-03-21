@@ -239,37 +239,48 @@ const ProjectList: IProjectItem[] = [
     tools: [tools.Sketch],
     images: [
       {
-        thumbnailPath: "/static/screenshots/ConversationExchange/Login_300x300.png"
+        thumbnailPath: "/static/screenshots/ConversationExchange/Login_300x300.png",
+        largePath: "/static/screenshots/ConversationExchange/Login_512x512.png"
       },
       {
-        thumbnailPath: "/static/screenshots/ConversationExchange/Home_300x300.png"
+        thumbnailPath: "/static/screenshots/ConversationExchange/Home_300x300.png",
+        largePath: "/static/screenshots/ConversationExchange/Home_512x512.png"
       },
       {
-        thumbnailPath: "/static/screenshots/ConversationExchange/Home2_300x300.png"
+        thumbnailPath: "/static/screenshots/ConversationExchange/Home2_300x300.png",
+        largePath: "/static/screenshots/ConversationExchange/Home2_512x512.png"
       },
       {
-        thumbnailPath: "/static/screenshots/ConversationExchange/Article_300x300.png"
+        thumbnailPath: "/static/screenshots/ConversationExchange/Article_300x300.png",
+        largePath: "/static/screenshots/ConversationExchange/Article_512x512.png"
       },
       {
-        thumbnailPath: "/static/screenshots/ConversationExchange/Article2_300x300.png"
+        thumbnailPath: "/static/screenshots/ConversationExchange/Article2_300x300.png",
+        largePath: "/static/screenshots/ConversationExchange/Article2_512x512.png"
       },
       {
-        thumbnailPath: "/static/screenshots/ConversationExchange/Chatrooms_300x300.png"
+        thumbnailPath: "/static/screenshots/ConversationExchange/Chatrooms_300x300.png",
+        largePath: "/static/screenshots/ConversationExchange/Chatrooms_512x512.png"
       },
       {
-        thumbnailPath: "/static/screenshots/ConversationExchange/Chatrooms2_300x300.png"
+        thumbnailPath: "/static/screenshots/ConversationExchange/Chatrooms2_300x300.png",
+        largePath: "/static/screenshots/ConversationExchange/Chatrooms2_512x512.png"
       },
       {
-        thumbnailPath: "/static/screenshots/ConversationExchange/Conversation_300x300.png"
+        thumbnailPath: "/static/screenshots/ConversationExchange/Conversation_300x300.png",
+        largePath: "/static/screenshots/ConversationExchange/Conversation_512x512.png"
       },
       {
-        thumbnailPath: "/static/screenshots/ConversationExchange/Settings_300x300.png"
+        thumbnailPath: "/static/screenshots/ConversationExchange/Settings_300x300.png",
+        largePath: "/static/screenshots/ConversationExchange/Settings_512x512.png"
       },
       {
-        thumbnailPath: "/static/screenshots/ConversationExchange/Profile_300x300.png"
+        thumbnailPath: "/static/screenshots/ConversationExchange/Profile_300x300.png",
+        largePath: "/static/screenshots/ConversationExchange/Profile_512x512.png"
       },
       {
-        thumbnailPath: "/static/screenshots/ConversationExchange/Profile2_300x300.png"
+        thumbnailPath: "/static/screenshots/ConversationExchange/Profile2_300x300.png",
+        largePath: "/static/screenshots/ConversationExchange/Profile2_512x512.png"
       }
     ],
     external: {
