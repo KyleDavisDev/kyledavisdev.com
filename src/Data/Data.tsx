@@ -495,35 +495,35 @@ const ProjectList: IProjectItem[] = [
       },
       {
         thumbnailPath: "/static/screenshots/Physics/ProspectiveStudents_300x300.jpg",
-        largePath: "/static/screenshots/Physics/ProspectiveStudents_300x300.jpg"
+        largePath: "/static/screenshots/Physics/ProspectiveStudents_512x512.png"
       },
       {
         thumbnailPath: "/static/screenshots/Physics/ProspectiveStudents2_300x300.jpg",
-        largePath: "/static/screenshots/Physics/ProspectiveStudents2_300x300.jpg"
+        largePath: "/static/screenshots/Physics/ProspectiveStudents2_512x512.png"
       },
       {
         thumbnailPath: "/static/screenshots/Physics/Calendar_300x300.png",
-        largePath: "/static/screenshots/Physics/Calendar_300x300.png"
+        largePath: "/static/screenshots/Physics/Calendar_512x512.png"
       },
       {
         thumbnailPath: "/static/screenshots/Physics/Calendar2_300x300.png",
-        largePath: "/static/screenshots/Physics/Calendar2_300x300.png"
+        largePath: "/static/screenshots/Physics/Calendar2_512x512.png"
       },
       {
         thumbnailPath: "/static/screenshots/Physics/Directory_300x300.png",
-        largePath: "/static/screenshots/Physics/Directory_300x300.png"
+        largePath: "/static/screenshots/Physics/Directory_512x512.png"
       },
       {
         thumbnailPath: "/static/screenshots/Physics/Outreach_300x300.jpg",
-        largePath: "/static/screenshots/Physics/Outreach_300x300.jpg"
+        largePath: "/static/screenshots/Physics/Outreach_512x512.png"
       },
       {
         thumbnailPath: "/static/screenshots/Physics/Research_300x300.png",
-        largePath: "/static/screenshots/Physics/Research_300x300.png"
+        largePath: "/static/screenshots/Physics/Research_512x512.png"
       },
       {
         thumbnailPath: "/static/screenshots/Physics/Research2_300x300.jpg",
-        largePath: "/static/screenshots/Physics/Research2_300x300.jpg"
+        largePath: "/static/screenshots/Physics/Research2_512x512.png"
       }
     ],
     external: {
