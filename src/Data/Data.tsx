@@ -490,8 +490,8 @@ const ProjectList: IProjectItem[] = [
     ],
     images: [
       {
-        thumbnailPath: "/static/screenshots/Physics/Tamu-Physics-SS-min.png",
-        largePath: "/static/screenshots/Physics/Tamu-Physics-SS-min.png"
+        thumbnailPath: "/static/screenshots/Physics/Home_300x300.png",
+        largePath: "/static/screenshots/Physics/Home_512x512.png"
       },
       {
         thumbnailPath: "/static/screenshots/Physics/ProspectiveStudents_300x300.jpg",
