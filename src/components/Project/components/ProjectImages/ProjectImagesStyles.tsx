@@ -14,5 +14,6 @@ export const StyledImageContainer = styled.div`
 
   > div {
     padding-right: 25px;
+    flex-basis: auto;
   }
 `;
