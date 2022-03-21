@@ -22,12 +22,7 @@ export default class Header extends React.PureComponent<IHeaderProps> {
       <BannerBar>
         <StyledContainer>
           <StyledImageContainer href="#">
-            <StyledImage
-              src="/static/profile-pic.jpg"
-              alt="me"
-              height={116}
-              width={116}
-            />
+            <StyledImage src="/static/profile-pic.jpg" alt="me" height={116} width={116} />
           </StyledImageContainer>
           <StyledTextContainer>
             <StyledName>Kyle Davis</StyledName>
@@ -36,10 +31,7 @@ export default class Header extends React.PureComponent<IHeaderProps> {
             </StyledAttribute>
             <ul>
               <li>
-                <a
-                  href="/static/documents/Davis_Kyle_17MAR2022.pdf"
-                  target="_blank"
-                >
+                <a href="/static/documents/Davis_Kyle_21MAR2022.pdf" target="_blank">
                   <FaFileAlt /> Resume
                 </a>
               </li>
@@ -54,10 +46,7 @@ export default class Header extends React.PureComponent<IHeaderProps> {
                 </a>
               </li>
               <li>
-                <a
-                  href="https://www.linkedin.com/in/kyle-davis-687276126/"
-                  target="_blank"
-                >
+                <a href="https://www.linkedin.com/in/kyle-davis-687276126/" target="_blank">
                   <FaLinkedin /> LinkedIn
                 </a>
               </li>
