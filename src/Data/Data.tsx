@@ -121,8 +121,8 @@ const ProjectList: IProjectItem[] = [
     ],
     images: [
       {
-        thumbnailPath: "/static/screenshots/SFYT/SFYT-SS-min_300x300.png",
-        largePath: "/static/screenshots/SFYT/SFYT-SS-min.png"
+        thumbnailPath: "/static/screenshots/SFYT/Home_300x300.png",
+        largePath: "/static/screenshots/SFYT/Home_512x512.png"
       },
       {
         thumbnailPath: "/static/screenshots/SFYT/Sauces_300x300.jpg",
