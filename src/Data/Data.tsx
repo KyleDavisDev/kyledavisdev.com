@@ -312,16 +312,33 @@ const ProjectList: IProjectItem[] = [
       tools.GitHub
     ],
     images: [
-      { thumbnailPath: "/static/screenshots/SickFits/Main_300x300.png" },
-      { thumbnailPath: "/static/screenshots/SickFits/Login_300x300.png" },
       {
-        thumbnailPath: "/static/screenshots/SickFits/CreditCardPayment_300x300.png"
+        thumbnailPath: "/static/screenshots/SickFits/Main_300x300.png",
+        largePath: "/static/screenshots/SickFits/Main_512x512.png"
       },
-      { thumbnailPath: "/static/screenshots/SickFits/Cart_300x300.png" },
-      { thumbnailPath: "/static/screenshots/SickFits/SellItem_300x300.png" },
-      { thumbnailPath: "/static/screenshots/SickFits/TechStack_300x300.png" },
       {
-        thumbnailPath: "/static/screenshots/SickFits/AdvancedReactCert_300x300.png"
+        thumbnailPath: "/static/screenshots/SickFits/Login_300x300.png",
+        largePath: "/static/screenshots/SickFits/Login_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/SickFits/CreditCardPayment_300x300.png",
+        largePath: "/static/screenshots/SickFits/CreditCardPayment_512x647.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/SickFits/Cart_300x300.png",
+        largePath: "/static/screenshots/SickFits/Cart_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/SickFits/SellItem_300x300.png",
+        largePath: "/static/screenshots/SickFits/SellItem_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/SickFits/TechStack_300x202.png",
+        largePath: "/static/screenshots/SickFits/TechStack_512x344.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/SickFits/AdvancedReactCert_300x300.png",
+        largePath: "/static/screenshots/SickFits/AdvancedReactCert.png"
       }
     ],
     external: {
