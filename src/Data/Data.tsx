@@ -489,19 +489,42 @@ const ProjectList: IProjectItem[] = [
       tools.CSS3
     ],
     images: [
-      { thumbnailPath: "/static/screenshots/Physics/Tamu-Physics-SS-min.png" },
       {
-        thumbnailPath: "/static/screenshots/Physics/ProspectiveStudents_300x300.jpg"
+        thumbnailPath: "/static/screenshots/Physics/Tamu-Physics-SS-min.png",
+        largePath: "/static/screenshots/Physics/Tamu-Physics-SS-min.png"
       },
       {
-        thumbnailPath: "/static/screenshots/Physics/ProspectiveStudents2_300x300.jpg"
+        thumbnailPath: "/static/screenshots/Physics/ProspectiveStudents_300x300.jpg",
+        largePath: "/static/screenshots/Physics/ProspectiveStudents_300x300.jpg"
       },
-      { thumbnailPath: "/static/screenshots/Physics/Calendar_300x300.png" },
-      { thumbnailPath: "/static/screenshots/Physics/Calendar2_300x300.png" },
-      { thumbnailPath: "/static/screenshots/Physics/Directory_300x300.png" },
-      { thumbnailPath: "/static/screenshots/Physics/Outreach_300x300.jpg" },
-      { thumbnailPath: "/static/screenshots/Physics/Research_300x300.png" },
-      { thumbnailPath: "/static/screenshots/Physics/Research2_300x300.jpg" }
+      {
+        thumbnailPath: "/static/screenshots/Physics/ProspectiveStudents2_300x300.jpg",
+        largePath: "/static/screenshots/Physics/ProspectiveStudents2_300x300.jpg"
+      },
+      {
+        thumbnailPath: "/static/screenshots/Physics/Calendar_300x300.png",
+        largePath: "/static/screenshots/Physics/Calendar_300x300.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/Physics/Calendar2_300x300.png",
+        largePath: "/static/screenshots/Physics/Calendar2_300x300.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/Physics/Directory_300x300.png",
+        largePath: "/static/screenshots/Physics/Directory_300x300.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/Physics/Outreach_300x300.jpg",
+        largePath: "/static/screenshots/Physics/Outreach_300x300.jpg"
+      },
+      {
+        thumbnailPath: "/static/screenshots/Physics/Research_300x300.png",
+        largePath: "/static/screenshots/Physics/Research_300x300.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/Physics/Research2_300x300.jpg",
+        largePath: "/static/screenshots/Physics/Research2_300x300.jpg"
+      }
     ],
     external: {
       isActive: true,
@@ -528,14 +551,30 @@ const ProjectList: IProjectItem[] = [
       tools.CSS3
     ],
     images: [
-      { thumbnailPath: "/static/screenshots/Astronomy/Main_300x300.jpg" },
-      { thumbnailPath: "/static/screenshots/Astronomy/Courses_300x300.jpg" },
-      { thumbnailPath: "/static/screenshots/Astronomy/Faculty_300x300.jpg" },
-      { thumbnailPath: "/static/screenshots/Astronomy/Person_300x300.png" },
       {
-        thumbnailPath: "/static/screenshots/Astronomy/Publications_300x300.png"
+        thumbnailPath: "/static/screenshots/Astronomy/Main_300x300.jpg",
+        largePath: "/static/screenshots/Astronomy/Main_512x512.png"
       },
-      { thumbnailPath: "/static/screenshots/Astronomy/Research_300x300.jpg" }
+      {
+        thumbnailPath: "/static/screenshots/Astronomy/Courses_300x300.jpg",
+        largePath: "/static/screenshots/Astronomy/Courses_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/Astronomy/Faculty_300x300.jpg",
+        largePath: "/static/screenshots/Astronomy/Faculty_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/Astronomy/Person_300x300.png",
+        largePath: "/static/screenshots/Astronomy/Person_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/Astronomy/Publications_300x300.png",
+        largePath: "/static/screenshots/Astronomy/Publications_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/Astronomy/Research_300x300.jpg",
+        largePath: "/static/screenshots/Astronomy/Research_512x512.png"
+      }
     ],
     external: {
       isActive: true,
