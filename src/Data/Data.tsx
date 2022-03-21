@@ -1,12 +1,8 @@
 import { tools, IToolsItem } from "./tools";
 
-const AdvancedReactCert = "/static/screenshots/AdvancedReactCert.png";
-const CustomWebIcons = "/static/screenshots/Custom-Icons-SS-min.png";
-const KyleBonarReactWebsite = "/static/screenshots/KyleBonarReactWebsite-SS-min.png";
-
 export interface IProjectImageItem {
   thumbnailPath: string;
-  largePath?: string;
+  largePath: string;
   alt?: string;
 }
 
@@ -299,7 +295,7 @@ const ProjectList: IProjectItem[] = [
       "The purpose of this project was primarily self-education. The <a href='https://advancedreact.com/' target='_blank' rel='noopener nofollow'>course</a> walks you through the process of creating an online store using technologies like <a href='https://reactjs.org/' target='_blank' rel='noopener nofollow'>React</a>, <a href='https://graphql.org/' target='_blank' rel='noopeneer nofollow'>GraphQL</a>, and <a href='https://jestjs.io/' target='_blank' rel='noopener nofollow'>Jest</a>. Additionally, I used <a href='https://www.typescriptlang.org/' target='_blank' rel='noopener nofollow'>TypeScript</a> on the front-end which was not included in the course.",
     description:
       "The end-product is an online store where users can purchase/sell products. The application's database is created using five main relational models: <strong> Users, Items, Orders, CartItems, and OrderItems</strong> and is queried using GraphQL. Some fun server-side goodies include JWT authentication, user-specific permissions, sending emails, uploading images, and charging credit cards. ",
-    results: `After <a href="${AdvancedReactCert}" target="_blank">completing this course</a>, I am absolutely better at writing React/JavaScript tests. This will certainly be something I carry with me going forward as writing tests are a crucial part to any enterprise application. `,
+    results: `After <a href="/static/screenshots/AdvancedReactCert.png" target="_blank">completing this course</a>, I am absolutely better at writing React/JavaScript tests. This will certainly be something I carry with me going forward as writing tests are a crucial part to any enterprise application. `,
     tools: [
       tools.React,
       tools.TypeScript,
@@ -463,7 +459,12 @@ const ProjectList: IProjectItem[] = [
     description:
       'A bit recursive, right? This project was a complete rewrite of my original portfolio website. This project has served as a platform for me to get comfortable with a ton of different popular JavaScript technologies and the build tools often associate with them; namely NodeJS, ReactJS, Express, Webpack, and Babel. Originally, I started with Facebook\'s "create-react-app", which greatly simplifies getting started with ReactJS, however I much prefer knowing what was going on under the hood. Because of this, I spent a good bit of time figuring out all of the individually pieces and how they work together. Understanding the ground-level components, I believe, have helped me to not only become a better ReactJS developer, but developer as a whole. Another awesome aspect of this project is scoring an "A+" in security, which is the highest score, from SSL Labs!',
     tools: [tools.Linux, tools.Nginx, tools.NodeJS, tools.ExpressJS, tools.React, tools.HTML5, tools.Sass],
-    images: [{ thumbnailPath: KyleBonarReactWebsite }],
+    images: [
+      {
+        thumbnailPath: "/static/screenshots/KyleBonarReactWebsite-SS-min.png",
+        largePath: "/static/screenshots/KyleBonarReactWebsite-SS-min.png"
+      }
+    ],
     external: {
       isActive: false,
       link: "https://kyledavisdev.com",
@@ -623,7 +624,12 @@ const ProjectList: IProjectItem[] = [
     description:
       "As a UI/UX Developer for The University of Texas at San Antonio, I have spent a fair amount of time inside of the Adobe Suite. In doing so, I have created many icons, logos, and document designs which are currently being used across UTSA including UTSA Mobile App itself. I have also grown more comfortable in optimizing high-resolution images into a more web appropriate form to increase page load times and to decrease page load sizes.",
     tools: [tools.AdobeIllustrator],
-    images: [{ thumbnailPath: CustomWebIcons }],
+    images: [
+      {
+        thumbnailPath: "/static/screenshots/Custom-Icons-SS-min.png",
+        largePath: "/static/screenshots/Custom-Icons-SS-min.png"
+      }
+    ],
     external: {
       isActive: false,
       link: "https://github.com/KyleDavisDev/utsa-icons",
@@ -699,7 +705,12 @@ const ProjectList: IProjectItem[] = [
     description:
       "Fun application that counts the number of times each unique word appears within a text area and creates a \"bubble\" with a respective area. Becoming more comfortable with JavaScript's Object Oriented Programming and using JavaScript's canvas method to have a little fun were the main goals of this project. Even with a block of text 32,000 lines long and over 8,000 unique words, the application works like a charm. This code can be found in my gitHub.",
     tools: [tools.JavaScript, tools.HTML5, tools.CSS3],
-    images: [{ thumbnailPath: "/static/screenshots/JSGames/WordCounter-SS-min.png" }],
+    images: [
+      {
+        thumbnailPath: "/static/screenshots/JSGames/WordCounter-SS-min.png",
+        largePath: "/static/screenshots/JSGames/WordCounter-SS-min.png"
+      }
+    ],
     external: {
       isActive: false,
       link: "/JSGames/wordCount",
@@ -714,7 +725,12 @@ const ProjectList: IProjectItem[] = [
     description:
       "To create nice phyllotaxis images using only client-side rendering. Users can click anywhere within the canvas to create unique patterns and hopefully learn a bit too! The most common of phyllotaxis plants is the Aloe Polyphylla. This code can be found in my gitHub.",
     tools: [tools.JavaScript, tools.HTML5, tools.CSS3],
-    images: [{ thumbnailPath: "/static/screenshots/JSGames/Phyllotaxis-SS-min.png" }],
+    images: [
+      {
+        thumbnailPath: "/static/screenshots/JSGames/Phyllotaxis-SS-min.png",
+        largePath: "/static/screenshots/JSGames/Phyllotaxis-SS-min.png"
+      }
+    ],
     external: {
       isActive: false,
       link: "/JSGames/phyllotaxis",
@@ -729,7 +745,12 @@ const ProjectList: IProjectItem[] = [
     description:
       "To create a nice application which captures the ideas of fractal design. Users can click the canvas and cause a single branch to split into two. When the user clicks again, the branches will split again, so forth and so on. At any time, the tree can reset while sliders allow for customization and design a unique tree. This code can be found on my gitHub.",
     tools: [tools.JavaScript, tools.HTML5, tools.CSS3],
-    images: [{ thumbnailPath: "/static/screenshots/JSGames/FractalTrees-SS-min.png" }],
+    images: [
+      {
+        thumbnailPath: "/static/screenshots/JSGames/FractalTrees-SS-min.png",
+        largePath: "/static/screenshots/JSGames/FractalTrees-SS-min.png"
+      }
+    ],
     external: {
       isActive: false,
       link: "/JSGames/fractalTrees",
@@ -744,7 +765,12 @@ const ProjectList: IProjectItem[] = [
     description:
       "Inspired by my research as a senior in computational physics, the double pendulum is an excellent example of chaos theory. The simplified idea is that even the slightest change in the initial conditions can lead to a drastic change in the overall outcome of a system is incredibly interesting. This application relies entirely on the browser to run the model and the user can modify the double pendulum by using sliders. This code can be found on my gitHub.",
     tools: [tools.JavaScript, tools.HTML5, tools.CSS3],
-    images: [{ thumbnailPath: "/static/screenshots/JSGames/DoublePendulum-SS-min.png" }],
+    images: [
+      {
+        thumbnailPath: "/static/screenshots/JSGames/DoublePendulum-SS-min.png",
+        largePath: "/static/screenshots/JSGames/DoublePendulum-SS-min.png"
+      }
+    ],
     external: {
       isActive: false,
       link: "/JSGames/doublePend",
@@ -759,7 +785,12 @@ const ProjectList: IProjectItem[] = [
     description:
       "A classic arcade game brought to you in a browser! This was my first time messing around with HTML5's canvas as well as creating a very simple A.I.. Users simply need to click on the canvas to start the game, and use the arrow up and down arrow keys to move their paddle. The ball speeds up over time so be careful! This code can be found in my GitHub.",
     tools: [tools.JavaScript, tools.HTML5, tools.CSS3],
-    images: [{ thumbnailPath: "/static/screenshots/JSGames/PingPong-SS-min.png" }],
+    images: [
+      {
+        thumbnailPath: "/static/screenshots/JSGames/PingPong-SS-min.png",
+        largePath: "/static/screenshots/JSGames/PingPong-SS-min.png"
+      }
+    ],
     external: {
       isActive: false,
       link: "/JSGames/pong",
