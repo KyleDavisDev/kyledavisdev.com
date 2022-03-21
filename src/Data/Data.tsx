@@ -648,20 +648,41 @@ const ProjectList: IProjectItem[] = [
       "<b>Ping Pong:</b> A classic arcade game brought to you in a browser! This was my first time messing around with HTML5's canvas as well as creating a very simple A.I.. Users simply need to click on the canvas to start the game, and use the arrow up and down arrow keys to move their paddle. The ball speeds up over time so be careful! This code can be found in my GitHub.",
     tools: [tools.JavaScript, tools.HTML5, tools.CSS3],
     images: [
-      { thumbnailPath: "/static/screenshots/JSGames/Phyllotaxis_300x300.jpg" },
-      { thumbnailPath: "/static/screenshots/JSGames/Phyllotaxis2_300x300.png" },
-      { thumbnailPath: "/static/screenshots/JSGames/Phyllotaxis3_300x300.jpg" },
-      { thumbnailPath: "/static/screenshots/JSGames/FractalTree_300x300.png" },
-      { thumbnailPath: "/static/screenshots/JSGames/FractalTree2_300x300.png" },
-      { thumbnailPath: "/static/screenshots/JSGames/FractalTree3_300x300.png" },
       {
-        thumbnailPath: "/static/screenshots/JSGames/WordCounter-SS-min_300x300.png"
+        thumbnailPath: "/static/screenshots/JSGames/Phyllotaxis_300x300.jpg",
+        largePath: "/static/screenshots/JSGames/Phyllotaxis_512x512.png"
       },
       {
-        thumbnailPath: "/static/screenshots/JSGames/DoublePendulum-SS-min_300x300.png"
+        thumbnailPath: "/static/screenshots/JSGames/Phyllotaxis2_300x300.png",
+        largePath: "/static/screenshots/JSGames/Phyllotaxis2_512x512.png"
       },
       {
-        thumbnailPath: "/static/screenshots/JSGames/PingPong-SS-min_300x300.png"
+        thumbnailPath: "/static/screenshots/JSGames/Phyllotaxis3_300x300.jpg",
+        largePath: "/static/screenshots/JSGames/Phyllotaxis3_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/JSGames/FractalTree_300x300.png",
+        largePath: "/static/screenshots/JSGames/FractalTree_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/JSGames/FractalTree2_300x300.png",
+        largePath: "/static/screenshots/JSGames/FractalTree2_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/JSGames/FractalTree3_300x300.png",
+        largePath: "/static/screenshots/JSGames/FractalTree3_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/JSGames/WordCounter-SS-min_300x300.png",
+        largePath: "/static/screenshots/JSGames/WordCounter-SS-min_300x300.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/JSGames/DoublePendulum-SS-min_300x300.png",
+        largePath: "/static/screenshots/JSGames/DoublePendulum-SS_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/JSGames/PingPong-SS-min_300x300.png",
+        largePath: "/static/screenshots/JSGames/PingPong-SS_512x512.png"
       }
     ],
     external: {
