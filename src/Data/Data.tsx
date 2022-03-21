@@ -371,10 +371,22 @@ const ProjectList: IProjectItem[] = [
       tools.GitHub
     ],
     images: [
-      { thumbnailPath: "/static/screenshots/SonsOfVidya/Landing2_300x300.png" },
-      { thumbnailPath: "/static/screenshots/SonsOfVidya/Banner_300x300.jpg" },
-      { thumbnailPath: "/static/screenshots/SonsOfVidya/Banner2_300x300.jpg" },
-      { thumbnailPath: "/static/screenshots/SonsOfVidya/Videos_300x300.jpg" }
+      {
+        thumbnailPath: "/static/screenshots/SonsOfVidya/Landing2_300x300.png",
+        largePath: "/static/screenshots/SonsOfVidya/Landing2_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/SonsOfVidya/Banner_300x300.jpg",
+        largePath: "/static/screenshots/SonsOfVidya/Banner_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/SonsOfVidya/Banner2_300x300.jpg",
+        largePath: "/static/screenshots/SonsOfVidya/Banner2_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/SonsOfVidya/Videos_300x300.jpg",
+        largePath: "/static/screenshots/SonsOfVidya/Videos_512x512.png"
+      }
     ],
     external: {
       isActive: true,
