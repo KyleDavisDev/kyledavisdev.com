@@ -50,6 +50,8 @@ const ProjectImages: React.FC<IProjectImages> = props => {
         setZoomed(zoom);
       } else if (key.toLowerCase() === "escape") {
         unZoom();
+      } else if (key.toLowerCase() === " ") {
+        unZoom();
       }
     };
 
