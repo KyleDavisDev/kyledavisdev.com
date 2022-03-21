@@ -2,11 +2,11 @@ import { tools, IToolsItem } from "./tools";
 
 const AdvancedReactCert = "/static/screenshots/AdvancedReactCert.png";
 const CustomWebIcons = "/static/screenshots/Custom-Icons-SS-min.png";
-const KyleBonarReactWebsite =
-  "/static/screenshots/KyleBonarReactWebsite-SS-min.png";
+const KyleBonarReactWebsite = "/static/screenshots/KyleBonarReactWebsite-SS-min.png";
 
 export interface IProjectImageItem {
-  path: string;
+  thumbnailPath: string;
+  largePath?: string;
   alt?: string;
 }
 
@@ -40,16 +40,15 @@ const ProjectList: IProjectItem[] = [
     purpose:
       "Earning a Master's in Computer Science has been a personal goal for many years. A Master's degree will help me gain specialized knowledge and demonstrate advanced expertise. Additionally, I'll have a stronger foundation to work across many different industries such as mobile and cloud computing.",
     description:
-      "I applied to <a href='https://www.vanderbilt.edu/' target='_blank' rel='nofollow noopener'>Vanderbilt University</a> in the summer of 2021 due to their high-quality program and their online-only format. I was accepted quickly after and my first semester was in January 2022. The curriculum includes topics such as Mobile and cloud computing, Cybersecurity, Distributed systems, Intelligent systems, Software and systems engineering, and Computer science theory."
-    ,
+      "I applied to <a href='https://www.vanderbilt.edu/' target='_blank' rel='nofollow noopener'>Vanderbilt University</a> in the summer of 2021 due to their high-quality program and their online-only format. I was accepted quickly after and my first semester was in January 2022. The curriculum includes topics such as Mobile and cloud computing, Cybersecurity, Distributed systems, Intelligent systems, Software and systems engineering, and Computer science theory.",
     results:
       "My first semester started in January 2022, and I have been impressed and engaged with the program so far. The online format seems to lend itself towards self-motivated, working professionals. I have classmates across the nation and many of them are in very different industries from me; each bringing their own perspective and experience to the classroom. Every week our discussions are productive and show me different angles and styles of coding. I've learned so much within just a few months.",
-    tools: [
-      tools.Java,
-      tools.GitHub
-    ],
+    tools: [tools.Java, tools.GitHub],
     images: [
-      { path: "/static/screenshots/Vanderbilt/Engineering_300x300.png" }
+      {
+        thumbnailPath: "/static/screenshots/Vanderbilt/Engineering_300x300.png",
+        largePath: "/static/screenshots/Vanderbilt/Engineering_512x512.png"
+      }
     ],
     external: {
       isActive: true,
@@ -70,18 +69,24 @@ const ProjectList: IProjectItem[] = [
       "<a href='https://watchbatterychart.com' target='_blank' rel='nofollow noopener'>Watchbatterychart.com</a> is made using  <a href='https://www.typescriptlang.org/' target='_blank' rel='noopener nofollow'>TypesScript</a>, <a href='https://reactjs.org/' target='_blank' rel='noopener nofollow'>ReactJS</a>, and <a href='https://nextjs.org/' target='_blank' rel='noopener nofollow'>NextJS</a>. It offers a way to sort the table by columns, it has a text input to help filter by, and is responsive! Additionally, the text and spacing is larger than other charts online as well as offers an on-hover color change effect for each row for improved readability.",
     results:
       "Although this application has only just released, I hope that others can make use of it and will find it valuable! I really like enjoyed working with <a href='https://nextjs.org/' target='_blank' rel='noopener nofollow'>NextJS</a> on an application that is simply and straight-forward too because it let me use this technology in a new way.",
-    tools: [
-      tools.React,
-      tools.TypeScript,
-      tools.NextJS,
-      tools.StyledComponents,
-      tools.GitHub
-    ],
+    tools: [tools.React, tools.TypeScript, tools.NextJS, tools.StyledComponents, tools.GitHub],
     images: [
-      { path: "/static/screenshots/WatchBatteryChart/main_300x300.png" },
-      { path: "/static/screenshots/WatchBatteryChart/middle_300x300.png" },
-      { path: "/static/screenshots/WatchBatteryChart/bottom_300x300.png" },
-      { path: "/static/screenshots/WatchBatteryChart/responsive.png" }
+      {
+        thumbnailPath: "/static/screenshots/WatchBatteryChart/main_300x300.png",
+        largePath: "/static/screenshots/WatchBatteryChart/main_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/WatchBatteryChart/middle_300x300.png",
+        largePath: "/static/screenshots/WatchBatteryChart/middle_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/WatchBatteryChart/bottom_300x300.png",
+        largePath: "/static/screenshots/WatchBatteryChart/bottom_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/WatchBatteryChart/responsive_300x300.png",
+        largePath: "/static/screenshots/WatchBatteryChart/responsive_512x512.png"
+      }
     ],
     external: {
       isActive: true,
@@ -115,18 +120,54 @@ const ProjectList: IProjectItem[] = [
       tools.GitHub
     ],
     images: [
-      { path: "/static/screenshots/SFYT/SFYT-SS-min_300x300.png" },
-      { path: "/static/screenshots/SFYT/Sauces_300x300.jpg" },
-      { path: "/static/screenshots/SFYT/Spotlight_300x300.jpg" },
-      { path: "/static/screenshots/SFYT/Add1_300x300.png" },
-      { path: "/static/screenshots/SFYT/Add2_300x300.png" },
-      { path: "/static/screenshots/SFYT/Review1_300x300.png" },
-      { path: "/static/screenshots/SFYT/Review2_300x300.png" },
-      { path: "/static/screenshots/SFYT/Register_300x300.png" },
-      { path: "/static/screenshots/SFYT/Login_300x300.png" },
-      { path: "/static/screenshots/SFYT/Settings_300x300.png" },
-      { path: "/static/screenshots/SFYT/UpdateEmail_300x300.png" },
-      { path: "/static/screenshots/SFYT/UpdateAvatar_300x300.png" }
+      {
+        thumbnailPath: "/static/screenshots/SFYT/SFYT-SS-min_300x300.png",
+        largePath: "/static/screenshots/SFYT/SFYT-SS-min.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/SFYT/Sauces_300x300.jpg",
+        largePath: "/static/screenshots/SFYT/Sauces_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/SFYT/Spotlight_300x300.jpg",
+        largePath: "/static/screenshots/SFYT/Spotlight_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/SFYT/Add1_300x300.png",
+        largePath: "/static/screenshots/SFYT/Add1_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/SFYT/Add2_300x300.png",
+        largePath: "/static/screenshots/SFYT/Add2_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/SFYT/Review1_300x300.png",
+        largePath: "/static/screenshots/SFYT/Review1_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/SFYT/Review2_300x300.png",
+        largePath: "/static/screenshots/SFYT/Review2_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/SFYT/Register_300x300.png",
+        largePath: "/static/screenshots/SFYT/Register_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/SFYT/Login_300x300.png",
+        largePath: "/static/screenshots/SFYT/Login_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/SFYT/Settings_300x300.png",
+        largePath: "/static/screenshots/SFYT/Settings_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/SFYT/UpdateEmail_300x300.png",
+        largePath: "/static/screenshots/SFYT/UpdateEmail_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/SFYT/UpdateAvatar_300x300.png",
+        largePath: "/static/screenshots/SFYT/UpdateAvatar_512x512.png"
+      }
     ],
     external: {
       isActive: true,
@@ -146,23 +187,23 @@ const ProjectList: IProjectItem[] = [
     results:
       "The average users count increased by 40%, and the average session duration increased by 95%. The website also has the highest SEO score of it's search term (oak wilt). The server costs were cut by 94%, and page loading speed increased by 89%. This project was really special because it has real-world impact by helping Texans preserve their natural resources.",
     pubYear: "2018-2019",
-    tools: [
-      tools.PHP7,
-      tools.Wordpress,
-      tools.MySQL,
-      tools.JavaScript,
-      tools.HTML5,
-      tools.CSS3,
-      tools.Linux
-    ],
+    tools: [tools.PHP7, tools.Wordpress, tools.MySQL, tools.JavaScript, tools.HTML5, tools.CSS3, tools.Linux],
     images: [
-      { path: "/static/screenshots/TexasOakWilt/Main_300x300.jpg" },
-      { path: "/static/screenshots/TexasOakWilt/FindMyForester_300x300.png" },
-      { path: "/static/screenshots/TexasOakWilt/Vendors_300x300.png" },
-      { path: "/static/screenshots/TexasOakWilt/RecommendedTrees_300x300.png" },
-      { path: "/static/screenshots/TexasOakWilt/FAQ2_300x300.png" },
-      { path: "/static/screenshots/TexasOakWilt/OakwiltSpread_300x300.png" },
-      { path: "/static/screenshots/TexasOakWilt/Identification_300x300.png" }
+      { thumbnailPath: "/static/screenshots/TexasOakWilt/Main_300x300.jpg" },
+      {
+        thumbnailPath: "/static/screenshots/TexasOakWilt/FindMyForester_300x300.png"
+      },
+      { thumbnailPath: "/static/screenshots/TexasOakWilt/Vendors_300x300.png" },
+      {
+        thumbnailPath: "/static/screenshots/TexasOakWilt/RecommendedTrees_300x300.png"
+      },
+      { thumbnailPath: "/static/screenshots/TexasOakWilt/FAQ2_300x300.png" },
+      {
+        thumbnailPath: "/static/screenshots/TexasOakWilt/OakwiltSpread_300x300.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/TexasOakWilt/Identification_300x300.png"
+      }
     ],
     external: {
       isActive: true,
@@ -184,24 +225,39 @@ const ProjectList: IProjectItem[] = [
     pubYear: "2019",
     tools: [tools.Sketch],
     images: [
-      { path: "/static/screenshots/ConversationExchange/Login_300x300.png" },
-      { path: "/static/screenshots/ConversationExchange/Home_300x300.png" },
-      { path: "/static/screenshots/ConversationExchange/Home2_300x300.png" },
-      { path: "/static/screenshots/ConversationExchange/Article_300x300.png" },
-      { path: "/static/screenshots/ConversationExchange/Article2_300x300.png" },
       {
-        path: "/static/screenshots/ConversationExchange/Chatrooms_300x300.png"
+        thumbnailPath: "/static/screenshots/ConversationExchange/Login_300x300.png"
       },
       {
-        path: "/static/screenshots/ConversationExchange/Chatrooms2_300x300.png"
+        thumbnailPath: "/static/screenshots/ConversationExchange/Home_300x300.png"
       },
       {
-        path:
-          "/static/screenshots/ConversationExchange/Conversation_300x300.png"
+        thumbnailPath: "/static/screenshots/ConversationExchange/Home2_300x300.png"
       },
-      { path: "/static/screenshots/ConversationExchange/Settings_300x300.png" },
-      { path: "/static/screenshots/ConversationExchange/Profile_300x300.png" },
-      { path: "/static/screenshots/ConversationExchange/Profile2_300x300.png" }
+      {
+        thumbnailPath: "/static/screenshots/ConversationExchange/Article_300x300.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/ConversationExchange/Article2_300x300.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/ConversationExchange/Chatrooms_300x300.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/ConversationExchange/Chatrooms2_300x300.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/ConversationExchange/Conversation_300x300.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/ConversationExchange/Settings_300x300.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/ConversationExchange/Profile_300x300.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/ConversationExchange/Profile2_300x300.png"
+      }
     ],
     external: {
       isActive: true,
@@ -219,7 +275,7 @@ const ProjectList: IProjectItem[] = [
       "The purpose of this project was primarily self-education. The <a href='https://advancedreact.com/' target='_blank' rel='noopener nofollow'>course</a> walks you through the process of creating an online store using technologies like <a href='https://reactjs.org/' target='_blank' rel='noopener nofollow'>React</a>, <a href='https://graphql.org/' target='_blank' rel='noopeneer nofollow'>GraphQL</a>, and <a href='https://jestjs.io/' target='_blank' rel='noopener nofollow'>Jest</a>. Additionally, I used <a href='https://www.typescriptlang.org/' target='_blank' rel='noopener nofollow'>TypeScript</a> on the front-end which was not included in the course.",
     description:
       "The end-product is an online store where users can purchase/sell products. The application's database is created using five main relational models: <strong> Users, Items, Orders, CartItems, and OrderItems</strong> and is queried using GraphQL. Some fun server-side goodies include JWT authentication, user-specific permissions, sending emails, uploading images, and charging credit cards. ",
-    results: `After <a href='${AdvancedReactCert}' target='_blank'>completing this course</a>, I am absolutely better at writing React/JavaScript tests. This will certainly be something I carry with me going forward as writing tests are a crucial part to any enterprise application. `,
+    results: `After <a href="${AdvancedReactCert}" target="_blank">completing this course</a>, I am absolutely better at writing React/JavaScript tests. This will certainly be something I carry with me going forward as writing tests are a crucial part to any enterprise application. `,
     tools: [
       tools.React,
       tools.TypeScript,
@@ -232,13 +288,17 @@ const ProjectList: IProjectItem[] = [
       tools.GitHub
     ],
     images: [
-      { path: "/static/screenshots/SickFits/Main_300x300.png" },
-      { path: "/static/screenshots/SickFits/Login_300x300.png" },
-      { path: "/static/screenshots/SickFits/CreditCardPayment_300x300.png" },
-      { path: "/static/screenshots/SickFits/Cart_300x300.png" },
-      { path: "/static/screenshots/SickFits/SellItem_300x300.png" },
-      { path: "/static/screenshots/SickFits/TechStack_300x300.png" },
-      { path: "/static/screenshots/SickFits/AdvancedReactCert_300x300.png" }
+      { thumbnailPath: "/static/screenshots/SickFits/Main_300x300.png" },
+      { thumbnailPath: "/static/screenshots/SickFits/Login_300x300.png" },
+      {
+        thumbnailPath: "/static/screenshots/SickFits/CreditCardPayment_300x300.png"
+      },
+      { thumbnailPath: "/static/screenshots/SickFits/Cart_300x300.png" },
+      { thumbnailPath: "/static/screenshots/SickFits/SellItem_300x300.png" },
+      { thumbnailPath: "/static/screenshots/SickFits/TechStack_300x300.png" },
+      {
+        thumbnailPath: "/static/screenshots/SickFits/AdvancedReactCert_300x300.png"
+      }
     ],
     external: {
       isActive: true,
@@ -270,10 +330,10 @@ const ProjectList: IProjectItem[] = [
       tools.GitHub
     ],
     images: [
-      { path: "/static/screenshots/SonsOfVidya/Landing2_300x300.png" },
-      { path: "/static/screenshots/SonsOfVidya/Banner_300x300.jpg" },
-      { path: "/static/screenshots/SonsOfVidya/Banner2_300x300.jpg" },
-      { path: "/static/screenshots/SonsOfVidya/Videos_300x300.jpg" }
+      { thumbnailPath: "/static/screenshots/SonsOfVidya/Landing2_300x300.png" },
+      { thumbnailPath: "/static/screenshots/SonsOfVidya/Banner_300x300.jpg" },
+      { thumbnailPath: "/static/screenshots/SonsOfVidya/Banner2_300x300.jpg" },
+      { thumbnailPath: "/static/screenshots/SonsOfVidya/Videos_300x300.jpg" }
     ],
     external: {
       isActive: true,
@@ -291,22 +351,43 @@ const ProjectList: IProjectItem[] = [
       "This project was originally developed for the UTSA Mobile App in an attempt to battle the feeling of staleness, which existed on the app prior. Originally, the app would open up to a \"What's New\" landing page which would be updated every couple of months but with the new design and layout, any of the app's components can be promoted and shown off at the drop of a hat. In production, this design has been used for the calendar, student registration, a tech conference, and now dining. This design is responsive and will soon be used on other non-mobile platforms as well.",
     tools: [tools.HTML5, tools.Bootstrap3, tools.CSS3],
     images: [
-      { path: "/static/screenshots/FeatureSpotlight/Athletics_300x300.png" },
-      { path: "/static/screenshots/FeatureSpotlight/Banner_300x300.png" },
-      { path: "/static/screenshots/FeatureSpotlight/Calendar_300x300.png" },
-      { path: "/static/screenshots/FeatureSpotlight/Dashboard_300x300.png" },
-      { path: "/static/screenshots/FeatureSpotlight/Dining_300x300.png" },
-      { path: "/static/screenshots/FeatureSpotlight/Educuase_300x300.png" },
-      { path: "/static/screenshots/FeatureSpotlight/Harvey_300x300.png" },
-      { path: "/static/screenshots/FeatureSpotlight/MyCourses_300x300.png" },
-      { path: "/static/screenshots/FeatureSpotlight/MyHolds_300x300.png" },
-      { path: "/static/screenshots/FeatureSpotlight/Orientation_300x300.png" },
-      { path: "/static/screenshots/FeatureSpotlight/Registration_300x300.png" }
+      {
+        thumbnailPath: "/static/screenshots/FeatureSpotlight/Athletics_300x300.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/FeatureSpotlight/Banner_300x300.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/FeatureSpotlight/Calendar_300x300.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/FeatureSpotlight/Dashboard_300x300.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/FeatureSpotlight/Dining_300x300.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/FeatureSpotlight/Educuase_300x300.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/FeatureSpotlight/Harvey_300x300.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/FeatureSpotlight/MyCourses_300x300.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/FeatureSpotlight/MyHolds_300x300.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/FeatureSpotlight/Orientation_300x300.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/FeatureSpotlight/Registration_300x300.png"
+      }
     ],
     external: {
       isActive: false,
-      link:
-        "https://crane.it.utsa.edu:8443/resources/appSpotlight/dining/index.html",
+      link: "https://crane.it.utsa.edu:8443/resources/appSpotlight/dining/index.html",
       name: "UTSA Feature Spotlight"
     },
     isActive: true
@@ -317,16 +398,8 @@ const ProjectList: IProjectItem[] = [
     name: "ReactJS Portfolio",
     description:
       'A bit recursive, right? This project was a complete rewrite of my original portfolio website. This project has served as a platform for me to get comfortable with a ton of different popular JavaScript technologies and the build tools often associate with them; namely NodeJS, ReactJS, Express, Webpack, and Babel. Originally, I started with Facebook\'s "create-react-app", which greatly simplifies getting started with ReactJS, however I much prefer knowing what was going on under the hood. Because of this, I spent a good bit of time figuring out all of the individually pieces and how they work together. Understanding the ground-level components, I believe, have helped me to not only become a better ReactJS developer, but developer as a whole. Another awesome aspect of this project is scoring an "A+" in security, which is the highest score, from SSL Labs!',
-    tools: [
-      tools.Linux,
-      tools.Nginx,
-      tools.NodeJS,
-      tools.ExpressJS,
-      tools.React,
-      tools.HTML5,
-      tools.Sass
-    ],
-    images: [{ path: KyleBonarReactWebsite }],
+    tools: [tools.Linux, tools.Nginx, tools.NodeJS, tools.ExpressJS, tools.React, tools.HTML5, tools.Sass],
+    images: [{ thumbnailPath: KyleBonarReactWebsite }],
     external: {
       isActive: false,
       link: "https://kyledavisdev.com",
@@ -352,15 +425,19 @@ const ProjectList: IProjectItem[] = [
       tools.CSS3
     ],
     images: [
-      { path: "/static/screenshots/Physics/Tamu-Physics-SS-min.png" },
-      { path: "/static/screenshots/Physics/ProspectiveStudents_300x300.jpg" },
-      { path: "/static/screenshots/Physics/ProspectiveStudents2_300x300.jpg" },
-      { path: "/static/screenshots/Physics/Calendar_300x300.png" },
-      { path: "/static/screenshots/Physics/Calendar2_300x300.png" },
-      { path: "/static/screenshots/Physics/Directory_300x300.png" },
-      { path: "/static/screenshots/Physics/Outreach_300x300.jpg" },
-      { path: "/static/screenshots/Physics/Research_300x300.png" },
-      { path: "/static/screenshots/Physics/Research2_300x300.jpg" }
+      { thumbnailPath: "/static/screenshots/Physics/Tamu-Physics-SS-min.png" },
+      {
+        thumbnailPath: "/static/screenshots/Physics/ProspectiveStudents_300x300.jpg"
+      },
+      {
+        thumbnailPath: "/static/screenshots/Physics/ProspectiveStudents2_300x300.jpg"
+      },
+      { thumbnailPath: "/static/screenshots/Physics/Calendar_300x300.png" },
+      { thumbnailPath: "/static/screenshots/Physics/Calendar2_300x300.png" },
+      { thumbnailPath: "/static/screenshots/Physics/Directory_300x300.png" },
+      { thumbnailPath: "/static/screenshots/Physics/Outreach_300x300.jpg" },
+      { thumbnailPath: "/static/screenshots/Physics/Research_300x300.png" },
+      { thumbnailPath: "/static/screenshots/Physics/Research2_300x300.jpg" }
     ],
     external: {
       isActive: true,
@@ -387,12 +464,14 @@ const ProjectList: IProjectItem[] = [
       tools.CSS3
     ],
     images: [
-      { path: "/static/screenshots/Astronomy/Main_300x300.jpg" },
-      { path: "/static/screenshots/Astronomy/Courses_300x300.jpg" },
-      { path: "/static/screenshots/Astronomy/Faculty_300x300.jpg" },
-      { path: "/static/screenshots/Astronomy/Person_300x300.png" },
-      { path: "/static/screenshots/Astronomy/Publications_300x300.png" },
-      { path: "/static/screenshots/Astronomy/Research_300x300.jpg" }
+      { thumbnailPath: "/static/screenshots/Astronomy/Main_300x300.jpg" },
+      { thumbnailPath: "/static/screenshots/Astronomy/Courses_300x300.jpg" },
+      { thumbnailPath: "/static/screenshots/Astronomy/Faculty_300x300.jpg" },
+      { thumbnailPath: "/static/screenshots/Astronomy/Person_300x300.png" },
+      {
+        thumbnailPath: "/static/screenshots/Astronomy/Publications_300x300.png"
+      },
+      { thumbnailPath: "/static/screenshots/Astronomy/Research_300x300.jpg" }
     ],
     external: {
       isActive: true,
@@ -408,19 +487,20 @@ const ProjectList: IProjectItem[] = [
     name: "Kyle Davis First Portfolio",
     description:
       "When I started this project, I simply wanted to show off some projects that I had built, I had no idea the steps involved to put a website out on the internet. Starting from scratch, I had to configure a fresh server, install all of the proper tools, register and connect to the proper domain name, and implement security protocols. Luckily, with enough documentation and triple-checking each and every step, I was able to create this all my own. The webpage may not be the most visually appealing thing but I am incredibly proud of myself for sticking it out, and not getting overwhelmed by the immense challenge. Lastly, this project was built on the LEMP stack although, as it stands, is mostly just a static webpage.",
-    tools: [
-      tools.Linux,
-      tools.Nginx,
-      tools.PHP5,
-      tools.JavaScript,
-      tools.HTML5,
-      tools.CSS3
-    ],
+    tools: [tools.Linux, tools.Nginx, tools.PHP5, tools.JavaScript, tools.HTML5, tools.CSS3],
     images: [
-      { path: "/static/screenshots/KyleDavisOriginal/Main_300x300.jpg" },
-      { path: "/static/screenshots/KyleDavisOriginal/Projects_300x300.png" },
-      { path: "/static/screenshots/KyleDavisOriginal/Email_300x300.jpg" },
-      { path: "/static/screenshots/KyleDavisOriginal/Resume_300x300.jpg" }
+      {
+        thumbnailPath: "/static/screenshots/KyleDavisOriginal/Main_300x300.jpg"
+      },
+      {
+        thumbnailPath: "/static/screenshots/KyleDavisOriginal/Projects_300x300.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/KyleDavisOriginal/Email_300x300.jpg"
+      },
+      {
+        thumbnailPath: "/static/screenshots/KyleDavisOriginal/Resume_300x300.jpg"
+      }
     ],
     external: {
       isActive: false,
@@ -436,7 +516,7 @@ const ProjectList: IProjectItem[] = [
     description:
       "As a UI/UX Developer for The University of Texas at San Antonio, I have spent a fair amount of time inside of the Adobe Suite. In doing so, I have created many icons, logos, and document designs which are currently being used across UTSA including UTSA Mobile App itself. I have also grown more comfortable in optimizing high-resolution images into a more web appropriate form to increase page load times and to decrease page load sizes.",
     tools: [tools.AdobeIllustrator],
-    images: [{ path: CustomWebIcons }],
+    images: [{ thumbnailPath: CustomWebIcons }],
     external: {
       isActive: false,
       link: "https://github.com/KyleDavisDev/utsa-icons",
@@ -461,15 +541,21 @@ const ProjectList: IProjectItem[] = [
       "<b>Ping Pong:</b> A classic arcade game brought to you in a browser! This was my first time messing around with HTML5's canvas as well as creating a very simple A.I.. Users simply need to click on the canvas to start the game, and use the arrow up and down arrow keys to move their paddle. The ball speeds up over time so be careful! This code can be found in my GitHub.",
     tools: [tools.JavaScript, tools.HTML5, tools.CSS3],
     images: [
-      { path: "/static/screenshots/JSGames/Phyllotaxis_300x300.jpg" },
-      { path: "/static/screenshots/JSGames/Phyllotaxis2_300x300.png" },
-      { path: "/static/screenshots/JSGames/Phyllotaxis3_300x300.jpg" },
-      { path: "/static/screenshots/JSGames/FractalTree_300x300.png" },
-      { path: "/static/screenshots/JSGames/FractalTree2_300x300.png" },
-      { path: "/static/screenshots/JSGames/FractalTree3_300x300.png" },
-      { path: "/static/screenshots/JSGames/WordCounter-SS-min_300x300.png" },
-      { path: "/static/screenshots/JSGames/DoublePendulum-SS-min_300x300.png" },
-      { path: "/static/screenshots/JSGames/PingPong-SS-min_300x300.png" }
+      { thumbnailPath: "/static/screenshots/JSGames/Phyllotaxis_300x300.jpg" },
+      { thumbnailPath: "/static/screenshots/JSGames/Phyllotaxis2_300x300.png" },
+      { thumbnailPath: "/static/screenshots/JSGames/Phyllotaxis3_300x300.jpg" },
+      { thumbnailPath: "/static/screenshots/JSGames/FractalTree_300x300.png" },
+      { thumbnailPath: "/static/screenshots/JSGames/FractalTree2_300x300.png" },
+      { thumbnailPath: "/static/screenshots/JSGames/FractalTree3_300x300.png" },
+      {
+        thumbnailPath: "/static/screenshots/JSGames/WordCounter-SS-min_300x300.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/JSGames/DoublePendulum-SS-min_300x300.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/JSGames/PingPong-SS-min_300x300.png"
+      }
     ],
     external: {
       isActive: false,
@@ -485,7 +571,7 @@ const ProjectList: IProjectItem[] = [
     description:
       "Fun application that counts the number of times each unique word appears within a text area and creates a \"bubble\" with a respective area. Becoming more comfortable with JavaScript's Object Oriented Programming and using JavaScript's canvas method to have a little fun were the main goals of this project. Even with a block of text 32,000 lines long and over 8,000 unique words, the application works like a charm. This code can be found in my gitHub.",
     tools: [tools.JavaScript, tools.HTML5, tools.CSS3],
-    images: [{ path: "/static/screenshots/JSGames/WordCounter-SS-min.png" }],
+    images: [{ thumbnailPath: "/static/screenshots/JSGames/WordCounter-SS-min.png" }],
     external: {
       isActive: false,
       link: "/JSGames/wordCount",
@@ -500,7 +586,7 @@ const ProjectList: IProjectItem[] = [
     description:
       "To create nice phyllotaxis images using only client-side rendering. Users can click anywhere within the canvas to create unique patterns and hopefully learn a bit too! The most common of phyllotaxis plants is the Aloe Polyphylla. This code can be found in my gitHub.",
     tools: [tools.JavaScript, tools.HTML5, tools.CSS3],
-    images: [{ path: "/static/screenshots/JSGames/Phyllotaxis-SS-min.png" }],
+    images: [{ thumbnailPath: "/static/screenshots/JSGames/Phyllotaxis-SS-min.png" }],
     external: {
       isActive: false,
       link: "/JSGames/phyllotaxis",
@@ -515,7 +601,7 @@ const ProjectList: IProjectItem[] = [
     description:
       "To create a nice application which captures the ideas of fractal design. Users can click the canvas and cause a single branch to split into two. When the user clicks again, the branches will split again, so forth and so on. At any time, the tree can reset while sliders allow for customization and design a unique tree. This code can be found on my gitHub.",
     tools: [tools.JavaScript, tools.HTML5, tools.CSS3],
-    images: [{ path: "/static/screenshots/JSGames/FractalTrees-SS-min.png" }],
+    images: [{ thumbnailPath: "/static/screenshots/JSGames/FractalTrees-SS-min.png" }],
     external: {
       isActive: false,
       link: "/JSGames/fractalTrees",
@@ -530,7 +616,7 @@ const ProjectList: IProjectItem[] = [
     description:
       "Inspired by my research as a senior in computational physics, the double pendulum is an excellent example of chaos theory. The simplified idea is that even the slightest change in the initial conditions can lead to a drastic change in the overall outcome of a system is incredibly interesting. This application relies entirely on the browser to run the model and the user can modify the double pendulum by using sliders. This code can be found on my gitHub.",
     tools: [tools.JavaScript, tools.HTML5, tools.CSS3],
-    images: [{ path: "/static/screenshots/JSGames/DoublePendulum-SS-min.png" }],
+    images: [{ thumbnailPath: "/static/screenshots/JSGames/DoublePendulum-SS-min.png" }],
     external: {
       isActive: false,
       link: "/JSGames/doublePend",
@@ -545,7 +631,7 @@ const ProjectList: IProjectItem[] = [
     description:
       "A classic arcade game brought to you in a browser! This was my first time messing around with HTML5's canvas as well as creating a very simple A.I.. Users simply need to click on the canvas to start the game, and use the arrow up and down arrow keys to move their paddle. The ball speeds up over time so be careful! This code can be found in my GitHub.",
     tools: [tools.JavaScript, tools.HTML5, tools.CSS3],
-    images: [{ path: "/static/screenshots/JSGames/PingPong-SS-min.png" }],
+    images: [{ thumbnailPath: "/static/screenshots/JSGames/PingPong-SS-min.png" }],
     external: {
       isActive: false,
       link: "/JSGames/pong",
