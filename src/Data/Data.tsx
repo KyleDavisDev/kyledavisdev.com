@@ -593,16 +593,20 @@ const ProjectList: IProjectItem[] = [
     tools: [tools.Linux, tools.Nginx, tools.PHP5, tools.JavaScript, tools.HTML5, tools.CSS3],
     images: [
       {
-        thumbnailPath: "/static/screenshots/KyleDavisOriginal/Main_300x300.jpg"
+        thumbnailPath: "/static/screenshots/KyleDavisOriginal/Main_300x300.jpg",
+        largePath: "/static/screenshots/KyleDavisOriginal/Main_512x512.png"
       },
       {
-        thumbnailPath: "/static/screenshots/KyleDavisOriginal/Projects_300x300.png"
+        thumbnailPath: "/static/screenshots/KyleDavisOriginal/Projects_300x300.png",
+        largePath: "/static/screenshots/KyleDavisOriginal/Projects_512x512.png"
       },
       {
-        thumbnailPath: "/static/screenshots/KyleDavisOriginal/Email_300x300.jpg"
+        thumbnailPath: "/static/screenshots/KyleDavisOriginal/Email_300x300.jpg",
+        largePath: "/static/screenshots/KyleDavisOriginal/Email_512x512.png"
       },
       {
-        thumbnailPath: "/static/screenshots/KyleDavisOriginal/Resume_300x300.jpg"
+        thumbnailPath: "/static/screenshots/KyleDavisOriginal/Resume_300x300.jpg",
+        largePath: "/static/screenshots/KyleDavisOriginal/Resume_512x512.png"
       }
     ],
     external: {
