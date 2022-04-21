@@ -29,6 +29,73 @@ export interface IProjectItem {
 
 const ProjectList: IProjectItem[] = [
   {
+    url: "turtle",
+    pubYear: "2022",
+    documentTitleName: "Wordle clone",
+    name: "Wordle clone (Turtle)",
+    purpose: "",
+    description: "",
+    results: "",
+    tools: [tools.React, tools.Expo, tools.GitHub],
+    images: [
+      {
+        thumbnailPath: "/static/screenshots/Turtle/instructions_1024x1024.png",
+        largePath: "/static/screenshots/Turtle/instructions_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/Turtle/first_1024x1024.png",
+        largePath: "/static/screenshots/Turtle/first_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/Turtle/second_1024x1024.png",
+        largePath: "/static/screenshots/Turtle/second_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/Turtle/third_1024x1024.png",
+        largePath: "/static/screenshots/Turtle/third_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/Turtle/fourth_1024x1024.png",
+        largePath: "/static/screenshots/Turtle/fourth_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/Turtle/fifth_1024x1024.png",
+        largePath: "/static/screenshots/Turtle/fifth_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/Turtle/winner_1024x1024.png",
+        largePath: "/static/screenshots/Turtle/winner_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/Turtle/options_1024x1024.jpg",
+        largePath: "/static/screenshots/Turtle/options_512x512.jpg"
+      },
+      {
+        thumbnailPath: "/static/screenshots/Turtle/bigGrid_1024x1024.jpg",
+        largePath: "/static/screenshots/Turtle/bigGrid_512x512.jpg"
+      },
+      {
+        thumbnailPath: "/static/screenshots/Turtle/bigGrid2_1024x1024.png",
+        largePath: "/static/screenshots/Turtle/bigGrid2_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/Turtle/bigGrid3_1024x1024.png",
+        largePath: "/static/screenshots/Turtle/bigGrid3_512x512.png"
+      },
+      {
+        thumbnailPath: "/static/screenshots/Turtle/spanish_1024x1024.png",
+        largePath: "/static/screenshots/Turtle/spanish_512x512.png"
+      }
+    ],
+    external: {
+      isActive: true,
+      linkText: "View game",
+      link: "https://turtle.kyledavisdev.com",
+      name: "Wordle clone (Turtle)"
+    },
+    isActive: true
+  },
+  {
     url: "vanderbilt",
     pubYear: "2022",
     documentTitleName: "Vanderbilt University - Master's in Computer Science",
