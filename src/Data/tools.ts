@@ -2,6 +2,7 @@ const AdobeIllustratorLogo = "/static/icons/Adobe-Illustrator-CC-Logo.png";
 const ApolloClientLogo = "/static/icons/ApolloClient-Logo.png";
 const BootstrapLogo = "/static/icons/Bootstrap-Logo.png";
 const CSS3Logo = "/static/icons/CSS3-Logo.png";
+const ExpoLogo = "/static/icons/Expo-Logo.png";
 const ExpressLogo = "/static/icons/ExpressJS-Logo.png";
 const FoundationLogo = "/static/icons/Foundation-Logo.png";
 const GitHubLogo = "/static/icons/GitHub-Logo.png";
@@ -51,6 +52,11 @@ export const tools: { [name: string]: IToolsItem } = {
     name: "CSS3",
     img: CSS3Logo,
     link: "https://developer.mozilla.org/en-US/docs/Web/css"
+  },
+  Expo: {
+    name: "Expo Logo",
+    img: ExpoLogo,
+    link: "https://expo.dev/"
   },
   ExpressJS: {
     name: "ExpressJS Routing",
