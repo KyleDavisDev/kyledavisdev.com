@@ -11,17 +11,13 @@ const NavBar: React.FunctionComponent<INavBarProps> = () => {
     <StyledNav>
       <StyledContainer>
         <StyledName>
-          <Link href={"/"}>
-            <a>Kyle Davis</a>
-          </Link>
+          <Link href={"/"}>Kyle Davis</Link>
         </StyledName>
 
         <StyledMenu>
           <li>
-            <Link href={"/static/documents/Davis_Kyle_21MAR2022.pdf"}>
-              <a>
-                <h3>Resume</h3>
-              </a>
+            <Link href={"/static/documents/Davis_Kyle_06MAY2024.pdf"}>
+              <h3>Resume</h3>
             </Link>
           </li>
         </StyledMenu>
