@@ -13,6 +13,7 @@ import {
   StyledAttribute
 } from "./HeaderStyles";
 import BannerBar from "../BannerBar/BannerBar";
+import Link from "next/link";
 
 export interface IHeaderProps {}
 
@@ -31,9 +32,9 @@ export default class Header extends React.PureComponent<IHeaderProps> {
             </StyledAttribute>
             <ul>
               <li>
-                <a href="/static/documents/Davis_Kyle_21MAR2022.pdf" target="_blank">
+                <Link href="/static/documents/Davis_Kyle_06MAY2024.pdf" target="_blank">
                   <FaFileAlt /> Resume
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="mailto:kyledavisdev@gmail.com">
