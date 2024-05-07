@@ -52,6 +52,7 @@ export const StyledAnchor = styled.a`
 
 export const StyledImage = styled(Image)`
   width: 100%;
+  height: auto;
   max-width: 100%;
   margin-bottom: 5px;
   padding: 10px !important;
