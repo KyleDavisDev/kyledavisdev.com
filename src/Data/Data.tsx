@@ -29,6 +29,32 @@ export interface IProjectItem {
 
 const ProjectList: IProjectItem[] = [
   {
+    url: "book_CleanCode",
+    pubYear: "2022",
+    documentTitleName: "Book Review: Clean Code",
+    name: "Book Review: Clean Code",
+    purpose:
+      "I am constantly trying to learn and improve myself -- I find self-improvement, both personally and professionally, to be a deeply rewarding experience. That said, when <a href='https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882' target='_blank'>Clean Code</a> crossed my path I was immediately interested especially given how highly acclaimed this book is! The author, Robert C. Martin (AKA \"Uncle Bob\") is a pretty well known person in the Computer Science field and holds decades of experience in this arena. I'm a huge advocate for 'standing on the shoulders of giants' and so I definitely wanted to read what he had to say.",
+    description:
+      "Turtle, the name of my Wordle clone, follows the same ruleset as <a href='https://www.nytimes.com/games/wordle/index.html' target='_blank' rel='noopener'>Wordle</a> where users attempt to guess the secret word and then are provided visual feedback on each of the letters that were used. In comparison to <a href='https://www.nytimes.com/games/wordle/index.html' target='_blank' rel='noopener'>Wordle</a>, Turtle is very configurable! Users can adjust how long of a word they want to guess (instead of the default 5), as well as how many guesses they want to have (instead of the default 6). I also included a Spanish mode and a Vanderbilt-specific mode! At the end of each Turtle game, you can share your results and choose to play another round. Each time you load the game up, it's a new word, so you won't have to wait until the next day.",
+    results:
+      "I'm extremely happy with how this project turned out! Since there were no requirements on the language we had to use, I was able to implement my project using a technology that I've been wanting to learn for a while now. That technology is <a href='https://reactnative.dev/' target='_blank' rel='noopener'>React Native</a>, and more specifically, the <a href='https://expo.dev/' target='_blank' rel='noopener'>Expo framework</a>. With <a href='https://expo.dev/' target='_blank' rel='noopener'>Expo</a>, you can write your codebase once and then publish the application as a website, as an Apple app, or as an Android app. I was able to use the following design patterns: <a href='https://en.wikipedia.org/wiki/Factory_method_pattern' target='_blank' rel='noopener'>Factory Method</a>, <a href='https://en.wikipedia.org/wiki/Strategy_pattern' target='_blank' rel='noopener'>Strategy</a>, <a href='https://en.wikipedia.org/wiki/Dependency_injection' target='_blank' rel='noopener'>Dependency Injection</a>, and the <a href='https://en.wikipedia.org/wiki/Observer_pattern' target='_blank' rel='noopener'>Observer</a>. This project was an absolute joy to work on and even more fun to play! <a href='https://github.com/KyleDavisDev/Turtle' target='_blank' rel='noopener'>Find the code here.</a>",
+    tools: [],
+    images: [
+      {
+        thumbnailPath: "/static/screenshots/Books/Book_CleanCode_300x300.png",
+        largePath: "/static/screenshots/Books/Book_CleanCode_512x512.png"
+      }
+    ],
+    external: {
+      isActive: true,
+      linkText: "View Book",
+      link: "https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882",
+      name: "Book Review: Clean Code"
+    },
+    isActive: true
+  },
+  {
     url: "turtle",
     pubYear: "2022",
     documentTitleName: "Wordle clone",
