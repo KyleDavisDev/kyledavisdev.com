@@ -37,7 +37,7 @@ export const StyledProject = styled.div`
   }
 `;
 
-export const StyledAnchor = styled.a`
+export const StyledAnchor = styled.span`
   display: flex;
   flex-direction: column;
   align-items: center;
