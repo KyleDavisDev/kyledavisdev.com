@@ -10,6 +10,8 @@ export interface IProjectTools {
 const ProjectTools: React.FC<IProjectTools> = props => {
   const { tools } = props;
 
+  if (tools.length === 0) return <></>;
+
   return (
     <div>
       <SectionHeader>Tools</SectionHeader>
