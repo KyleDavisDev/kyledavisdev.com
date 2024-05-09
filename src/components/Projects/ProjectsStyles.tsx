@@ -20,7 +20,7 @@ export const StyledGrid = styled.div`
 `;
 
 export const StyledProject = styled.div`
-  padding: 5px 10px 15px;
+  padding: 5px 15px 15px;
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
