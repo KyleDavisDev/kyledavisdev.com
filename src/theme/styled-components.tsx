@@ -1,12 +1,6 @@
 import * as styledComponents from "styled-components";
 
-const {
-  default: styled,
-  css,
-  keyframes,
-  createGlobalStyle,
-  ThemeProvider
-} = styledComponents as styledComponents.ThemedStyledComponentsModule<ThemeInterface>;
+const { default: styled, css, keyframes, createGlobalStyle, ThemeProvider } = styledComponents;
 
 export interface ThemeInterface {
   sitePrimaryColor: string;
