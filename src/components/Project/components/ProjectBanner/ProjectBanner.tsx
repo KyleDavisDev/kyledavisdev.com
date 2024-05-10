@@ -14,7 +14,7 @@ const ProjectBanner: React.FC<IProjectBanner> = props => {
 
   return (
     <BannerBar>
-      <div>
+      <div style={{ maxWidth: "66%" }}>
         <h2>{`${name} ${year ? "(" + year + ")" : ""}`}</h2>
         <Link href={"/"} legacyBehavior={true}>
           <StyledLink>&larr; Back</StyledLink>
