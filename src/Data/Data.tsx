@@ -29,6 +29,34 @@ export interface IProjectItem {
 
 const ProjectList: IProjectItem[] = [
   {
+    url: "book_DigitalForensics",
+    pubYear: "2024",
+    documentTitleName: "Book Review: Digital Forensics, Investigations, and Response",
+    name: "Book Review: Digital Forensics, Investigations, and Response",
+    purpose: "",
+    description:
+      "This book served as the textbook during a Digital Forensics course I took while earning my Master's Degree at <a href='/project/vanderbilt'>Vanderbilt University</a>. Not every chapter was required for class, however, I did read each chapter nonetheless. It should be mentioned that Dr. Chuck Easttom (the author of this book) was also my instructor for the course. I earned an 'A' in the course but that in no way influences the following review.",
+    results:
+      "I'm mixed on this book. There were several pages, for example the real-world examples of cyber-bullying crimes and the effects that they had on the victim(s), that were so compelling and well-written that I could literally feel my blood boil as I was reading them. The various accounts were so powerful that I seriously considered a career change to help prevent these horrible stories from ever happening again. And then in stark contrast, there were chapters that felt far more like the author had a quota for the number of facts that had to be included, and he was trying his hardest to meet that quota. The information was great, but it felt so dry in comparison to the previous writting. To be clear, I know that the facts are important -- and I'm glad they were included! It's merely the contrast <i>between</i> the two writing styles that really thew me for a loop." +
+      "<br />" +
+      "<br />" +
+      "asdf",
+    tools: [],
+    images: [
+      {
+        thumbnailPath: "/static/screenshots/Books/Book_DigitalForensics_512x512.png",
+        largePath: "/static/screenshots/Books/Book_DigitalForensics_512x512.png"
+      }
+    ],
+    external: {
+      isActive: true,
+      linkText: "View Book",
+      link: "https://www.amazon.com/Digital-Forensics-Investigation-Response-Easttom/dp/1284226069",
+      name: "Book Review: Digital Forensics, Investigations, and Response"
+    },
+    isActive: true
+  },
+  {
     url: "book_CleanCode",
     pubYear: "2022",
     documentTitleName: "Book Review: Clean Code",
@@ -47,8 +75,6 @@ const ProjectList: IProjectItem[] = [
       "<br />" +
       "<br />" +
       "I believe this book is an absolute gem and I cannot recommend it enough. I could go on about the other takeaways I had from this read, but I'll stop with just two (for now). Lastly, I would like to say that this book is <b>dense</b>. It should not be read over the course of an evening. In fact, it'll likely take re-reading a single chapter multiple times in order for the message to be clear. It can be a challenge to digest this book however it is well worth the time and energy required to do so.",
-
-    //How unfortunate would it be to run across a method simply called "calculate"? You would think to yourself, "Calculate what? What are we doing here?". It would take <i>extra</i> effort to go into the method, try to understand the code, and pray that there are not any additional other methods that need to be investigated first!
     tools: [],
     images: [
       {
