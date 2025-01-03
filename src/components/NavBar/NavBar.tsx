@@ -16,7 +16,7 @@ const NavBar: React.FunctionComponent<INavBarProps> = () => {
 
         <StyledMenu>
           <li>
-            <Link href={"/static/documents/Davis_Kyle_2024_05_07.pdf"} target={"_blank"}>
+            <Link href={"/static/documents/Davis_Kyle_2025_01_03.pdf"} target={"_blank"}>
               <h3>Resume</h3>
             </Link>
           </li>

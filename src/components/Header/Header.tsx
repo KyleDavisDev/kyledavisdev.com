@@ -32,7 +32,7 @@ export default class Header extends React.PureComponent<IHeaderProps> {
             </StyledAttribute>
             <ul>
               <li>
-                <Link href="/documents/Davis_Kyle_2024_05_07.pdf" target="_blank">
+                <Link href="/static/documents/Davis_Kyle_2025_01_03.pdf" target="_blank">
                   <FaFileAlt /> Resume
                 </Link>
               </li>
